@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Theme tokens (space-separated RGB so Tailwind can add alpha) ───────────── */
+/* Dark: deep blue-black, electric lime, cool cyan accents. */
+:root,
+[data-theme='dark'] {
+  --bg: 5 7 11;
+  --surface: 14 18 25;
+  --ink: 236 241 234;
+  --muted: 138 149 163;
+  --line: 255 255 255;
+  --accent: 198 255 61;
+  --on-accent: 8 12 4;
+  --cyan: 77 220 255;
+  --violet: 150 118 255;
+  --bad: 255 86 104;
+  --warn: 255 184 77;
+  --good: 92 232 145;
+  /* panels */
+  --glass: 255 255 255;
+  --glass-a: 0.06;
+  --glass-b: 0.025;
+  --line-a: 0.09;
+  --shadow: 0 1px 0 rgb(255 255 255 / 0.05) inset, 0 22px 50px -30px rgb(0 0 0 / 0.8);
+  /* background */
+  --aurora-o: 1;
+  --grid: 255 255 255;
+  --grid-a: 0.04;
+  /* red→green status colours (hue is set per value) */
+  --st-s: 88%;
+  --st-l: 58%;
+  /* macro colours for charts (validated: lightness band, CVD, contrast) */
+  --m-protein: #1FA3D1;
+  --m-carbs: #74A80F;
+  --m-fat: #9676FF;
+  color-scheme: dark;
+}
+
+/* Light: soft paper white, crisp ink, deep lime that stays readable on white. */
+[data-theme='light'] {
+  --bg: 243 245 240;
+  --surface: 255 255 255;
+  --ink: 15 20 26;
+  --muted: 90 100 112;
+  --line: 15 20 26;
+  --accent: 77 124 15;
+  --on-accent: 255 255 255;
+  --cyan: 3 128 163;
+  --violet: 108 76 226;
+  --bad: 210 38 60;
+  --warn: 180 104 0;
+  --good: 22 145 78;
+  --glass: 255 255 255;
+  --glass-a: 0;
+  --glass-b: 0;
+  --line-a: 0.08;
+  --shadow: 0 1px 0 rgb(255 255 255 / 0.9) inset, 0 1px 2px rgb(16 24 40 / 0.05), 0 16px 36px -20px rgb(16 24 40 / 0.22);
+  --aurora-o: 0.55;
+  --grid: 15 20 26;
+  --grid-a: 0.045;
+  --st-s: 72%;
+  --st-l: 40%;
+  --m-protein: #0380A3;
+  --m-carbs: #4D7C0F;
+  --m-fat: #6C4CE2;
+  color-scheme: light;
+}
+
+@layer base {
+  html { -webkit-tap-highlight-color: transparent; text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+  [dir='rtl'] body { letter-spacing: 0; }
+  ::selection { background: rgb(var(--accent) / 0.35); }
+  :focus-visible { outline: 2px solid rgb(var(--accent)); outline-offset: 2px; border-radius: 10px; }
+  input, textarea, select, button { font: inherit; color: inherit; }
+  /* 16px+ inputs: iPhone does not zoom the page when you tap a field */
+  input, textarea, select { font-size: max(16px, 1em); }
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+  input[type='number'] { -moz-appearance: textfield; }
+  input[type='date']::-webkit-calendar-picker-indicator { filter: invert(var(--date-invert, 1)); opacity: .6; cursor: pointer; }
+  [data-theme='light'] { --date-invert: 0; }
+  button, a, [role='button'] { touch-action: manipulation; }
+}
+
+@layer components {
+  /* Panel surface: solid (not see-through), with a soft top sheen and a thin edge. */
+  .glass {
+    position: relative;
+    background:
+      linear-gradient(160deg, rgb(var(--glass) / var(--glass-a)), rgb(var(--glass) / var(--glass-b))),
+      rgb(var(--surface));
+    border: 1px solid rgb(var(--line) / var(--line-a));
+    box-shadow: var(--shadow);
+  }
+  .glass-strong { @apply glass; }
+  .hud-edge::before {
+    content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none;
+    background: linear-gradient(var(--edge-angle, 135deg), rgb(var(--accent) / .5), transparent 35%, transparent 65%, rgb(var(--cyan) / .35));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+  }
+  @media (min-width: 768px) { .hud-edge::before { animation: edge-spin 10s linear infinite; } }
+  .num { font-family: var(--font-display), var(--font-arabic), system-ui; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+  .label { @apply text-[11px] uppercase tracking-[0.14em] text-muted font-medium; }
+  [dir='rtl'] .label { letter-spacing: 0; text-transform: none; font-size: 12px; }
+  .field {
+    @apply w-full rounded-2xl px-4 h-12 bg-[rgb(var(--line)/0.05)] border border-[rgb(var(--line)/0.12)]
+           placeholder:text-muted/70 outline-none transition-[border-color,box-shadow,background-color];
+  }
+  [data-theme='light'] .field { background: rgb(255 255 255 / .9); }
+  .field:focus { border-color: rgb(var(--accent) / .7); box-shadow: 0 0 0 4px rgb(var(--accent) / .14); }
+  .field[aria-invalid='true'] { border-color: rgb(var(--bad) / .8); box-shadow: 0 0 0 4px rgb(var(--bad) / .12); }
+  .chip {
+    @apply inline-flex items-center gap-1.5 h-9 px-3.5 rounded-full text-sm whitespace-nowrap
+           border border-[rgb(var(--line)/0.12)] bg-[rgb(var(--line)/0.04)] transition-[background-color,transform,color] duration-150;
+  }
+  .chip:active:not(:disabled) { transform: scale(.95); }
+  .chip[aria-pressed='true'] { @apply bg-accent text-on-accent border-transparent; }
+  /* plain buttons that should feel pressable */
+  .press { transition: transform .15s cubic-bezier(.2,.8,.2,1); }
+  .press:active:not(:disabled) { transform: scale(.96); }
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .safe-bottom { padding-bottom: max(env(safe-area-inset-bottom), 12px); }
+  /* text with a slow moving lime→cyan shine */
+  .shine {
+    background: linear-gradient(100deg, rgb(var(--ink)) 20%, rgb(var(--accent)) 45%, rgb(var(--cyan)) 55%, rgb(var(--ink)) 80%);
+    background-size: 250% 100%;
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    animation: shine 7s ease-in-out infinite;
+  }
+}
+
+@property --edge-angle { syntax: '<angle>'; inherits: false; initial-value: 135deg; }
+@keyframes edge-spin { to { --edge-angle: 495deg; } }
+/* background: travelling heartbeat pulse and flowing waves */
+.bg-pulse { stroke-dasharray: 0.16 1; stroke-dashoffset: 1.16; animation: bg-pulse 6.5s cubic-bezier(.45,.05,.55,.95) infinite; }
+@keyframes bg-pulse { to { stroke-dashoffset: 0; } }
+.bg-wave { animation: bg-wave 40s linear infinite; will-change: transform; }
+@keyframes bg-wave { to { transform: translate3d(-50%, 0, 0); } }
+@keyframes shine { 0%, 100% { background-position: 100% 0; } 50% { background-position: 0 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}

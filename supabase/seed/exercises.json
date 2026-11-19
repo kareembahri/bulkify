@@ -1,0 +1,5861 @@
+[
+ {
+  "slug": "barbell-bench-press",
+  "name_en": "Barbell Bench Press",
+  "name_ar": "ضغط البنش بالبار",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps",
+   "shoulders"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "incline-barbell-bench-press",
+  "name_en": "Incline Barbell Bench Press",
+  "name_ar": "ضغط البنش المائل بالبار",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "decline-barbell-bench-press",
+  "name_en": "Decline Barbell Bench Press",
+  "name_ar": "ضغط البنش المنحدر بالبار",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "close-grip-bench-press",
+  "name_en": "Close-Grip Bench Press",
+  "name_ar": "ضغط البنش بقبضة ضيقة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "wide-grip-bench-press",
+  "name_en": "Wide-Grip Bench Press",
+  "name_ar": "ضغط البنش بقبضة واسعة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "paused-bench-press",
+  "name_en": "Paused Bench Press",
+  "name_ar": "ضغط البنش مع توقف",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "floor-press",
+  "name_en": "Floor Press",
+  "name_ar": "ضغط الأرض بالبار",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-pullover",
+  "name_en": "Barbell Pullover",
+  "name_ar": "بولوفر بالبار",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-bench-press",
+  "name_en": "Dumbbell Bench Press",
+  "name_ar": "ضغط البنش بالدمبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps",
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "incline-dumbbell-press",
+  "name_en": "Incline Dumbbell Press",
+  "name_ar": "ضغط مائل بالدمبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "decline-dumbbell-press",
+  "name_en": "Decline Dumbbell Press",
+  "name_ar": "ضغط منحدر بالدمبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-fly",
+  "name_en": "Dumbbell Fly",
+  "name_ar": "فتح الصدر بالدمبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "incline-dumbbell-fly",
+  "name_en": "Incline Dumbbell Fly",
+  "name_ar": "فتح الصدر المائل بالدمبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "decline-dumbbell-fly",
+  "name_en": "Decline Dumbbell Fly",
+  "name_ar": "فتح الصدر المنحدر بالدمبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-pullover",
+  "name_en": "Dumbbell Pullover",
+  "name_ar": "بولوفر بالدمبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "back",
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "neutral-grip-dumbbell-press",
+  "name_en": "Neutral-Grip Dumbbell Press",
+  "name_ar": "ضغط بالدمبل بقبضة محايدة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-squeeze-press",
+  "name_en": "Dumbbell Squeeze Press",
+  "name_ar": "ضغط الدمبل المضغوط",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "single-arm-dumbbell-bench-press",
+  "name_en": "Single-Arm Dumbbell Bench Press",
+  "name_ar": "ضغط بنش بالدمبل بذراع واحدة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "abs",
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "hex-press",
+  "name_en": "Hex Press",
+  "name_ar": "ضغط هيكس",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "machine-chest-press",
+  "name_en": "Machine Chest Press",
+  "name_ar": "ضغط الصدر بالجهاز",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps",
+   "shoulders"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "incline-machine-chest-press",
+  "name_en": "Incline Machine Chest Press",
+  "name_ar": "ضغط الصدر المائل بالجهاز",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "decline-machine-chest-press",
+  "name_en": "Decline Machine Chest Press",
+  "name_ar": "ضغط الصدر المنحدر بالجهاز",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "pec-deck-fly",
+  "name_en": "Pec Deck Fly",
+  "name_ar": "فتح الصدر بجهاز البك دك",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "hammer-strength-chest-press",
+  "name_en": "Hammer Strength Chest Press",
+  "name_ar": "ضغط صدر هامر سترنث",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "converging-chest-press",
+  "name_en": "Converging Chest Press",
+  "name_ar": "ضغط صدر متقارب بالجهاز",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "seated-chest-fly-machine",
+  "name_en": "Seated Chest Fly Machine",
+  "name_ar": "جهاز فتح الصدر جلوس",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-crossover",
+  "name_en": "Cable Crossover",
+  "name_ar": "كروس أوفر بالكيبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "low-to-high-cable-fly",
+  "name_en": "Low-to-High Cable Fly",
+  "name_ar": "فتح كيبل من الأسفل للأعلى",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "high-to-low-cable-fly",
+  "name_en": "High-to-Low Cable Fly",
+  "name_ar": "فتح كيبل من الأعلى للأسفل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-chest-press",
+  "name_en": "Cable Chest Press",
+  "name_ar": "ضغط الصدر بالكيبل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "single-arm-cable-fly",
+  "name_en": "Single-Arm Cable Fly",
+  "name_ar": "فتح كيبل بذراع واحدة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "standing-cable-chest-press",
+  "name_en": "Standing Cable Chest Press",
+  "name_ar": "ضغط صدر كيبل وقوفاً",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-bench-press",
+  "name_en": "Smith Machine Bench Press",
+  "name_ar": "ضغط البنش بجهاز سميث",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps",
+   "shoulders"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-incline-press",
+  "name_en": "Smith Machine Incline Press",
+  "name_ar": "ضغط مائل بجهاز سميث",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-decline-press",
+  "name_en": "Smith Machine Decline Press",
+  "name_ar": "ضغط منحدر بجهاز سميث",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "push-up",
+  "name_en": "Push-Up",
+  "name_ar": "تمرين الضغط",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps",
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "wide-push-up",
+  "name_en": "Wide Push-Up",
+  "name_ar": "ضغط بقبضة واسعة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "diamond-push-up",
+  "name_en": "Diamond Push-Up",
+  "name_ar": "ضغط الألماس",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "incline-push-up",
+  "name_en": "Incline Push-Up",
+  "name_ar": "ضغط مائل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "decline-push-up",
+  "name_en": "Decline Push-Up",
+  "name_ar": "ضغط منحدر",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "archer-push-up",
+  "name_en": "Archer Push-Up",
+  "name_ar": "ضغط القوس",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "clap-push-up",
+  "name_en": "Clap Push-Up",
+  "name_ar": "ضغط بالتصفيق",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "chest-dip",
+  "name_en": "Chest Dip",
+  "name_ar": "متوازي للصدر",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps",
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "knee-push-up",
+  "name_en": "Knee Push-Up",
+  "name_ar": "ضغط على الركبتين",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "pike-push-up",
+  "name_en": "Pike Push-Up",
+  "name_ar": "ضغط الباي",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-push-up",
+  "name_en": "Banded Push-Up",
+  "name_ar": "ضغط بحبل المقاومة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "resistance-band-chest-press",
+  "name_en": "Resistance Band Chest Press",
+  "name_ar": "ضغط صدر بحبل المقاومة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "resistance-band-chest-fly",
+  "name_en": "Resistance Band Chest Fly",
+  "name_ar": "فتح صدر بحبل المقاومة",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-floor-press",
+  "name_en": "Kettlebell Floor Press",
+  "name_ar": "ضغط أرضي بالكيتل بل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-push-up",
+  "name_en": "Kettlebell Push-Up",
+  "name_ar": "ضغط على الكيتل بل",
+  "primary_muscle": "chest",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "barbell-row",
+  "name_en": "Barbell Row",
+  "name_ar": "تجديف بالبار",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "pendlay-row",
+  "name_en": "Pendlay Row",
+  "name_ar": "تجديف بندلي",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "underhand-barbell-row",
+  "name_en": "Underhand Barbell Row",
+  "name_ar": "تجديف بالبار بقبضة سفلية",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "yates-row",
+  "name_en": "Yates Row",
+  "name_ar": "تجديف ييتس",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "t-bar-row",
+  "name_en": "T-Bar Row",
+  "name_ar": "تجديف تي بار",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "deadlift",
+  "name_en": "Deadlift",
+  "name_ar": "الرفعة الميتة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "hamstrings",
+   "glutes",
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "rack-pull",
+  "name_en": "Rack Pull",
+  "name_ar": "سحب من الرف",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "traps",
+   "glutes"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "snatch-grip-deadlift",
+  "name_en": "Snatch-Grip Deadlift",
+  "name_ar": "رفعة ميتة بقبضة الخطف",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "traps",
+   "hamstrings"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "meadows-row",
+  "name_en": "Meadows Row",
+  "name_ar": "تجديف ميدوز",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "seal-row",
+  "name_en": "Seal Row",
+  "name_ar": "تجديف السيل",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "single-arm-dumbbell-row",
+  "name_en": "Single-Arm Dumbbell Row",
+  "name_ar": "تجديف بالدمبل بذراع واحدة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "two-arm-dumbbell-row",
+  "name_en": "Two-Arm Dumbbell Row",
+  "name_ar": "تجديف بالدمبل بالذراعين",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "chest-supported-dumbbell-row",
+  "name_en": "Chest-Supported Dumbbell Row",
+  "name_ar": "تجديف بالدمبل مع إسناد الصدر",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "incline-bench-dumbbell-row",
+  "name_en": "Incline Bench Dumbbell Row",
+  "name_ar": "تجديف بالدمبل على بنش مائل",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-pullover-back",
+  "name_en": "Dumbbell Pullover (Back)",
+  "name_ar": "بولوفر بالدمبل للظهر",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "renegade-row",
+  "name_en": "Renegade Row",
+  "name_ar": "تجديف رينيجيد",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "abs",
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-deadlift",
+  "name_en": "Dumbbell Deadlift",
+  "name_ar": "رفعة ميتة بالدمبل",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "kroc-row",
+  "name_en": "Kroc Row",
+  "name_ar": "تجديف كروك",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "lat-pulldown",
+  "name_en": "Lat Pulldown",
+  "name_ar": "سحب أمامي للظهر",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "wide-grip-lat-pulldown",
+  "name_en": "Wide-Grip Lat Pulldown",
+  "name_ar": "سحب أمامي بقبضة واسعة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "close-grip-lat-pulldown",
+  "name_en": "Close-Grip Lat Pulldown",
+  "name_ar": "سحب أمامي بقبضة ضيقة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "reverse-grip-lat-pulldown",
+  "name_en": "Reverse-Grip Lat Pulldown",
+  "name_ar": "سحب أمامي بقبضة عكسية",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "seated-machine-row",
+  "name_en": "Seated Machine Row",
+  "name_ar": "تجديف جالس بالجهاز",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "traps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "chest-supported-machine-row",
+  "name_en": "Chest-Supported Machine Row",
+  "name_ar": "تجديف بالجهاز مع إسناد الصدر",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "traps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "hammer-strength-row",
+  "name_en": "Hammer Strength Row",
+  "name_ar": "تجديف هامر سترنث",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "assisted-pull-up-machine",
+  "name_en": "Assisted Pull-Up Machine",
+  "name_ar": "جهاز عقلة مساعد",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "machine-pullover",
+  "name_en": "Machine Pullover",
+  "name_ar": "بولوفر بالجهاز",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "high-row-machine",
+  "name_en": "High Row Machine",
+  "name_ar": "تجديف عالٍ بالجهاز",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "traps",
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "low-row-machine",
+  "name_en": "Low Row Machine",
+  "name_ar": "تجديف سفلي بالجهاز",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "back-extension-machine",
+  "name_en": "Back Extension Machine",
+  "name_ar": "جهاز تمديد الظهر",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "seated-cable-row",
+  "name_en": "Seated Cable Row",
+  "name_ar": "تجديف كيبل جلوس",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps",
+   "traps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "single-arm-cable-row",
+  "name_en": "Single-Arm Cable Row",
+  "name_ar": "تجديف كيبل بذراع واحدة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "straight-arm-pulldown",
+  "name_en": "Straight-Arm Pulldown",
+  "name_ar": "سحب بذراع مستقيمة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "close-grip-cable-row",
+  "name_en": "Close-Grip Cable Row",
+  "name_ar": "تجديف كيبل بقبضة ضيقة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "wide-grip-cable-row",
+  "name_en": "Wide-Grip Cable Row",
+  "name_ar": "تجديف كيبل بقبضة واسعة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "traps",
+   "biceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-pullover",
+  "name_en": "Cable Pullover",
+  "name_ar": "بولوفر بالكيبل",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "face-pull-row",
+  "name_en": "Face Pull Row",
+  "name_ar": "تجديف فيس بول",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "shoulders",
+   "traps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "kneeling-single-arm-lat-pulldown",
+  "name_en": "Kneeling Single-Arm Lat Pulldown",
+  "name_ar": "سحب بذراع واحدة على الركبتين",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-row",
+  "name_en": "Smith Machine Row",
+  "name_ar": "تجديف بجهاز سميث",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-deadlift",
+  "name_en": "Smith Machine Deadlift",
+  "name_ar": "رفعة ميتة بجهاز سميث",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "pull-up",
+  "name_en": "Pull-Up",
+  "name_ar": "عقلة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "chin-up",
+  "name_en": "Chin-Up",
+  "name_ar": "عقلة بقبضة عكسية",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "wide-grip-pull-up",
+  "name_en": "Wide-Grip Pull-Up",
+  "name_ar": "عقلة بقبضة واسعة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "neutral-grip-pull-up",
+  "name_en": "Neutral-Grip Pull-Up",
+  "name_ar": "عقلة بقبضة محايدة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "inverted-row",
+  "name_en": "Inverted Row",
+  "name_ar": "تجديف مقلوب",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bodyweight-row",
+  "name_en": "Bodyweight Row",
+  "name_ar": "تجديف بوزن الجسم",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "superman",
+  "name_en": "Superman",
+  "name_ar": "تمرين سوبرمان",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "back-extension",
+  "name_en": "Back Extension",
+  "name_ar": "تمديد الظهر",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "commando-pull-up",
+  "name_en": "Commando Pull-Up",
+  "name_ar": "عقلة كوماندو",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "scapular-pull-up",
+  "name_en": "Scapular Pull-Up",
+  "name_ar": "عقلة لوح الكتف",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "australian-pull-up",
+  "name_en": "Australian Pull-Up",
+  "name_ar": "عقلة أسترالية",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-lat-pulldown",
+  "name_en": "Banded Lat Pulldown",
+  "name_ar": "سحب للظهر بحبل المقاومة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-row",
+  "name_en": "Banded Row",
+  "name_ar": "تجديف بحبل المقاومة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-pull-apart",
+  "name_en": "Banded Pull-Apart",
+  "name_ar": "فتح حبل المقاومة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "shoulders",
+   "traps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-good-morning",
+  "name_en": "Banded Good Morning",
+  "name_ar": "جود مورنينج بحبل المقاومة",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-row",
+  "name_en": "Kettlebell Row",
+  "name_ar": "تجديف بالكيتل بل",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-deadlift",
+  "name_en": "Kettlebell Deadlift",
+  "name_ar": "رفعة ميتة بالكيتل بل",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-gorilla-row",
+  "name_en": "Kettlebell Gorilla Row",
+  "name_ar": "تجديف الغوريلا بالكيتل بل",
+  "primary_muscle": "back",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "barbell-overhead-press",
+  "name_en": "Barbell Overhead Press",
+  "name_ar": "ضغط الكتف بالبار وقوفاً",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps",
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "seated-barbell-shoulder-press",
+  "name_en": "Seated Barbell Shoulder Press",
+  "name_ar": "ضغط كتف بالبار جلوساً",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "push-press",
+  "name_en": "Push Press",
+  "name_ar": "بوش بريس",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps",
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "behind-the-neck-press",
+  "name_en": "Behind-the-Neck Press",
+  "name_ar": "ضغط خلف الرقبة",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps",
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-front-raise",
+  "name_en": "Barbell Front Raise",
+  "name_ar": "رفع أمامي بالبار",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-upright-row",
+  "name_en": "Barbell Upright Row",
+  "name_ar": "سحب عمودي بالبار",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps",
+   "biceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "z-press",
+  "name_en": "Z-Press",
+  "name_ar": "ضغط زد",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps",
+   "abs"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-shoulder-press",
+  "name_en": "Dumbbell Shoulder Press",
+  "name_ar": "ضغط كتف بالدمبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "seated-dumbbell-shoulder-press",
+  "name_en": "Seated Dumbbell Shoulder Press",
+  "name_ar": "ضغط كتف بالدمبل جلوساً",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "arnold-press",
+  "name_en": "Arnold Press",
+  "name_ar": "أرنولد بريس",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-lateral-raise",
+  "name_en": "Dumbbell Lateral Raise",
+  "name_ar": "رفع جانبي بالدمبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-front-raise",
+  "name_en": "Dumbbell Front Raise",
+  "name_ar": "رفع أمامي بالدمبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "bent-over-reverse-fly",
+  "name_en": "Bent-Over Reverse Fly",
+  "name_ar": "فتح خلفي منحني بالدمبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "back",
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "seated-reverse-fly",
+  "name_en": "Seated Reverse Fly",
+  "name_ar": "فتح خلفي جلوساً",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "back",
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-upright-row",
+  "name_en": "Dumbbell Upright Row",
+  "name_ar": "سحب عمودي بالدمبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "single-arm-dumbbell-press",
+  "name_en": "Single-Arm Dumbbell Press",
+  "name_ar": "ضغط كتف بالدمبل بذراع واحدة",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps",
+   "abs"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "lying-lateral-raise",
+  "name_en": "Lying Lateral Raise",
+  "name_ar": "رفع جانبي مستلقياً",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-y-raise",
+  "name_en": "Dumbbell Y Raise",
+  "name_ar": "رفع واي بالدمبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "incline-bench-rear-delt-raise",
+  "name_en": "Incline Bench Rear Delt Raise",
+  "name_ar": "رفع خلفي على بنش مائل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-scaption",
+  "name_en": "Dumbbell Scaption",
+  "name_ar": "سكابشن بالدمبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "lu-raise",
+  "name_en": "Lu Raise",
+  "name_ar": "رفع لو",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "machine-shoulder-press",
+  "name_en": "Machine Shoulder Press",
+  "name_ar": "ضغط كتف بالجهاز",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "lateral-raise-machine",
+  "name_en": "Lateral Raise Machine",
+  "name_ar": "جهاز الرفع الجانبي",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "reverse-pec-deck",
+  "name_en": "Reverse Pec Deck",
+  "name_ar": "بك دك عكسي",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "back",
+   "traps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "hammer-strength-shoulder-press",
+  "name_en": "Hammer Strength Shoulder Press",
+  "name_ar": "ضغط كتف هامر سترنث",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "rear-delt-machine-fly",
+  "name_en": "Rear Delt Machine Fly",
+  "name_ar": "فتح خلفي بالجهاز",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-lateral-raise",
+  "name_en": "Cable Lateral Raise",
+  "name_ar": "رفع جانبي بالكيبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-front-raise",
+  "name_en": "Cable Front Raise",
+  "name_ar": "رفع أمامي بالكيبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-rear-delt-fly",
+  "name_en": "Cable Rear Delt Fly",
+  "name_ar": "فتح خلفي بالكيبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "face-pull",
+  "name_en": "Face Pull",
+  "name_ar": "فيس بول",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps",
+   "back"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-upright-row",
+  "name_en": "Cable Upright Row",
+  "name_ar": "سحب عمودي بالكيبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "single-arm-cable-lateral-raise",
+  "name_en": "Single-Arm Cable Lateral Raise",
+  "name_ar": "رفع جانبي بالكيبل بذراع واحدة",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-y-raise",
+  "name_en": "Cable Y Raise",
+  "name_ar": "رفع واي بالكيبل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-shoulder-press",
+  "name_en": "Smith Machine Shoulder Press",
+  "name_ar": "ضغط كتف بجهاز سميث",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-upright-row",
+  "name_en": "Smith Machine Upright Row",
+  "name_ar": "سحب عمودي بجهاز سميث",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-behind-the-neck-press",
+  "name_en": "Smith Machine Behind-the-Neck Press",
+  "name_ar": "ضغط خلف الرقبة بسميث",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "handstand-push-up",
+  "name_en": "Handstand Push-Up",
+  "name_ar": "ضغط الوقوف على اليدين",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps",
+   "traps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "wall-walk",
+  "name_en": "Wall Walk",
+  "name_ar": "المشي على الحائط",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "abs",
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "pike-push-up-elevated",
+  "name_en": "Pike Push-Up Elevated",
+  "name_ar": "ضغط الباي مرتفع",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bear-crawl",
+  "name_en": "Bear Crawl",
+  "name_ar": "زحف الدب",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "abs"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-lateral-raise",
+  "name_en": "Banded Lateral Raise",
+  "name_ar": "رفع جانبي بحبل المقاومة",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-face-pull",
+  "name_en": "Banded Face Pull",
+  "name_ar": "فيس بول بحبل المقاومة",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps",
+   "back"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-overhead-press",
+  "name_en": "Banded Overhead Press",
+  "name_ar": "ضغط كتف بحبل المقاومة",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-front-raise",
+  "name_en": "Banded Front Raise",
+  "name_ar": "رفع أمامي بحبل المقاومة",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-overhead-press",
+  "name_en": "Kettlebell Overhead Press",
+  "name_ar": "ضغط علوي بالكيتل بل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-halo",
+  "name_en": "Kettlebell Halo",
+  "name_ar": "هيلو بالكيتل بل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "traps",
+   "abs"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "bottoms-up-kettlebell-press",
+  "name_en": "Bottoms-Up Kettlebell Press",
+  "name_ar": "ضغط كيتل بل مقلوب",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "forearms",
+   "triceps"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-windmill",
+  "name_en": "Kettlebell Windmill",
+  "name_ar": "طاحونة الكيتل بل",
+  "primary_muscle": "shoulders",
+  "secondary_muscles": [
+   "abs",
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "barbell-curl",
+  "name_en": "Barbell Curl",
+  "name_ar": "بايسبس بالبار",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "ez-bar-curl",
+  "name_en": "EZ-Bar Curl",
+  "name_ar": "بايسبس بالبار المنحني",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "preacher-curl-barbell",
+  "name_en": "Preacher Curl (Barbell)",
+  "name_ar": "بريتشر كيرل بالبار",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "reverse-barbell-curl",
+  "name_en": "Reverse Barbell Curl",
+  "name_ar": "بايسبس عكسي بالبار",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "drag-curl",
+  "name_en": "Drag Curl",
+  "name_ar": "دراغ كيرل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "21s-barbell-curl",
+  "name_en": "21s Barbell Curl",
+  "name_ar": "بايسبس ٢١ بالبار",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "spider-curl",
+  "name_en": "Spider Curl",
+  "name_ar": "سبايدر كيرل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-curl",
+  "name_en": "Dumbbell Curl",
+  "name_ar": "بايسبس بالدمبل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "alternating-dumbbell-curl",
+  "name_en": "Alternating Dumbbell Curl",
+  "name_ar": "بايسبس بالدمبل بالتناوب",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "hammer-curl",
+  "name_en": "Hammer Curl",
+  "name_ar": "هامر كيرل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "incline-dumbbell-curl",
+  "name_en": "Incline Dumbbell Curl",
+  "name_ar": "بايسبس بالدمبل على بنش مائل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "concentration-curl",
+  "name_en": "Concentration Curl",
+  "name_ar": "كونسنتريشن كيرل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "preacher-curl-dumbbell",
+  "name_en": "Preacher Curl (Dumbbell)",
+  "name_ar": "بريتشر كيرل بالدمبل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "zottman-curl",
+  "name_en": "Zottman Curl",
+  "name_ar": "زوتمان كيرل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "cross-body-hammer-curl",
+  "name_en": "Cross-Body Hammer Curl",
+  "name_ar": "هامر كيرل متقاطع",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "spider-curl-dumbbell",
+  "name_en": "Spider Curl (Dumbbell)",
+  "name_ar": "سبايدر كيرل بالدمبل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "seated-dumbbell-curl",
+  "name_en": "Seated Dumbbell Curl",
+  "name_ar": "بايسبس بالدمبل جلوساً",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "reverse-dumbbell-curl",
+  "name_en": "Reverse Dumbbell Curl",
+  "name_ar": "بايسبس عكسي بالدمبل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "machine-preacher-curl",
+  "name_en": "Machine Preacher Curl",
+  "name_ar": "بريتشر كيرل بالجهاز",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "machine-bicep-curl",
+  "name_en": "Machine Bicep Curl",
+  "name_ar": "بايسبس بالجهاز",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "assisted-chin-up-machine",
+  "name_en": "Assisted Chin-Up Machine",
+  "name_ar": "جهاز عقلة بقبضة عكسية مساعد",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-bicep-curl",
+  "name_en": "Cable Bicep Curl",
+  "name_ar": "بايسبس بالكيبل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-hammer-curl-rope",
+  "name_en": "Cable Hammer Curl (Rope)",
+  "name_ar": "هامر كيرل بالحبل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-preacher-curl",
+  "name_en": "Cable Preacher Curl",
+  "name_ar": "بريتشر كيرل بالكيبل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "overhead-cable-curl",
+  "name_en": "Overhead Cable Curl",
+  "name_ar": "بايسبس كيبل فوق الرأس",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "single-arm-cable-curl",
+  "name_en": "Single-Arm Cable Curl",
+  "name_ar": "بايسبس كيبل بذراع واحدة",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "bayesian-cable-curl",
+  "name_en": "Bayesian Cable Curl",
+  "name_ar": "بايزيان كيرل بالكيبل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "high-cable-curl",
+  "name_en": "High Cable Curl",
+  "name_ar": "بايسبس كيبل مرتفع",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "chin-up-biceps-focus",
+  "name_en": "Chin-Up (Biceps Focus)",
+  "name_ar": "عقلة للباي",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "inverted-row-underhand",
+  "name_en": "Inverted Row Underhand",
+  "name_ar": "تجديف مقلوب بقبضة سفلية",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "towel-curl-isometric",
+  "name_en": "Towel Curl Isometric",
+  "name_ar": "بايسبس بالمنشفة",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-bicep-curl",
+  "name_en": "Banded Bicep Curl",
+  "name_ar": "بايسبس بحبل المقاومة",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-hammer-curl",
+  "name_en": "Banded Hammer Curl",
+  "name_ar": "هامر كيرل بحبل المقاومة",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-reverse-curl",
+  "name_en": "Banded Reverse Curl",
+  "name_ar": "بايسبس عكسي بحبل المقاومة",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-curl",
+  "name_en": "Kettlebell Curl",
+  "name_ar": "بايسبس بالكيتل بل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-hammer-curl",
+  "name_en": "Kettlebell Hammer Curl",
+  "name_ar": "هامر كيرل بالكيتل بل",
+  "primary_muscle": "biceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "skull-crusher",
+  "name_en": "Skull Crusher",
+  "name_ar": "سكل كراشر",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "ez-bar-skull-crusher",
+  "name_en": "EZ-Bar Skull Crusher",
+  "name_ar": "سكل كراشر بالبار المنحني",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-overhead-triceps-extension",
+  "name_en": "Barbell Overhead Triceps Extension",
+  "name_ar": "تمديد ترايسبس فوق الرأس بالبار",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "jm-press",
+  "name_en": "JM Press",
+  "name_ar": "جيه إم بريس",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "close-grip-floor-press",
+  "name_en": "Close-Grip Floor Press",
+  "name_ar": "ضغط أرضي بقبضة ضيقة",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-overhead-triceps-extension",
+  "name_en": "Dumbbell Overhead Triceps Extension",
+  "name_ar": "تمديد ترايسبس فوق الرأس بالدمبل",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-skull-crusher",
+  "name_en": "Dumbbell Skull Crusher",
+  "name_ar": "سكل كراشر بالدمبل",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-kickback",
+  "name_en": "Dumbbell Kickback",
+  "name_ar": "كيك باك بالدمبل",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "single-arm-overhead-extension",
+  "name_en": "Single-Arm Overhead Extension",
+  "name_ar": "تمديد ترايسبس بذراع واحدة فوق الرأس",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "tate-press",
+  "name_en": "Tate Press",
+  "name_ar": "تيت بريس",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-close-grip-press",
+  "name_en": "Dumbbell Close-Grip Press",
+  "name_ar": "ضغط بالدمبل بقبضة ضيقة",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "machine-triceps-extension",
+  "name_en": "Machine Triceps Extension",
+  "name_ar": "تمديد ترايسبس بالجهاز",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "machine-dip",
+  "name_en": "Machine Dip",
+  "name_ar": "متوازي بالجهاز",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "assisted-dip-machine",
+  "name_en": "Assisted Dip Machine",
+  "name_ar": "جهاز متوازي مساعد",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "triceps-pushdown-bar",
+  "name_en": "Triceps Pushdown (Bar)",
+  "name_ar": "ضغط ترايسبس بالكيبل (بار)",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "triceps-rope-pushdown",
+  "name_en": "Triceps Rope Pushdown",
+  "name_ar": "ضغط ترايسبس بالحبل",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "reverse-grip-triceps-pushdown",
+  "name_en": "Reverse-Grip Triceps Pushdown",
+  "name_ar": "ضغط ترايسبس بقبضة عكسية",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "overhead-cable-triceps-extension",
+  "name_en": "Overhead Cable Triceps Extension",
+  "name_ar": "تمديد ترايسبس كيبل فوق الرأس",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "single-arm-triceps-pushdown",
+  "name_en": "Single-Arm Triceps Pushdown",
+  "name_ar": "ضغط ترايسبس بذراع واحدة",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-triceps-kickback",
+  "name_en": "Cable Triceps Kickback",
+  "name_ar": "كيك باك بالكيبل",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "v-bar-pushdown",
+  "name_en": "V-Bar Pushdown",
+  "name_ar": "ضغط ترايسبس بقضيب في",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-close-grip-press",
+  "name_en": "Smith Machine Close-Grip Press",
+  "name_ar": "ضغط قبضة ضيقة بسميث",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-skull-crusher",
+  "name_en": "Smith Machine Skull Crusher",
+  "name_ar": "سكل كراشر بسميث",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "triceps-dip",
+  "name_en": "Triceps Dip",
+  "name_ar": "متوازي للترايسبس",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest",
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bench-dip",
+  "name_en": "Bench Dip",
+  "name_ar": "متوازي على البنش",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "close-grip-push-up",
+  "name_en": "Close-Grip Push-Up",
+  "name_ar": "ضغط بقبضة ضيقة",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bodyweight-triceps-extension",
+  "name_en": "Bodyweight Triceps Extension",
+  "name_ar": "تمديد ترايسبس بوزن الجسم",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "korean-dip",
+  "name_en": "Korean Dip",
+  "name_ar": "متوازي كوري",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-triceps-pushdown",
+  "name_en": "Banded Triceps Pushdown",
+  "name_ar": "ضغط ترايسبس بحبل المقاومة",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-overhead-extension",
+  "name_en": "Banded Overhead Extension",
+  "name_ar": "تمديد فوق الرأس بحبل المقاومة",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-kickback",
+  "name_en": "Banded Kickback",
+  "name_ar": "كيك باك بحبل المقاومة",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-skull-crusher",
+  "name_en": "Kettlebell Skull Crusher",
+  "name_ar": "سكل كراشر بالكيتل بل",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-overhead-triceps-extension",
+  "name_en": "Kettlebell Overhead Triceps Extension",
+  "name_ar": "تمديد ترايسبس بالكيتل بل",
+  "primary_muscle": "triceps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "barbell-wrist-curl",
+  "name_en": "Barbell Wrist Curl",
+  "name_ar": "رسغ بالبار",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "reverse-barbell-wrist-curl",
+  "name_en": "Reverse Barbell Wrist Curl",
+  "name_ar": "رسغ عكسي بالبار",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "behind-the-back-wrist-curl",
+  "name_en": "Behind-the-Back Wrist Curl",
+  "name_ar": "رسغ خلف الظهر",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-reverse-curl",
+  "name_en": "Barbell Reverse Curl",
+  "name_ar": "كيرل عكسي بالبار",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "farmer-s-walk-bar",
+  "name_en": "Farmer's Walk Bar",
+  "name_ar": "مشي المزارع بالبار",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-wrist-curl",
+  "name_en": "Dumbbell Wrist Curl",
+  "name_ar": "رسغ بالدمبل",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-reverse-wrist-curl",
+  "name_en": "Dumbbell Reverse Wrist Curl",
+  "name_ar": "رسغ عكسي بالدمبل",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-farmer-s-walk",
+  "name_en": "Dumbbell Farmer's Walk",
+  "name_ar": "مشي المزارع بالدمبل",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-wrist-roller",
+  "name_en": "Dumbbell Wrist Roller",
+  "name_ar": "لفة رسغ بالدمبل",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "radial-deviation",
+  "name_en": "Radial Deviation",
+  "name_ar": "انحراف رسغي",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "ulnar-deviation",
+  "name_en": "Ulnar Deviation",
+  "name_ar": "انحراف زندي",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "pronation-supination",
+  "name_en": "Pronation/Supination",
+  "name_ar": "تدوير الساعد",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "cable-wrist-curl",
+  "name_en": "Cable Wrist Curl",
+  "name_ar": "رسغ بالكيبل",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-reverse-wrist-curl",
+  "name_en": "Cable Reverse Wrist Curl",
+  "name_ar": "رسغ عكسي بالكيبل",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "wrist-curl-machine",
+  "name_en": "Wrist Curl Machine",
+  "name_ar": "جهاز الرسغ",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "dead-hang",
+  "name_en": "Dead Hang",
+  "name_ar": "تعلق ثابت",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "one-arm-dead-hang",
+  "name_en": "One-Arm Dead Hang",
+  "name_ar": "تعلق بذراع واحدة",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "towel-hang",
+  "name_en": "Towel Hang",
+  "name_ar": "تعلق بالمنشفة",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "finger-push-up",
+  "name_en": "Finger Push-Up",
+  "name_ar": "ضغط بالأصابع",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "plate-pinch",
+  "name_en": "Plate Pinch",
+  "name_ar": "قبض الأطباق",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-wrist-extension",
+  "name_en": "Banded Wrist Extension",
+  "name_ar": "تمديد رسغ بحبل المقاومة",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-finger-extension",
+  "name_en": "Banded Finger Extension",
+  "name_ar": "تمديد أصابع بحبل المقاومة",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-farmer-s-carry",
+  "name_en": "Kettlebell Farmer's Carry",
+  "name_ar": "حمل المزارع بالكيتل بل",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-bottoms-up-hold",
+  "name_en": "Kettlebell Bottoms-Up Hold",
+  "name_ar": "إمساك الكيتل بل مقلوباً",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "grip-strengthener",
+  "name_en": "Grip Strengthener",
+  "name_ar": "مقوي القبضة",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "wrist-roller",
+  "name_en": "Wrist Roller",
+  "name_ar": "عجلة الرسغ",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "hand-gripper",
+  "name_en": "Hand Gripper",
+  "name_ar": "ضاغط اليد",
+  "primary_muscle": "forearms",
+  "secondary_muscles": [
+   "biceps"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "barbell-back-squat",
+  "name_en": "Barbell Back Squat",
+  "name_ar": "سكوات خلفي بالبار",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-front-squat",
+  "name_en": "Barbell Front Squat",
+  "name_ar": "سكوات أمامي بالبار",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "abs"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "box-squat",
+  "name_en": "Box Squat",
+  "name_ar": "سكوات على الصندوق",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "pause-squat",
+  "name_en": "Pause Squat",
+  "name_ar": "سكوات مع توقف",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "zercher-squat",
+  "name_en": "Zercher Squat",
+  "name_ar": "سكوات زيرتشر",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "abs"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-lunge",
+  "name_en": "Barbell Lunge",
+  "name_ar": "لانج بالبار",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-walking-lunge",
+  "name_en": "Barbell Walking Lunge",
+  "name_ar": "لانج مشي بالبار",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-reverse-lunge",
+  "name_en": "Barbell Reverse Lunge",
+  "name_ar": "لانج عكسي بالبار",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-split-squat",
+  "name_en": "Barbell Split Squat",
+  "name_ar": "سبليت سكوات بالبار",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "overhead-squat",
+  "name_en": "Overhead Squat",
+  "name_ar": "سكوات فوق الرأس",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "shoulders",
+   "abs"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-step-up",
+  "name_en": "Barbell Step-Up",
+  "name_ar": "صعود الدرج بالبار",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "hack-squat-barbell",
+  "name_en": "Hack Squat (Barbell)",
+  "name_ar": "هاك سكوات بالبار",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "goblet-squat",
+  "name_en": "Goblet Squat",
+  "name_ar": "جوبلت سكوات",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-squat",
+  "name_en": "Dumbbell Squat",
+  "name_ar": "سكوات بالدمبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-lunge",
+  "name_en": "Dumbbell Lunge",
+  "name_ar": "لانج بالدمبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-walking-lunge",
+  "name_en": "Dumbbell Walking Lunge",
+  "name_ar": "لانج مشي بالدمبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-reverse-lunge",
+  "name_en": "Dumbbell Reverse Lunge",
+  "name_ar": "لانج عكسي بالدمبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "bulgarian-split-squat",
+  "name_en": "Bulgarian Split Squat",
+  "name_ar": "سكوات بلغاري",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-step-up",
+  "name_en": "Dumbbell Step-Up",
+  "name_ar": "صعود الدرج بالدمبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-sumo-squat",
+  "name_en": "Dumbbell Sumo Squat",
+  "name_ar": "سكوات سومو بالدمبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-lateral-lunge",
+  "name_en": "Dumbbell Lateral Lunge",
+  "name_ar": "لانج جانبي بالدمبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-curtsy-lunge",
+  "name_en": "Dumbbell Curtsy Lunge",
+  "name_ar": "لانج كيرتسي بالدمبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "leg-press",
+  "name_en": "Leg Press",
+  "name_ar": "ضغط الأرجل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "leg-extension",
+  "name_en": "Leg Extension",
+  "name_ar": "رفرفة الأرجل (تمديد الركبة)",
+  "primary_muscle": "quads",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "hack-squat-machine",
+  "name_en": "Hack Squat Machine",
+  "name_ar": "هاك سكوات بالجهاز",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "pendulum-squat",
+  "name_en": "Pendulum Squat",
+  "name_ar": "سكوات البندول",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "belt-squat",
+  "name_en": "Belt Squat",
+  "name_ar": "سكوات بالحزام",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "single-leg-press",
+  "name_en": "Single-Leg Press",
+  "name_ar": "ضغط رجل واحدة",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "vertical-leg-press",
+  "name_en": "Vertical Leg Press",
+  "name_ar": "ضغط أرجل عمودي",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "seated-leg-press-narrow-stance",
+  "name_en": "Seated Leg Press Narrow Stance",
+  "name_ar": "ضغط أرجل بوقفة ضيقة",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "sissy-squat-machine",
+  "name_en": "Sissy Squat Machine",
+  "name_ar": "سيسي سكوات بالجهاز",
+  "primary_muscle": "quads",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-squat",
+  "name_en": "Cable Squat",
+  "name_ar": "سكوات بالكيبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-leg-extension",
+  "name_en": "Cable Leg Extension",
+  "name_ar": "تمديد الأرجل بالكيبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-pull-through-squat",
+  "name_en": "Cable Pull-Through Squat",
+  "name_ar": "سكوات سحب بالكيبل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-squat",
+  "name_en": "Smith Machine Squat",
+  "name_ar": "سكوات بجهاز سميث",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-front-squat",
+  "name_en": "Smith Machine Front Squat",
+  "name_ar": "سكوات أمامي بسميث",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-lunge",
+  "name_en": "Smith Machine Lunge",
+  "name_ar": "لانج بجهاز سميث",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-split-squat",
+  "name_en": "Smith Machine Split Squat",
+  "name_ar": "سبليت سكوات بسميث",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-hack-squat",
+  "name_en": "Smith Machine Hack Squat",
+  "name_ar": "هاك سكوات بسميث",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "bodyweight-squat",
+  "name_en": "Bodyweight Squat",
+  "name_ar": "سكوات بوزن الجسم",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "jump-squat",
+  "name_en": "Jump Squat",
+  "name_ar": "سكوات بالقفز",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "calves"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bodyweight-lunge",
+  "name_en": "Bodyweight Lunge",
+  "name_ar": "لانج بوزن الجسم",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bodyweight-reverse-lunge",
+  "name_en": "Bodyweight Reverse Lunge",
+  "name_ar": "لانج عكسي بوزن الجسم",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "walking-lunge",
+  "name_en": "Walking Lunge",
+  "name_ar": "لانج مشي",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "pistol-squat",
+  "name_en": "Pistol Squat",
+  "name_ar": "بيستول سكوات",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "wall-sit",
+  "name_en": "Wall Sit",
+  "name_ar": "جلوس على الحائط",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "sissy-squat",
+  "name_en": "Sissy Squat",
+  "name_ar": "سيسي سكوات",
+  "primary_muscle": "quads",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "step-up",
+  "name_en": "Step-Up",
+  "name_ar": "صعود الدرج",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "box-jump",
+  "name_en": "Box Jump",
+  "name_ar": "قفز على الصندوق",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes",
+   "calves"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "shrimp-squat",
+  "name_en": "Shrimp Squat",
+  "name_ar": "شريمب سكوات",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "cossack-squat",
+  "name_en": "Cossack Squat",
+  "name_ar": "كوساك سكوات",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-squat",
+  "name_en": "Banded Squat",
+  "name_ar": "سكوات بحبل المقاومة",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-split-squat",
+  "name_en": "Banded Split Squat",
+  "name_ar": "سبليت سكوات بحبل المقاومة",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-leg-extension",
+  "name_en": "Banded Leg Extension",
+  "name_ar": "تمديد الأرجل بحبل المقاومة",
+  "primary_muscle": "quads",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-goblet-squat",
+  "name_en": "Kettlebell Goblet Squat",
+  "name_ar": "جوبلت سكوات بالكيتل بل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-front-squat",
+  "name_en": "Kettlebell Front Squat",
+  "name_ar": "سكوات أمامي بالكيتل بل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-lunge",
+  "name_en": "Kettlebell Lunge",
+  "name_ar": "لانج بالكيتل بل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-reverse-lunge",
+  "name_en": "Kettlebell Reverse Lunge",
+  "name_ar": "لانج عكسي بالكيتل بل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-split-squat",
+  "name_en": "Kettlebell Split Squat",
+  "name_ar": "سبليت سكوات بالكيتل بل",
+  "primary_muscle": "quads",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "romanian-deadlift",
+  "name_en": "Romanian Deadlift",
+  "name_ar": "رفعة ميتة رومانية",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes",
+   "back"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "stiff-leg-deadlift",
+  "name_en": "Stiff-Leg Deadlift",
+  "name_ar": "رفعة ميتة بأرجل مستقيمة",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes",
+   "back"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-good-morning",
+  "name_en": "Barbell Good Morning",
+  "name_ar": "جود مورنينج بالبار",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes",
+   "back"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "sumo-deadlift",
+  "name_en": "Sumo Deadlift",
+  "name_ar": "رفعة ميتة سومو",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes",
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "deficit-deadlift",
+  "name_en": "Deficit Deadlift",
+  "name_ar": "رفعة ميتة بارتفاع",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "back",
+   "glutes"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "single-leg-barbell-rdl",
+  "name_en": "Single-Leg Barbell RDL",
+  "name_ar": "رفعة رومانية بساق واحدة بالبار",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-romanian-deadlift",
+  "name_en": "Dumbbell Romanian Deadlift",
+  "name_ar": "رفعة رومانية بالدمبل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "single-leg-dumbbell-rdl",
+  "name_en": "Single-Leg Dumbbell RDL",
+  "name_ar": "رفعة رومانية بساق واحدة بالدمبل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-stiff-leg-deadlift",
+  "name_en": "Dumbbell Stiff-Leg Deadlift",
+  "name_ar": "رفعة ميتة مستقيمة بالدمبل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-hamstring-curl",
+  "name_en": "Dumbbell Hamstring Curl",
+  "name_ar": "ثني الأرجل بالدمبل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-good-morning",
+  "name_en": "Dumbbell Good Morning",
+  "name_ar": "جود مورنينج بالدمبل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "lying-leg-curl",
+  "name_en": "Lying Leg Curl",
+  "name_ar": "ثني الأرجل مستلقياً",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "seated-leg-curl",
+  "name_en": "Seated Leg Curl",
+  "name_ar": "ثني الأرجل جلوساً",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "standing-leg-curl",
+  "name_en": "Standing Leg Curl",
+  "name_ar": "ثني الأرجل وقوفاً",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "glute-ham-raise",
+  "name_en": "Glute-Ham Raise",
+  "name_ar": "رفع الأرداف والأوتار",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "single-leg-curl-machine",
+  "name_en": "Single-Leg Curl Machine",
+  "name_ar": "ثني رجل واحدة بالجهاز",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "45-degree-back-extension",
+  "name_en": "45-Degree Back Extension",
+  "name_ar": "تمديد الظهر ٤٥ درجة",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes",
+   "back"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "reverse-hyperextension",
+  "name_en": "Reverse Hyperextension",
+  "name_ar": "هايبر إكستنشن عكسي",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes",
+   "back"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-pull-through",
+  "name_en": "Cable Pull-Through",
+  "name_ar": "سحب كيبل بين الرجلين",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-hamstring-curl",
+  "name_en": "Cable Hamstring Curl",
+  "name_ar": "ثني الأرجل بالكيبل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-good-morning",
+  "name_en": "Cable Good Morning",
+  "name_ar": "جود مورنينج بالكيبل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-romanian-deadlift",
+  "name_en": "Smith Machine Romanian Deadlift",
+  "name_ar": "رفعة رومانية بسميث",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-good-morning",
+  "name_en": "Smith Machine Good Morning",
+  "name_ar": "جود مورنينج بسميث",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-stiff-leg-deadlift",
+  "name_en": "Smith Machine Stiff-Leg Deadlift",
+  "name_ar": "رفعة ميتة مستقيمة بسميث",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "nordic-hamstring-curl",
+  "name_en": "Nordic Hamstring Curl",
+  "name_ar": "نورديك للأوتار",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "calves",
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "glute-bridge-hamstring-walkout",
+  "name_en": "Glute Bridge Hamstring Walkout",
+  "name_ar": "مشي الجسر للأوتار",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "slider-leg-curl",
+  "name_en": "Slider Leg Curl",
+  "name_ar": "ثني الأرجل بالسلايدر",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "single-leg-hip-thrust-hamstring",
+  "name_en": "Single-Leg Hip Thrust Hamstring",
+  "name_ar": "دفع الورك بساق واحدة",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "good-morning-bodyweight",
+  "name_en": "Good Morning Bodyweight",
+  "name_ar": "جود مورنينج بوزن الجسم",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-hamstring-curl",
+  "name_en": "Banded Hamstring Curl",
+  "name_ar": "ثني الأرجل بحبل المقاومة",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-romanian-deadlift",
+  "name_en": "Banded Romanian Deadlift",
+  "name_ar": "رفعة رومانية بحبل المقاومة",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-good-morning-hamstring",
+  "name_en": "Banded Good Morning Hamstring",
+  "name_ar": "جود مورنينج بحبل المقاومة",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-romanian-deadlift",
+  "name_en": "Kettlebell Romanian Deadlift",
+  "name_ar": "رفعة رومانية بالكيتل بل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-single-leg-deadlift",
+  "name_en": "Kettlebell Single-Leg Deadlift",
+  "name_ar": "رفعة ميتة بساق واحدة بالكيتل بل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-swing",
+  "name_en": "Kettlebell Swing",
+  "name_ar": "أرجحة الكيتل بل",
+  "primary_muscle": "hamstrings",
+  "secondary_muscles": [
+   "glutes",
+   "back"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "barbell-hip-thrust",
+  "name_en": "Barbell Hip Thrust",
+  "name_ar": "دفع الورك بالبار",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-glute-bridge",
+  "name_en": "Barbell Glute Bridge",
+  "name_ar": "جسر الأرداف بالبار",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-sumo-squat",
+  "name_en": "Barbell Sumo Squat",
+  "name_ar": "سكوات سومو بالبار",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-reverse-hyper",
+  "name_en": "Barbell Reverse Hyper",
+  "name_ar": "ريفرس هايبر بالبار",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-lateral-lunge",
+  "name_en": "Barbell Lateral Lunge",
+  "name_ar": "لانج جانبي بالبار",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-deficit-reverse-lunge",
+  "name_en": "Barbell Deficit Reverse Lunge",
+  "name_ar": "لانج عكسي مرتفع بالبار",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-hip-thrust",
+  "name_en": "Dumbbell Hip Thrust",
+  "name_ar": "دفع الورك بالدمبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-glute-bridge",
+  "name_en": "Dumbbell Glute Bridge",
+  "name_ar": "جسر الأرداف بالدمبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-sumo-deadlift",
+  "name_en": "Dumbbell Sumo Deadlift",
+  "name_ar": "رفعة سومو بالدمبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-frog-pump",
+  "name_en": "Dumbbell Frog Pump",
+  "name_ar": "فروج بامب بالدمبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-donkey-kick",
+  "name_en": "Dumbbell Donkey Kick",
+  "name_ar": "ركلة الحمار بالدمبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "hip-thrust-machine",
+  "name_en": "Hip Thrust Machine",
+  "name_ar": "جهاز دفع الورك",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "glute-kickback-machine",
+  "name_en": "Glute Kickback Machine",
+  "name_ar": "جهاز ركلة الأرداف",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "hip-abduction-machine",
+  "name_en": "Hip Abduction Machine",
+  "name_ar": "جهاز إبعاد الفخذ",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "hip-adduction-machine",
+  "name_en": "Hip Adduction Machine",
+  "name_ar": "جهاز تقريب الفخذ",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "standing-glute-machine",
+  "name_en": "Standing Glute Machine",
+  "name_ar": "جهاز الأرداف وقوفاً",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "plate-loaded-glute-drive",
+  "name_en": "Plate-Loaded Glute Drive",
+  "name_ar": "جهاز دفع الأرداف بالأقراص",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-glute-kickback",
+  "name_en": "Cable Glute Kickback",
+  "name_ar": "ركلة الأرداف بالكيبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-hip-abduction",
+  "name_en": "Cable Hip Abduction",
+  "name_ar": "إبعاد الفخذ بالكيبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-hip-adduction",
+  "name_en": "Cable Hip Adduction",
+  "name_ar": "تقريب الفخذ بالكيبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-lateral-step",
+  "name_en": "Cable Lateral Step",
+  "name_ar": "خطوة جانبية بالكيبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-standing-hip-extension",
+  "name_en": "Cable Standing Hip Extension",
+  "name_ar": "تمديد الورك بالكيبل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-hip-thrust",
+  "name_en": "Smith Machine Hip Thrust",
+  "name_ar": "دفع الورك بسميث",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-glute-bridge",
+  "name_en": "Smith Machine Glute Bridge",
+  "name_ar": "جسر الأرداف بسميث",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-sumo-squat",
+  "name_en": "Smith Machine Sumo Squat",
+  "name_ar": "سكوات سومو بسميث",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-kickback",
+  "name_en": "Smith Machine Kickback",
+  "name_ar": "ركلة خلفية بسميث",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "glute-bridge",
+  "name_en": "Glute Bridge",
+  "name_ar": "جسر الأرداف",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "single-leg-glute-bridge",
+  "name_en": "Single-Leg Glute Bridge",
+  "name_ar": "جسر الأرداف بساق واحدة",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "hip-thrust-bodyweight",
+  "name_en": "Hip Thrust (Bodyweight)",
+  "name_ar": "دفع الورك بوزن الجسم",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "donkey-kick",
+  "name_en": "Donkey Kick",
+  "name_ar": "ركلة الحمار",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "fire-hydrant",
+  "name_en": "Fire Hydrant",
+  "name_ar": "فاير هيدرانت",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "clamshell",
+  "name_en": "Clamshell",
+  "name_ar": "كلامشيل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "frog-pump",
+  "name_en": "Frog Pump",
+  "name_ar": "فروج بامب",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "lateral-band-walk",
+  "name_en": "Lateral Band Walk",
+  "name_ar": "مشي جانبي",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "curtsy-lunge",
+  "name_en": "Curtsy Lunge",
+  "name_ar": "لانج كيرتسي",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "side-lying-leg-raise",
+  "name_en": "Side-Lying Leg Raise",
+  "name_ar": "رفع الرجل جانبياً",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-glute-bridge",
+  "name_en": "Banded Glute Bridge",
+  "name_ar": "جسر الأرداف بحبل المقاومة",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-hip-thrust",
+  "name_en": "Banded Hip Thrust",
+  "name_ar": "دفع الورك بحبل المقاومة",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-lateral-walk",
+  "name_en": "Banded Lateral Walk",
+  "name_ar": "مشي جانبي بحبل المقاومة",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-glute-kickback",
+  "name_en": "Banded Glute Kickback",
+  "name_ar": "ركلة الأرداف بحبل المقاومة",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-clamshell",
+  "name_en": "Banded Clamshell",
+  "name_ar": "كلامشيل بحبل المقاومة",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-monster-walk",
+  "name_en": "Banded Monster Walk",
+  "name_ar": "مشي الوحش بحبل المقاومة",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-hip-abduction",
+  "name_en": "Banded Hip Abduction",
+  "name_ar": "إبعاد الفخذ بحبل المقاومة",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-sumo-deadlift",
+  "name_en": "Kettlebell Sumo Deadlift",
+  "name_ar": "رفعة سومو بالكيتل بل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-hip-thrust",
+  "name_en": "Kettlebell Hip Thrust",
+  "name_ar": "دفع الورك بالكيتل بل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-sumo-squat",
+  "name_en": "Kettlebell Sumo Squat",
+  "name_ar": "سكوات سومو بالكيتل بل",
+  "primary_muscle": "glutes",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "standing-barbell-calf-raise",
+  "name_en": "Standing Barbell Calf Raise",
+  "name_ar": "رفع السمانة بالبار وقوفاً",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "seated-barbell-calf-raise",
+  "name_en": "Seated Barbell Calf Raise",
+  "name_ar": "رفع السمانة بالبار جلوساً",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-donkey-calf-raise",
+  "name_en": "Barbell Donkey Calf Raise",
+  "name_ar": "رفع سمانة الحمار بالبار",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "standing-dumbbell-calf-raise",
+  "name_en": "Standing Dumbbell Calf Raise",
+  "name_ar": "رفع السمانة بالدمبل وقوفاً",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "single-leg-dumbbell-calf-raise",
+  "name_en": "Single-Leg Dumbbell Calf Raise",
+  "name_ar": "رفع السمانة بالدمبل بساق واحدة",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "seated-dumbbell-calf-raise",
+  "name_en": "Seated Dumbbell Calf Raise",
+  "name_ar": "رفع السمانة بالدمبل جلوساً",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "standing-calf-raise-machine",
+  "name_en": "Standing Calf Raise Machine",
+  "name_ar": "جهاز رفع السمانة وقوفاً",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "seated-calf-raise-machine",
+  "name_en": "Seated Calf Raise Machine",
+  "name_ar": "جهاز رفع السمانة جلوساً",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "leg-press-calf-raise",
+  "name_en": "Leg Press Calf Raise",
+  "name_ar": "رفع السمانة على جهاز الأرجل",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "donkey-calf-raise-machine",
+  "name_en": "Donkey Calf Raise Machine",
+  "name_ar": "جهاز رفع سمانة الحمار",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "hack-squat-calf-raise",
+  "name_en": "Hack Squat Calf Raise",
+  "name_ar": "رفع السمانة على الهاك",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "smith-machine-calf-raise",
+  "name_en": "Smith Machine Calf Raise",
+  "name_ar": "رفع السمانة بسميث",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-seated-calf-raise",
+  "name_en": "Smith Machine Seated Calf Raise",
+  "name_ar": "رفع السمانة جلوساً بسميث",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "smith"
+ },
+ {
+  "slug": "bodyweight-calf-raise",
+  "name_en": "Bodyweight Calf Raise",
+  "name_ar": "رفع السمانة بوزن الجسم",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "single-leg-calf-raise",
+  "name_en": "Single-Leg Calf Raise",
+  "name_ar": "رفع السمانة بساق واحدة",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "jump-rope-calf-bounce",
+  "name_en": "Jump Rope Calf Bounce",
+  "name_ar": "قفز الحبل للسمانة",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "tibialis-raise",
+  "name_en": "Tibialis Raise",
+  "name_ar": "رفع القصبة",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "calf-raise-on-step",
+  "name_en": "Calf Raise on Step",
+  "name_ar": "رفع السمانة على الدرج",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "donkey-calf-raise",
+  "name_en": "Donkey Calf Raise",
+  "name_ar": "رفع سمانة الحمار",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-calf-raise",
+  "name_en": "Banded Calf Raise",
+  "name_ar": "رفع السمانة بحبل المقاومة",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-ankle-dorsiflexion",
+  "name_en": "Banded Ankle Dorsiflexion",
+  "name_ar": "ثني الكاحل بحبل المقاومة",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-calf-raise",
+  "name_en": "Kettlebell Calf Raise",
+  "name_ar": "رفع السمانة بالكيتل بل",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-single-leg-calf-raise",
+  "name_en": "Kettlebell Single-Leg Calf Raise",
+  "name_ar": "رفع السمانة بالكيتل بل بساق واحدة",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "cable-calf-raise",
+  "name_en": "Cable Calf Raise",
+  "name_ar": "رفع السمانة بالكيبل",
+  "primary_muscle": "calves",
+  "secondary_muscles": [],
+  "equipment": "cable"
+ },
+ {
+  "slug": "barbell-rollout",
+  "name_en": "Barbell Rollout",
+  "name_ar": "رولاوت بالبار",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-landmine-twist",
+  "name_en": "Barbell Landmine Twist",
+  "name_ar": "لاندماين تويست",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-suitcase-carry",
+  "name_en": "Barbell Suitcase Carry",
+  "name_ar": "حمل الحقيبة بالبار",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "weighted-sit-up",
+  "name_en": "Weighted Sit-Up",
+  "name_ar": "ستاب أب بوزن",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-side-bend",
+  "name_en": "Dumbbell Side Bend",
+  "name_ar": "ثني جانبي بالدمبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-russian-twist",
+  "name_en": "Dumbbell Russian Twist",
+  "name_ar": "روسيان تويست بالدمبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-woodchopper",
+  "name_en": "Dumbbell Woodchopper",
+  "name_ar": "وودتشوبر بالدمبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-suitcase-carry",
+  "name_en": "Dumbbell Suitcase Carry",
+  "name_ar": "حمل الحقيبة بالدمبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "weighted-crunch",
+  "name_en": "Weighted Crunch",
+  "name_ar": "كرانش بوزن",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-plank-pull-through",
+  "name_en": "Dumbbell Plank Pull-Through",
+  "name_ar": "بلانك سحب بالدمبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "ab-crunch-machine",
+  "name_en": "Ab Crunch Machine",
+  "name_ar": "جهاز كرانش البطن",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "rotary-torso-machine",
+  "name_en": "Rotary Torso Machine",
+  "name_ar": "جهاز دوران الجذع",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "captain-s-chair-leg-raise",
+  "name_en": "Captain's Chair Leg Raise",
+  "name_ar": "رفع الأرجل على كرسي القبطان",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "roman-chair-sit-up",
+  "name_en": "Roman Chair Sit-Up",
+  "name_ar": "ستاب أب على الكرسي الروماني",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "decline-bench-sit-up",
+  "name_en": "Decline Bench Sit-Up",
+  "name_ar": "ستاب أب على بنش منحدر",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-crunch",
+  "name_en": "Cable Crunch",
+  "name_ar": "كرانش بالكيبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-woodchop",
+  "name_en": "Cable Woodchop",
+  "name_ar": "وودتشوب بالكيبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-pallof-press",
+  "name_en": "Cable Pallof Press",
+  "name_ar": "بالوف بريس",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-side-bend",
+  "name_en": "Cable Side Bend",
+  "name_ar": "ثني جانبي بالكيبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-reverse-crunch",
+  "name_en": "Cable Reverse Crunch",
+  "name_ar": "كرانش عكسي بالكيبل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-pallof-hold",
+  "name_en": "Cable Pallof Hold",
+  "name_ar": "بالوف ثابت",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-hanging-leg-raise",
+  "name_en": "Smith Machine Hanging Leg Raise",
+  "name_ar": "رفع أرجل معلق بسميث",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-decline-sit-up",
+  "name_en": "Smith Machine Decline Sit-Up",
+  "name_ar": "ستاب أب منحدر بسميث",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "smith"
+ },
+ {
+  "slug": "crunch",
+  "name_en": "Crunch",
+  "name_ar": "كرانش",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "sit-up",
+  "name_en": "Sit-Up",
+  "name_ar": "ستاب أب",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "plank",
+  "name_en": "Plank",
+  "name_ar": "بلانك",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "side-plank",
+  "name_en": "Side Plank",
+  "name_ar": "بلانك جانبي",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "reverse-crunch",
+  "name_en": "Reverse Crunch",
+  "name_ar": "كرانش عكسي",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bicycle-crunch",
+  "name_en": "Bicycle Crunch",
+  "name_ar": "كرانش الدراجة",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "russian-twist",
+  "name_en": "Russian Twist",
+  "name_ar": "روسيان تويست",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "leg-raise",
+  "name_en": "Leg Raise",
+  "name_ar": "رفع الأرجل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "hanging-leg-raise",
+  "name_en": "Hanging Leg Raise",
+  "name_ar": "رفع الأرجل معلقاً",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "hanging-knee-raise",
+  "name_en": "Hanging Knee Raise",
+  "name_ar": "رفع الركبتين معلقاً",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "toes-to-bar",
+  "name_en": "Toes-to-Bar",
+  "name_ar": "أصابع القدم إلى البار",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "v-up",
+  "name_en": "V-Up",
+  "name_ar": "في أب",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "mountain-climber",
+  "name_en": "Mountain Climber",
+  "name_ar": "متسلق الجبال",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "dead-bug",
+  "name_en": "Dead Bug",
+  "name_ar": "ديد باج",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bird-dog",
+  "name_en": "Bird Dog",
+  "name_ar": "بيرد دوج",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "hollow-body-hold",
+  "name_en": "Hollow Body Hold",
+  "name_ar": "هولو بودي",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "flutter-kicks",
+  "name_en": "Flutter Kicks",
+  "name_ar": "ركلات الرفرفة",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "scissor-kicks",
+  "name_en": "Scissor Kicks",
+  "name_ar": "ركلات المقص",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "ab-wheel-rollout",
+  "name_en": "Ab Wheel Rollout",
+  "name_ar": "عجلة البطن",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "plank-up-down",
+  "name_en": "Plank Up-Down",
+  "name_ar": "بلانك صعود ونزول",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "heel-touch",
+  "name_en": "Heel Touch",
+  "name_ar": "لمس الكعب",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "l-sit",
+  "name_en": "L-Sit",
+  "name_ar": "إل سيت",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "dragon-flag",
+  "name_en": "Dragon Flag",
+  "name_ar": "دراغون فلاج",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "windshield-wiper",
+  "name_en": "Windshield Wiper",
+  "name_ar": "ماسحة الزجاج",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "plank-shoulder-tap",
+  "name_en": "Plank Shoulder Tap",
+  "name_ar": "بلانك لمس الكتف",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-pallof-press",
+  "name_en": "Banded Pallof Press",
+  "name_ar": "بالوف بريس بحبل المقاومة",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-woodchop",
+  "name_en": "Banded Woodchop",
+  "name_ar": "وودتشوب بحبل المقاومة",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-crunch",
+  "name_en": "Banded Crunch",
+  "name_ar": "كرانش بحبل المقاومة",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-dead-bug",
+  "name_en": "Banded Dead Bug",
+  "name_ar": "ديد باج بحبل المقاومة",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-russian-twist",
+  "name_en": "Kettlebell Russian Twist",
+  "name_ar": "روسيان تويست بالكيتل بل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-turkish-get-up",
+  "name_en": "Kettlebell Turkish Get-Up",
+  "name_ar": "التركي غيت أب بالكيتل بل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders",
+   "glutes"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-halo-core",
+  "name_en": "Kettlebell Halo (Core)",
+  "name_ar": "هيلو للبطن بالكيتل بل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-suitcase-carry",
+  "name_en": "Kettlebell Suitcase Carry",
+  "name_ar": "حمل الحقيبة بالكيتل بل",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "stability-ball-crunch",
+  "name_en": "Stability Ball Crunch",
+  "name_ar": "كرانش بكرة الثبات",
+  "primary_muscle": "abs",
+  "secondary_muscles": [],
+  "equipment": "other"
+ },
+ {
+  "slug": "stability-ball-rollout",
+  "name_en": "Stability Ball Rollout",
+  "name_ar": "رولاوت بكرة الثبات",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "ab-wheel",
+  "name_en": "Ab Wheel",
+  "name_ar": "عجلة البطن",
+  "primary_muscle": "abs",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "barbell-shrug",
+  "name_en": "Barbell Shrug",
+  "name_ar": "شراغ بالبار",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "behind-the-back-barbell-shrug",
+  "name_en": "Behind-the-Back Barbell Shrug",
+  "name_ar": "شراغ بالبار خلف الظهر",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "power-clean",
+  "name_en": "Power Clean",
+  "name_ar": "باور كلين",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "full_body"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-high-pull",
+  "name_en": "Barbell High Pull",
+  "name_ar": "سحب عالٍ بالبار",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "trap-bar-shrug",
+  "name_en": "Trap Bar Shrug",
+  "name_ar": "شراغ بالتراب بار",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "rack-pull-shrug",
+  "name_en": "Rack Pull Shrug",
+  "name_ar": "شراغ رفع من الرف",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-shrug",
+  "name_en": "Dumbbell Shrug",
+  "name_ar": "شراغ بالدمبل",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "incline-dumbbell-shrug",
+  "name_en": "Incline Dumbbell Shrug",
+  "name_ar": "شراغ على بنش مائل",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-rear-delt-row",
+  "name_en": "Dumbbell Rear Delt Row",
+  "name_ar": "تجديف خلفي بالدمبل",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "prone-dumbbell-y-raise",
+  "name_en": "Prone Dumbbell Y Raise",
+  "name_ar": "رفع واي مستلقياً",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "prone-dumbbell-t-raise",
+  "name_en": "Prone Dumbbell T Raise",
+  "name_ar": "رفع تي مستلقياً",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "machine-shrug",
+  "name_en": "Machine Shrug",
+  "name_ar": "شراغ بالجهاز",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "smith-machine-shrug",
+  "name_en": "Smith Machine Shrug",
+  "name_ar": "شراغ بسميث",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-shrug",
+  "name_en": "Cable Shrug",
+  "name_ar": "شراغ بالكيبل",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-face-pull-traps",
+  "name_en": "Cable Face Pull (Traps)",
+  "name_ar": "فيس بول للترابيس",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-y-raise-traps",
+  "name_en": "Cable Y Raise (Traps)",
+  "name_ar": "رفع واي بالكيبل",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "smith-machine-shrug-behind-back",
+  "name_en": "Smith Machine Shrug Behind Back",
+  "name_ar": "شراغ خلف الظهر بسميث",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "smith-machine-high-pull",
+  "name_en": "Smith Machine High Pull",
+  "name_ar": "سحب عالٍ بسميث",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "smith"
+ },
+ {
+  "slug": "scapular-push-up",
+  "name_en": "Scapular Push-Up",
+  "name_ar": "ضغط لوح الكتف",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "prone-y-t-w-raise",
+  "name_en": "Prone Y-T-W Raise",
+  "name_ar": "رفع واي تي دبليو",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "wall-slide",
+  "name_en": "Wall Slide",
+  "name_ar": "انزلاق على الحائط",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "neck-bridge",
+  "name_en": "Neck Bridge",
+  "name_ar": "جسر الرقبة",
+  "primary_muscle": "traps",
+  "secondary_muscles": [],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-shrug",
+  "name_en": "Banded Shrug",
+  "name_ar": "شراغ بحبل المقاومة",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-upright-row",
+  "name_en": "Banded Upright Row",
+  "name_ar": "سحب عمودي بحبل المقاومة",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-scapular-retraction",
+  "name_en": "Banded Scapular Retraction",
+  "name_ar": "شد لوح الكتف بحبل المقاومة",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-shrug",
+  "name_en": "Kettlebell Shrug",
+  "name_ar": "شراغ بالكيتل بل",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-high-pull",
+  "name_en": "Kettlebell High Pull",
+  "name_ar": "سحب عالٍ بالكيتل بل",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-upright-row",
+  "name_en": "Kettlebell Upright Row",
+  "name_ar": "سحب عمودي بالكيتل بل",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "trap-bar-deadlift",
+  "name_en": "Trap Bar Deadlift",
+  "name_ar": "رفعة ميتة بالتراب بار",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "farmer-s-walk",
+  "name_en": "Farmer's Walk",
+  "name_ar": "مشي المزارع",
+  "primary_muscle": "traps",
+  "secondary_muscles": [
+   "forearms"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "neck-harness-extension",
+  "name_en": "Neck Harness Extension",
+  "name_ar": "تمديد الرقبة بالحزام",
+  "primary_muscle": "traps",
+  "secondary_muscles": [],
+  "equipment": "other"
+ },
+ {
+  "slug": "barbell-clean",
+  "name_en": "Barbell Clean",
+  "name_ar": "كلين بالبار",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "traps",
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "clean-and-jerk",
+  "name_en": "Clean and Jerk",
+  "name_ar": "كلين آند جيرك",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders",
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-snatch",
+  "name_en": "Barbell Snatch",
+  "name_ar": "سناتش بالبار",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders",
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "hang-clean",
+  "name_en": "Hang Clean",
+  "name_ar": "هانغ كلين",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "traps"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-thruster",
+  "name_en": "Barbell Thruster",
+  "name_ar": "ثراستر بالبار",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "quads",
+   "shoulders"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "clean-and-press",
+  "name_en": "Clean and Press",
+  "name_ar": "كلين آند بريس",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "barbell-complex",
+  "name_en": "Barbell Complex",
+  "name_ar": "كومبلكس بالبار",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back",
+   "quads"
+  ],
+  "equipment": "barbell"
+ },
+ {
+  "slug": "dumbbell-thruster",
+  "name_en": "Dumbbell Thruster",
+  "name_ar": "ثراستر بالدمبل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "quads",
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-snatch",
+  "name_en": "Dumbbell Snatch",
+  "name_ar": "سناتش بالدمبل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-clean-and-press",
+  "name_en": "Dumbbell Clean and Press",
+  "name_ar": "كلين آند بريس بالدمبل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "man-maker",
+  "name_en": "Man Maker",
+  "name_ar": "مان ميكر",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "chest",
+   "back"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "devil-press",
+  "name_en": "Devil Press",
+  "name_ar": "ديفل بريس",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-burpee-deadlift",
+  "name_en": "Dumbbell Burpee Deadlift",
+  "name_ar": "بيربي مع رفعة ميتة بالدمبل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "dumbbell-complex",
+  "name_en": "Dumbbell Complex",
+  "name_ar": "كومبلكس بالدمبل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "dumbbell"
+ },
+ {
+  "slug": "sled-push",
+  "name_en": "Sled Push",
+  "name_ar": "دفع الزلاجة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "quads",
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "sled-pull",
+  "name_en": "Sled Pull",
+  "name_ar": "سحب الزلاجة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "hamstrings",
+   "back"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "prowler-push",
+  "name_en": "Prowler Push",
+  "name_ar": "دفع بروولر",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cable-woodchopper-full-body",
+  "name_en": "Cable Woodchopper Full Body",
+  "name_ar": "وودتشوب كامل الجسم",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "abs"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "cable-lunge-to-row",
+  "name_en": "Cable Lunge to Row",
+  "name_ar": "لانج مع تجديف بالكيبل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "cable"
+ },
+ {
+  "slug": "burpee",
+  "name_en": "Burpee",
+  "name_ar": "بيربي",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "chest",
+   "quads"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "burpee-pull-up",
+  "name_en": "Burpee Pull-Up",
+  "name_ar": "بيربي مع عقلة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bear-crawl-full-body",
+  "name_en": "Bear Crawl Full Body",
+  "name_ar": "زحف الدب",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "abs"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "turkish-get-up",
+  "name_en": "Turkish Get-Up",
+  "name_ar": "التركي غيت أب",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "inchworm",
+  "name_en": "Inchworm",
+  "name_ar": "دودة القياس",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "abs",
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "muscle-up",
+  "name_en": "Muscle-Up",
+  "name_ar": "ماسل أب",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back",
+   "triceps"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "bar-muscle-up",
+  "name_en": "Bar Muscle-Up",
+  "name_ar": "ماسل أب على البار",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "ring-muscle-up",
+  "name_en": "Ring Muscle-Up",
+  "name_ar": "ماسل أب على الحلقات",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "squat-thrust",
+  "name_en": "Squat Thrust",
+  "name_ar": "سكوات ثراست",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "star-jump",
+  "name_en": "Star Jump",
+  "name_ar": "قفزة النجمة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "spiderman-push-up",
+  "name_en": "Spiderman Push-Up",
+  "name_ar": "ضغط سبايدرمان",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "banded-squat-to-press",
+  "name_en": "Banded Squat to Press",
+  "name_ar": "سكوات مع ضغط بحبل المقاومة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-burpee",
+  "name_en": "Banded Burpee",
+  "name_ar": "بيربي بحبل المقاومة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "banded-deadlift-to-row",
+  "name_en": "Banded Deadlift to Row",
+  "name_ar": "رفعة ميتة مع تجديف بحبل المقاومة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bands"
+ },
+ {
+  "slug": "kettlebell-clean",
+  "name_en": "Kettlebell Clean",
+  "name_ar": "كلين بالكيتل بل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-snatch",
+  "name_en": "Kettlebell Snatch",
+  "name_ar": "سناتش بالكيتل بل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-clean-and-press",
+  "name_en": "Kettlebell Clean and Press",
+  "name_ar": "كلين آند بريس بالكيتل بل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-thruster",
+  "name_en": "Kettlebell Thruster",
+  "name_ar": "ثراستر بالكيتل بل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "kettlebell-complex",
+  "name_en": "Kettlebell Complex",
+  "name_ar": "كومبلكس بالكيتل بل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "kettlebell"
+ },
+ {
+  "slug": "medicine-ball-slam",
+  "name_en": "Medicine Ball Slam",
+  "name_ar": "ضرب الكرة الطبية",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "abs",
+   "shoulders"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "medicine-ball-wall-ball",
+  "name_en": "Medicine Ball Wall Ball",
+  "name_ar": "وول بول",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "quads",
+   "shoulders"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "battle-rope-waves",
+  "name_en": "Battle Rope Waves",
+  "name_ar": "حبال المعركة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "sandbag-clean",
+  "name_en": "Sandbag Clean",
+  "name_ar": "كلين بكيس الرمل",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "tire-flip",
+  "name_en": "Tire Flip",
+  "name_ar": "قلب الإطار",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back",
+   "quads"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "atlas-stone-lift",
+  "name_en": "Atlas Stone Lift",
+  "name_ar": "رفع حجر أطلس",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "sledgehammer-strike",
+  "name_en": "Sledgehammer Strike",
+  "name_ar": "ضرب المطرقة",
+  "primary_muscle": "full_body",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "treadmill-run",
+  "name_en": "Treadmill Run",
+  "name_ar": "جري على السير",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "treadmill-walk",
+  "name_en": "Treadmill Walk",
+  "name_ar": "مشي على السير",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "incline-treadmill-walk",
+  "name_en": "Incline Treadmill Walk",
+  "name_ar": "مشي على السير بميل",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "elliptical-trainer",
+  "name_en": "Elliptical Trainer",
+  "name_ar": "جهاز الإيليبتكال",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "stationary-bike",
+  "name_en": "Stationary Bike",
+  "name_ar": "دراجة ثابتة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "spin-bike",
+  "name_en": "Spin Bike",
+  "name_ar": "دراجة سبينينغ",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "recumbent-bike",
+  "name_en": "Recumbent Bike",
+  "name_ar": "دراجة مريحة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "rowing-machine",
+  "name_en": "Rowing Machine",
+  "name_ar": "جهاز التجديف",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "stair-climber",
+  "name_en": "Stair Climber",
+  "name_ar": "جهاز صعود الدرج",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "stairmaster",
+  "name_en": "StairMaster",
+  "name_ar": "ستيرماستر",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "assault-bike",
+  "name_en": "Assault Bike",
+  "name_ar": "دراجة أسولت",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "skierg",
+  "name_en": "SkiErg",
+  "name_ar": "سكي إرغ",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "arc-trainer",
+  "name_en": "Arc Trainer",
+  "name_ar": "جهاز آرك",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "cross-trainer",
+  "name_en": "Cross-Trainer",
+  "name_ar": "جهاز كروس تريينر",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "versaclimber",
+  "name_en": "VersaClimber",
+  "name_ar": "فيرساكلايمر",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "machine"
+ },
+ {
+  "slug": "running-outdoor",
+  "name_en": "Running (Outdoor)",
+  "name_ar": "جري في الخارج",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "jogging",
+  "name_en": "Jogging",
+  "name_ar": "هرولة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "sprints",
+  "name_en": "Sprints",
+  "name_ar": "عدو سريع",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "hill-sprints",
+  "name_en": "Hill Sprints",
+  "name_ar": "عدو سريع على المرتفع",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "jump-rope",
+  "name_en": "Jump Rope",
+  "name_ar": "نط الحبل",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "jumping-jacks",
+  "name_en": "Jumping Jacks",
+  "name_ar": "قفز الجاك",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "high-knees",
+  "name_en": "High Knees",
+  "name_ar": "رفع الركبتين عالياً",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "butt-kicks",
+  "name_en": "Butt Kicks",
+  "name_ar": "ركلات الأرداف",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "shadow-boxing",
+  "name_en": "Shadow Boxing",
+  "name_ar": "ملاكمة وهمية",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "swimming",
+  "name_en": "Swimming",
+  "name_ar": "سباحة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "back"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "cycling-outdoor",
+  "name_en": "Cycling (Outdoor)",
+  "name_ar": "دراجة هوائية في الخارج",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "stair-running",
+  "name_en": "Stair Running",
+  "name_ar": "ركض على الدرج",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "walking-outdoor",
+  "name_en": "Walking (Outdoor)",
+  "name_ar": "مشي في الخارج",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "hiking",
+  "name_en": "Hiking",
+  "name_ar": "تسلق المرتفعات",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "skater-hops",
+  "name_en": "Skater Hops",
+  "name_ar": "قفز المتزلج",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "lateral-shuffle",
+  "name_en": "Lateral Shuffle",
+  "name_ar": "حركة جانبية سريعة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "boxing-bag-work",
+  "name_en": "Boxing Bag Work",
+  "name_ar": "تمرين كيس الملاكمة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "plyo-lunge",
+  "name_en": "Plyo Lunge",
+  "name_ar": "لانج بلايومتري",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "tuck-jump",
+  "name_en": "Tuck Jump",
+  "name_ar": "قفزة الانطواء",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "broad-jump",
+  "name_en": "Broad Jump",
+  "name_ar": "قفزة طويلة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "glutes"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "mountain-climber-cardio",
+  "name_en": "Mountain Climber (Cardio)",
+  "name_ar": "متسلق الجبال كارديو",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "abs"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "burpee-cardio",
+  "name_en": "Burpee (Cardio)",
+  "name_ar": "بيربي كارديو",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "chest"
+  ],
+  "equipment": "bodyweight"
+ },
+ {
+  "slug": "battle-ropes",
+  "name_en": "Battle Ropes",
+  "name_ar": "حبال المعركة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "jump-rope-weighted",
+  "name_en": "Jump Rope (Weighted)",
+  "name_ar": "نط الحبل الثقيل",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "calves"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "sled-sprint",
+  "name_en": "Sled Sprint",
+  "name_ar": "عدو بالزلاجة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "quads"
+  ],
+  "equipment": "other"
+ },
+ {
+  "slug": "heavy-bag-rounds",
+  "name_en": "Heavy Bag Rounds",
+  "name_ar": "جولات كيس الملاكمة",
+  "primary_muscle": "cardio",
+  "secondary_muscles": [
+   "shoulders"
+  ],
+  "equipment": "other"
+ }
+]

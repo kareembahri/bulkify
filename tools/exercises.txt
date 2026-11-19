@@ -1,0 +1,606 @@
+## chest
+barbell|Barbell Bench Press|ضغط البنش بالبار|triceps,shoulders
+barbell|Incline Barbell Bench Press|ضغط البنش المائل بالبار|shoulders,triceps
+barbell|Decline Barbell Bench Press|ضغط البنش المنحدر بالبار|triceps
+barbell|Close-Grip Bench Press|ضغط البنش بقبضة ضيقة|triceps,chest
+barbell|Wide-Grip Bench Press|ضغط البنش بقبضة واسعة|shoulders
+barbell|Paused Bench Press|ضغط البنش مع توقف|triceps
+barbell|Floor Press|ضغط الأرض بالبار|triceps
+barbell|Barbell Pullover|بولوفر بالبار|back
+dumbbell|Dumbbell Bench Press|ضغط البنش بالدمبل|triceps,shoulders
+dumbbell|Incline Dumbbell Press|ضغط مائل بالدمبل|shoulders,triceps
+dumbbell|Decline Dumbbell Press|ضغط منحدر بالدمبل|triceps
+dumbbell|Dumbbell Fly|فتح الصدر بالدمبل|shoulders
+dumbbell|Incline Dumbbell Fly|فتح الصدر المائل بالدمبل|shoulders
+dumbbell|Decline Dumbbell Fly|فتح الصدر المنحدر بالدمبل|shoulders
+dumbbell|Dumbbell Pullover|بولوفر بالدمبل|back,triceps
+dumbbell|Neutral-Grip Dumbbell Press|ضغط بالدمبل بقبضة محايدة|triceps
+dumbbell|Dumbbell Squeeze Press|ضغط الدمبل المضغوط|triceps
+dumbbell|Single-Arm Dumbbell Bench Press|ضغط بنش بالدمبل بذراع واحدة|abs,triceps
+dumbbell|Hex Press|ضغط هيكس|triceps
+machine|Machine Chest Press|ضغط الصدر بالجهاز|triceps,shoulders
+machine|Incline Machine Chest Press|ضغط الصدر المائل بالجهاز|shoulders,triceps
+machine|Decline Machine Chest Press|ضغط الصدر المنحدر بالجهاز|triceps
+machine|Pec Deck Fly|فتح الصدر بجهاز البك دك|shoulders
+machine|Hammer Strength Chest Press|ضغط صدر هامر سترنث|triceps
+machine|Converging Chest Press|ضغط صدر متقارب بالجهاز|triceps
+machine|Seated Chest Fly Machine|جهاز فتح الصدر جلوس|shoulders
+cable|Cable Crossover|كروس أوفر بالكيبل|shoulders
+cable|Low-to-High Cable Fly|فتح كيبل من الأسفل للأعلى|shoulders
+cable|High-to-Low Cable Fly|فتح كيبل من الأعلى للأسفل|shoulders
+cable|Cable Chest Press|ضغط الصدر بالكيبل|triceps
+cable|Single-Arm Cable Fly|فتح كيبل بذراع واحدة|shoulders
+cable|Standing Cable Chest Press|ضغط صدر كيبل وقوفاً|triceps
+smith|Smith Machine Bench Press|ضغط البنش بجهاز سميث|triceps,shoulders
+smith|Smith Machine Incline Press|ضغط مائل بجهاز سميث|shoulders,triceps
+smith|Smith Machine Decline Press|ضغط منحدر بجهاز سميث|triceps
+bodyweight|Push-Up|تمرين الضغط|triceps,shoulders
+bodyweight|Wide Push-Up|ضغط بقبضة واسعة|shoulders
+bodyweight|Diamond Push-Up|ضغط الألماس|triceps
+bodyweight|Incline Push-Up|ضغط مائل|triceps
+bodyweight|Decline Push-Up|ضغط منحدر|shoulders
+bodyweight|Archer Push-Up|ضغط القوس|triceps
+bodyweight|Clap Push-Up|ضغط بالتصفيق|triceps
+bodyweight|Chest Dip|متوازي للصدر|triceps,shoulders
+bodyweight|Knee Push-Up|ضغط على الركبتين|triceps
+bodyweight|Pike Push-Up|ضغط الباي|shoulders
+bands|Banded Push-Up|ضغط بحبل المقاومة|triceps
+bands|Resistance Band Chest Press|ضغط صدر بحبل المقاومة|triceps
+bands|Resistance Band Chest Fly|فتح صدر بحبل المقاومة|shoulders
+kettlebell|Kettlebell Floor Press|ضغط أرضي بالكيتل بل|triceps
+kettlebell|Kettlebell Push-Up|ضغط على الكيتل بل|triceps
+## back
+barbell|Barbell Row|تجديف بالبار|biceps,traps
+barbell|Pendlay Row|تجديف بندلي|biceps,traps
+barbell|Underhand Barbell Row|تجديف بالبار بقبضة سفلية|biceps
+barbell|Yates Row|تجديف ييتس|biceps,traps
+barbell|T-Bar Row|تجديف تي بار|biceps,traps
+barbell|Deadlift|الرفعة الميتة|hamstrings,glutes,traps
+barbell|Rack Pull|سحب من الرف|traps,glutes
+barbell|Snatch-Grip Deadlift|رفعة ميتة بقبضة الخطف|traps,hamstrings
+barbell|Meadows Row|تجديف ميدوز|biceps
+barbell|Seal Row|تجديف السيل|biceps
+dumbbell|Single-Arm Dumbbell Row|تجديف بالدمبل بذراع واحدة|biceps
+dumbbell|Two-Arm Dumbbell Row|تجديف بالدمبل بالذراعين|biceps
+dumbbell|Chest-Supported Dumbbell Row|تجديف بالدمبل مع إسناد الصدر|biceps,traps
+dumbbell|Incline Bench Dumbbell Row|تجديف بالدمبل على بنش مائل|biceps
+dumbbell|Dumbbell Pullover (Back)|بولوفر بالدمبل للظهر|chest
+dumbbell|Renegade Row|تجديف رينيجيد|abs,biceps
+dumbbell|Dumbbell Deadlift|رفعة ميتة بالدمبل|hamstrings,glutes
+dumbbell|Kroc Row|تجديف كروك|biceps,forearms
+machine|Lat Pulldown|سحب أمامي للظهر|biceps
+machine|Wide-Grip Lat Pulldown|سحب أمامي بقبضة واسعة|biceps
+machine|Close-Grip Lat Pulldown|سحب أمامي بقبضة ضيقة|biceps
+machine|Reverse-Grip Lat Pulldown|سحب أمامي بقبضة عكسية|biceps
+machine|Seated Machine Row|تجديف جالس بالجهاز|biceps,traps
+machine|Chest-Supported Machine Row|تجديف بالجهاز مع إسناد الصدر|biceps,traps
+machine|Hammer Strength Row|تجديف هامر سترنث|biceps
+machine|Assisted Pull-Up Machine|جهاز عقلة مساعد|biceps
+machine|Machine Pullover|بولوفر بالجهاز|chest
+machine|High Row Machine|تجديف عالٍ بالجهاز|traps,biceps
+machine|Low Row Machine|تجديف سفلي بالجهاز|biceps
+machine|Back Extension Machine|جهاز تمديد الظهر|glutes,hamstrings
+cable|Seated Cable Row|تجديف كيبل جلوس|biceps,traps
+cable|Single-Arm Cable Row|تجديف كيبل بذراع واحدة|biceps
+cable|Straight-Arm Pulldown|سحب بذراع مستقيمة|triceps
+cable|Close-Grip Cable Row|تجديف كيبل بقبضة ضيقة|biceps
+cable|Wide-Grip Cable Row|تجديف كيبل بقبضة واسعة|traps,biceps
+cable|Cable Pullover|بولوفر بالكيبل|chest
+cable|Face Pull Row|تجديف فيس بول|shoulders,traps
+cable|Kneeling Single-Arm Lat Pulldown|سحب بذراع واحدة على الركبتين|biceps
+smith|Smith Machine Row|تجديف بجهاز سميث|biceps
+smith|Smith Machine Deadlift|رفعة ميتة بجهاز سميث|hamstrings,glutes
+bodyweight|Pull-Up|عقلة|biceps
+bodyweight|Chin-Up|عقلة بقبضة عكسية|biceps
+bodyweight|Wide-Grip Pull-Up|عقلة بقبضة واسعة|biceps
+bodyweight|Neutral-Grip Pull-Up|عقلة بقبضة محايدة|biceps
+bodyweight|Inverted Row|تجديف مقلوب|biceps
+bodyweight|Bodyweight Row|تجديف بوزن الجسم|biceps
+bodyweight|Superman|تمرين سوبرمان|glutes
+bodyweight|Back Extension|تمديد الظهر|glutes,hamstrings
+bodyweight|Commando Pull-Up|عقلة كوماندو|biceps
+bodyweight|Scapular Pull-Up|عقلة لوح الكتف|traps
+bodyweight|Australian Pull-Up|عقلة أسترالية|biceps
+bands|Banded Lat Pulldown|سحب للظهر بحبل المقاومة|biceps
+bands|Banded Row|تجديف بحبل المقاومة|biceps
+bands|Banded Pull-Apart|فتح حبل المقاومة|shoulders,traps
+bands|Banded Good Morning|جود مورنينج بحبل المقاومة|hamstrings,glutes
+kettlebell|Kettlebell Row|تجديف بالكيتل بل|biceps
+kettlebell|Kettlebell Deadlift|رفعة ميتة بالكيتل بل|hamstrings,glutes
+kettlebell|Kettlebell Gorilla Row|تجديف الغوريلا بالكيتل بل|biceps
+## shoulders
+barbell|Barbell Overhead Press|ضغط الكتف بالبار وقوفاً|triceps,traps
+barbell|Seated Barbell Shoulder Press|ضغط كتف بالبار جلوساً|triceps
+barbell|Push Press|بوش بريس|triceps,quads
+barbell|Behind-the-Neck Press|ضغط خلف الرقبة|triceps,traps
+barbell|Barbell Front Raise|رفع أمامي بالبار|chest
+barbell|Barbell Upright Row|سحب عمودي بالبار|traps,biceps
+barbell|Z-Press|ضغط زد|triceps,abs
+dumbbell|Dumbbell Shoulder Press|ضغط كتف بالدمبل|triceps
+dumbbell|Seated Dumbbell Shoulder Press|ضغط كتف بالدمبل جلوساً|triceps
+dumbbell|Arnold Press|أرنولد بريس|triceps
+dumbbell|Dumbbell Lateral Raise|رفع جانبي بالدمبل|traps
+dumbbell|Dumbbell Front Raise|رفع أمامي بالدمبل|chest
+dumbbell|Bent-Over Reverse Fly|فتح خلفي منحني بالدمبل|back,traps
+dumbbell|Seated Reverse Fly|فتح خلفي جلوساً|back,traps
+dumbbell|Dumbbell Upright Row|سحب عمودي بالدمبل|traps
+dumbbell|Single-Arm Dumbbell Press|ضغط كتف بالدمبل بذراع واحدة|triceps,abs
+dumbbell|Lying Lateral Raise|رفع جانبي مستلقياً|traps
+dumbbell|Dumbbell Y Raise|رفع واي بالدمبل|traps
+dumbbell|Incline Bench Rear Delt Raise|رفع خلفي على بنش مائل|back
+dumbbell|Dumbbell Scaption|سكابشن بالدمبل|traps
+dumbbell|Lu Raise|رفع لو|traps
+machine|Machine Shoulder Press|ضغط كتف بالجهاز|triceps
+machine|Lateral Raise Machine|جهاز الرفع الجانبي|traps
+machine|Reverse Pec Deck|بك دك عكسي|back,traps
+machine|Hammer Strength Shoulder Press|ضغط كتف هامر سترنث|triceps
+machine|Rear Delt Machine Fly|فتح خلفي بالجهاز|back
+cable|Cable Lateral Raise|رفع جانبي بالكيبل|traps
+cable|Cable Front Raise|رفع أمامي بالكيبل|chest
+cable|Cable Rear Delt Fly|فتح خلفي بالكيبل|back
+cable|Face Pull|فيس بول|traps,back
+cable|Cable Upright Row|سحب عمودي بالكيبل|traps
+cable|Single-Arm Cable Lateral Raise|رفع جانبي بالكيبل بذراع واحدة|traps
+cable|Cable Y Raise|رفع واي بالكيبل|traps
+smith|Smith Machine Shoulder Press|ضغط كتف بجهاز سميث|triceps
+smith|Smith Machine Upright Row|سحب عمودي بجهاز سميث|traps
+smith|Smith Machine Behind-the-Neck Press|ضغط خلف الرقبة بسميث|triceps
+bodyweight|Handstand Push-Up|ضغط الوقوف على اليدين|triceps,traps
+bodyweight|Wall Walk|المشي على الحائط|abs,triceps
+bodyweight|Pike Push-Up Elevated|ضغط الباي مرتفع|triceps
+bodyweight|Bear Crawl|زحف الدب|abs
+bands|Banded Lateral Raise|رفع جانبي بحبل المقاومة|traps
+bands|Banded Face Pull|فيس بول بحبل المقاومة|traps,back
+bands|Banded Overhead Press|ضغط كتف بحبل المقاومة|triceps
+bands|Banded Front Raise|رفع أمامي بحبل المقاومة|chest
+kettlebell|Kettlebell Overhead Press|ضغط علوي بالكيتل بل|triceps
+kettlebell|Kettlebell Halo|هيلو بالكيتل بل|traps,abs
+kettlebell|Bottoms-Up Kettlebell Press|ضغط كيتل بل مقلوب|forearms,triceps
+kettlebell|Kettlebell Windmill|طاحونة الكيتل بل|abs,glutes
+## biceps
+barbell|Barbell Curl|بايسبس بالبار|forearms
+barbell|EZ-Bar Curl|بايسبس بالبار المنحني|forearms
+barbell|Preacher Curl (Barbell)|بريتشر كيرل بالبار|forearms
+barbell|Reverse Barbell Curl|بايسبس عكسي بالبار|forearms
+barbell|Drag Curl|دراغ كيرل|forearms
+barbell|21s Barbell Curl|بايسبس ٢١ بالبار|forearms
+barbell|Spider Curl|سبايدر كيرل|forearms
+dumbbell|Dumbbell Curl|بايسبس بالدمبل|forearms
+dumbbell|Alternating Dumbbell Curl|بايسبس بالدمبل بالتناوب|forearms
+dumbbell|Hammer Curl|هامر كيرل|forearms
+dumbbell|Incline Dumbbell Curl|بايسبس بالدمبل على بنش مائل|forearms
+dumbbell|Concentration Curl|كونسنتريشن كيرل|forearms
+dumbbell|Preacher Curl (Dumbbell)|بريتشر كيرل بالدمبل|forearms
+dumbbell|Zottman Curl|زوتمان كيرل|forearms
+dumbbell|Cross-Body Hammer Curl|هامر كيرل متقاطع|forearms
+dumbbell|Spider Curl (Dumbbell)|سبايدر كيرل بالدمبل|forearms
+dumbbell|Seated Dumbbell Curl|بايسبس بالدمبل جلوساً|forearms
+dumbbell|Reverse Dumbbell Curl|بايسبس عكسي بالدمبل|forearms
+machine|Machine Preacher Curl|بريتشر كيرل بالجهاز|forearms
+machine|Machine Bicep Curl|بايسبس بالجهاز|forearms
+machine|Assisted Chin-Up Machine|جهاز عقلة بقبضة عكسية مساعد|back
+cable|Cable Bicep Curl|بايسبس بالكيبل|forearms
+cable|Cable Hammer Curl (Rope)|هامر كيرل بالحبل|forearms
+cable|Cable Preacher Curl|بريتشر كيرل بالكيبل|forearms
+cable|Overhead Cable Curl|بايسبس كيبل فوق الرأس|forearms
+cable|Single-Arm Cable Curl|بايسبس كيبل بذراع واحدة|forearms
+cable|Bayesian Cable Curl|بايزيان كيرل بالكيبل|forearms
+cable|High Cable Curl|بايسبس كيبل مرتفع|forearms
+bodyweight|Chin-Up (Biceps Focus)|عقلة للباي|back
+bodyweight|Inverted Row Underhand|تجديف مقلوب بقبضة سفلية|back
+bodyweight|Towel Curl Isometric|بايسبس بالمنشفة|forearms
+bands|Banded Bicep Curl|بايسبس بحبل المقاومة|forearms
+bands|Banded Hammer Curl|هامر كيرل بحبل المقاومة|forearms
+bands|Banded Reverse Curl|بايسبس عكسي بحبل المقاومة|forearms
+kettlebell|Kettlebell Curl|بايسبس بالكيتل بل|forearms
+kettlebell|Kettlebell Hammer Curl|هامر كيرل بالكيتل بل|forearms
+## triceps
+barbell|Skull Crusher|سكل كراشر|chest
+barbell|EZ-Bar Skull Crusher|سكل كراشر بالبار المنحني|chest
+barbell|Barbell Overhead Triceps Extension|تمديد ترايسبس فوق الرأس بالبار|shoulders
+barbell|JM Press|جيه إم بريس|chest
+barbell|Close-Grip Floor Press|ضغط أرضي بقبضة ضيقة|chest
+dumbbell|Dumbbell Overhead Triceps Extension|تمديد ترايسبس فوق الرأس بالدمبل|shoulders
+dumbbell|Dumbbell Skull Crusher|سكل كراشر بالدمبل|chest
+dumbbell|Dumbbell Kickback|كيك باك بالدمبل|shoulders
+dumbbell|Single-Arm Overhead Extension|تمديد ترايسبس بذراع واحدة فوق الرأس|shoulders
+dumbbell|Tate Press|تيت بريس|chest
+dumbbell|Dumbbell Close-Grip Press|ضغط بالدمبل بقبضة ضيقة|chest
+machine|Machine Triceps Extension|تمديد ترايسبس بالجهاز|chest
+machine|Machine Dip|متوازي بالجهاز|chest
+machine|Assisted Dip Machine|جهاز متوازي مساعد|chest
+cable|Triceps Pushdown (Bar)|ضغط ترايسبس بالكيبل (بار)|forearms
+cable|Triceps Rope Pushdown|ضغط ترايسبس بالحبل|forearms
+cable|Reverse-Grip Triceps Pushdown|ضغط ترايسبس بقبضة عكسية|forearms
+cable|Overhead Cable Triceps Extension|تمديد ترايسبس كيبل فوق الرأس|shoulders
+cable|Single-Arm Triceps Pushdown|ضغط ترايسبس بذراع واحدة|forearms
+cable|Cable Triceps Kickback|كيك باك بالكيبل|shoulders
+cable|V-Bar Pushdown|ضغط ترايسبس بقضيب في|forearms
+smith|Smith Machine Close-Grip Press|ضغط قبضة ضيقة بسميث|chest
+smith|Smith Machine Skull Crusher|سكل كراشر بسميث|chest
+bodyweight|Triceps Dip|متوازي للترايسبس|chest,shoulders
+bodyweight|Bench Dip|متوازي على البنش|chest
+bodyweight|Close-Grip Push-Up|ضغط بقبضة ضيقة|chest
+bodyweight|Bodyweight Triceps Extension|تمديد ترايسبس بوزن الجسم|shoulders
+bodyweight|Korean Dip|متوازي كوري|shoulders
+bands|Banded Triceps Pushdown|ضغط ترايسبس بحبل المقاومة|forearms
+bands|Banded Overhead Extension|تمديد فوق الرأس بحبل المقاومة|shoulders
+bands|Banded Kickback|كيك باك بحبل المقاومة|shoulders
+kettlebell|Kettlebell Skull Crusher|سكل كراشر بالكيتل بل|chest
+kettlebell|Kettlebell Overhead Triceps Extension|تمديد ترايسبس بالكيتل بل|shoulders
+## forearms
+barbell|Barbell Wrist Curl|رسغ بالبار|biceps
+barbell|Reverse Barbell Wrist Curl|رسغ عكسي بالبار|biceps
+barbell|Behind-the-Back Wrist Curl|رسغ خلف الظهر|biceps
+barbell|Barbell Reverse Curl|كيرل عكسي بالبار|biceps
+barbell|Farmer's Walk Bar|مشي المزارع بالبار|traps
+dumbbell|Dumbbell Wrist Curl|رسغ بالدمبل|biceps
+dumbbell|Dumbbell Reverse Wrist Curl|رسغ عكسي بالدمبل|biceps
+dumbbell|Dumbbell Farmer's Walk|مشي المزارع بالدمبل|traps
+dumbbell|Dumbbell Wrist Roller|لفة رسغ بالدمبل|biceps
+dumbbell|Radial Deviation|انحراف رسغي|biceps
+dumbbell|Ulnar Deviation|انحراف زندي|biceps
+dumbbell|Pronation/Supination|تدوير الساعد|biceps
+cable|Cable Wrist Curl|رسغ بالكيبل|biceps
+cable|Cable Reverse Wrist Curl|رسغ عكسي بالكيبل|biceps
+machine|Wrist Curl Machine|جهاز الرسغ|biceps
+bodyweight|Dead Hang|تعلق ثابت|back
+bodyweight|One-Arm Dead Hang|تعلق بذراع واحدة|back
+bodyweight|Towel Hang|تعلق بالمنشفة|back
+bodyweight|Finger Push-Up|ضغط بالأصابع|chest
+bodyweight|Plate Pinch|قبض الأطباق|biceps
+bands|Banded Wrist Extension|تمديد رسغ بحبل المقاومة|biceps
+bands|Banded Finger Extension|تمديد أصابع بحبل المقاومة|biceps
+kettlebell|Kettlebell Farmer's Carry|حمل المزارع بالكيتل بل|traps
+kettlebell|Kettlebell Bottoms-Up Hold|إمساك الكيتل بل مقلوباً|shoulders
+other|Grip Strengthener|مقوي القبضة|biceps
+other|Wrist Roller|عجلة الرسغ|biceps
+other|Hand Gripper|ضاغط اليد|biceps
+## quads
+barbell|Barbell Back Squat|سكوات خلفي بالبار|glutes,hamstrings
+barbell|Barbell Front Squat|سكوات أمامي بالبار|glutes,abs
+barbell|Box Squat|سكوات على الصندوق|glutes,hamstrings
+barbell|Pause Squat|سكوات مع توقف|glutes
+barbell|Zercher Squat|سكوات زيرتشر|glutes,abs
+barbell|Barbell Lunge|لانج بالبار|glutes,hamstrings
+barbell|Barbell Walking Lunge|لانج مشي بالبار|glutes,hamstrings
+barbell|Barbell Reverse Lunge|لانج عكسي بالبار|glutes
+barbell|Barbell Split Squat|سبليت سكوات بالبار|glutes
+barbell|Overhead Squat|سكوات فوق الرأس|shoulders,abs
+barbell|Barbell Step-Up|صعود الدرج بالبار|glutes
+barbell|Hack Squat (Barbell)|هاك سكوات بالبار|glutes
+dumbbell|Goblet Squat|جوبلت سكوات|glutes
+dumbbell|Dumbbell Squat|سكوات بالدمبل|glutes
+dumbbell|Dumbbell Lunge|لانج بالدمبل|glutes,hamstrings
+dumbbell|Dumbbell Walking Lunge|لانج مشي بالدمبل|glutes
+dumbbell|Dumbbell Reverse Lunge|لانج عكسي بالدمبل|glutes
+dumbbell|Bulgarian Split Squat|سكوات بلغاري|glutes
+dumbbell|Dumbbell Step-Up|صعود الدرج بالدمبل|glutes
+dumbbell|Dumbbell Sumo Squat|سكوات سومو بالدمبل|glutes
+dumbbell|Dumbbell Lateral Lunge|لانج جانبي بالدمبل|glutes
+dumbbell|Dumbbell Curtsy Lunge|لانج كيرتسي بالدمبل|glutes
+machine|Leg Press|ضغط الأرجل|glutes,hamstrings
+machine|Leg Extension|رفرفة الأرجل (تمديد الركبة)|-
+machine|Hack Squat Machine|هاك سكوات بالجهاز|glutes
+machine|Pendulum Squat|سكوات البندول|glutes
+machine|Belt Squat|سكوات بالحزام|glutes
+machine|Single-Leg Press|ضغط رجل واحدة|glutes
+machine|Vertical Leg Press|ضغط أرجل عمودي|glutes
+machine|Seated Leg Press Narrow Stance|ضغط أرجل بوقفة ضيقة|glutes
+machine|Sissy Squat Machine|سيسي سكوات بالجهاز|-
+cable|Cable Squat|سكوات بالكيبل|glutes
+cable|Cable Leg Extension|تمديد الأرجل بالكيبل|-
+cable|Cable Pull-Through Squat|سكوات سحب بالكيبل|glutes
+smith|Smith Machine Squat|سكوات بجهاز سميث|glutes
+smith|Smith Machine Front Squat|سكوات أمامي بسميث|glutes
+smith|Smith Machine Lunge|لانج بجهاز سميث|glutes
+smith|Smith Machine Split Squat|سبليت سكوات بسميث|glutes
+smith|Smith Machine Hack Squat|هاك سكوات بسميث|glutes
+bodyweight|Bodyweight Squat|سكوات بوزن الجسم|glutes
+bodyweight|Jump Squat|سكوات بالقفز|glutes,calves
+bodyweight|Bodyweight Lunge|لانج بوزن الجسم|glutes
+bodyweight|Bodyweight Reverse Lunge|لانج عكسي بوزن الجسم|glutes
+bodyweight|Walking Lunge|لانج مشي|glutes
+bodyweight|Pistol Squat|بيستول سكوات|glutes
+bodyweight|Wall Sit|جلوس على الحائط|glutes
+bodyweight|Sissy Squat|سيسي سكوات|-
+bodyweight|Step-Up|صعود الدرج|glutes
+bodyweight|Box Jump|قفز على الصندوق|glutes,calves
+bodyweight|Shrimp Squat|شريمب سكوات|glutes
+bodyweight|Cossack Squat|كوساك سكوات|glutes
+bands|Banded Squat|سكوات بحبل المقاومة|glutes
+bands|Banded Split Squat|سبليت سكوات بحبل المقاومة|glutes
+bands|Banded Leg Extension|تمديد الأرجل بحبل المقاومة|-
+kettlebell|Kettlebell Goblet Squat|جوبلت سكوات بالكيتل بل|glutes
+kettlebell|Kettlebell Front Squat|سكوات أمامي بالكيتل بل|glutes
+kettlebell|Kettlebell Lunge|لانج بالكيتل بل|glutes
+kettlebell|Kettlebell Reverse Lunge|لانج عكسي بالكيتل بل|glutes
+kettlebell|Kettlebell Split Squat|سبليت سكوات بالكيتل بل|glutes
+## hamstrings
+barbell|Romanian Deadlift|رفعة ميتة رومانية|glutes,back
+barbell|Stiff-Leg Deadlift|رفعة ميتة بأرجل مستقيمة|glutes,back
+barbell|Barbell Good Morning|جود مورنينج بالبار|glutes,back
+barbell|Sumo Deadlift|رفعة ميتة سومو|glutes,quads
+barbell|Deficit Deadlift|رفعة ميتة بارتفاع|back,glutes
+barbell|Single-Leg Barbell RDL|رفعة رومانية بساق واحدة بالبار|glutes
+dumbbell|Dumbbell Romanian Deadlift|رفعة رومانية بالدمبل|glutes
+dumbbell|Single-Leg Dumbbell RDL|رفعة رومانية بساق واحدة بالدمبل|glutes
+dumbbell|Dumbbell Stiff-Leg Deadlift|رفعة ميتة مستقيمة بالدمبل|glutes
+dumbbell|Dumbbell Hamstring Curl|ثني الأرجل بالدمبل|calves
+dumbbell|Dumbbell Good Morning|جود مورنينج بالدمبل|glutes
+machine|Lying Leg Curl|ثني الأرجل مستلقياً|calves
+machine|Seated Leg Curl|ثني الأرجل جلوساً|calves
+machine|Standing Leg Curl|ثني الأرجل وقوفاً|calves
+machine|Glute-Ham Raise|رفع الأرداف والأوتار|glutes
+machine|Single-Leg Curl Machine|ثني رجل واحدة بالجهاز|calves
+machine|45-Degree Back Extension|تمديد الظهر ٤٥ درجة|glutes,back
+machine|Reverse Hyperextension|هايبر إكستنشن عكسي|glutes,back
+cable|Cable Pull-Through|سحب كيبل بين الرجلين|glutes
+cable|Cable Hamstring Curl|ثني الأرجل بالكيبل|calves
+cable|Cable Good Morning|جود مورنينج بالكيبل|glutes
+smith|Smith Machine Romanian Deadlift|رفعة رومانية بسميث|glutes
+smith|Smith Machine Good Morning|جود مورنينج بسميث|glutes
+smith|Smith Machine Stiff-Leg Deadlift|رفعة ميتة مستقيمة بسميث|glutes
+bodyweight|Nordic Hamstring Curl|نورديك للأوتار|calves,glutes
+bodyweight|Glute Bridge Hamstring Walkout|مشي الجسر للأوتار|glutes
+bodyweight|Slider Leg Curl|ثني الأرجل بالسلايدر|glutes
+bodyweight|Single-Leg Hip Thrust Hamstring|دفع الورك بساق واحدة|glutes
+bodyweight|Good Morning Bodyweight|جود مورنينج بوزن الجسم|glutes
+bands|Banded Hamstring Curl|ثني الأرجل بحبل المقاومة|calves
+bands|Banded Romanian Deadlift|رفعة رومانية بحبل المقاومة|glutes
+bands|Banded Good Morning Hamstring|جود مورنينج بحبل المقاومة|glutes
+kettlebell|Kettlebell Romanian Deadlift|رفعة رومانية بالكيتل بل|glutes
+kettlebell|Kettlebell Single-Leg Deadlift|رفعة ميتة بساق واحدة بالكيتل بل|glutes
+kettlebell|Kettlebell Swing|أرجحة الكيتل بل|glutes,back
+## glutes
+barbell|Barbell Hip Thrust|دفع الورك بالبار|hamstrings
+barbell|Barbell Glute Bridge|جسر الأرداف بالبار|hamstrings
+barbell|Barbell Sumo Squat|سكوات سومو بالبار|quads
+barbell|Barbell Reverse Hyper|ريفرس هايبر بالبار|hamstrings
+barbell|Barbell Lateral Lunge|لانج جانبي بالبار|quads
+barbell|Barbell Deficit Reverse Lunge|لانج عكسي مرتفع بالبار|quads
+dumbbell|Dumbbell Hip Thrust|دفع الورك بالدمبل|hamstrings
+dumbbell|Dumbbell Glute Bridge|جسر الأرداف بالدمبل|hamstrings
+dumbbell|Dumbbell Sumo Deadlift|رفعة سومو بالدمبل|hamstrings
+dumbbell|Dumbbell Frog Pump|فروج بامب بالدمبل|hamstrings
+dumbbell|Dumbbell Donkey Kick|ركلة الحمار بالدمبل|hamstrings
+machine|Hip Thrust Machine|جهاز دفع الورك|hamstrings
+machine|Glute Kickback Machine|جهاز ركلة الأرداف|hamstrings
+machine|Hip Abduction Machine|جهاز إبعاد الفخذ|-
+machine|Hip Adduction Machine|جهاز تقريب الفخذ|-
+machine|Standing Glute Machine|جهاز الأرداف وقوفاً|hamstrings
+machine|Plate-Loaded Glute Drive|جهاز دفع الأرداف بالأقراص|hamstrings
+cable|Cable Glute Kickback|ركلة الأرداف بالكيبل|hamstrings
+cable|Cable Hip Abduction|إبعاد الفخذ بالكيبل|-
+cable|Cable Hip Adduction|تقريب الفخذ بالكيبل|-
+cable|Cable Lateral Step|خطوة جانبية بالكيبل|quads
+cable|Cable Standing Hip Extension|تمديد الورك بالكيبل|hamstrings
+smith|Smith Machine Hip Thrust|دفع الورك بسميث|hamstrings
+smith|Smith Machine Glute Bridge|جسر الأرداف بسميث|hamstrings
+smith|Smith Machine Sumo Squat|سكوات سومو بسميث|quads
+smith|Smith Machine Kickback|ركلة خلفية بسميث|hamstrings
+bodyweight|Glute Bridge|جسر الأرداف|hamstrings
+bodyweight|Single-Leg Glute Bridge|جسر الأرداف بساق واحدة|hamstrings
+bodyweight|Hip Thrust (Bodyweight)|دفع الورك بوزن الجسم|hamstrings
+bodyweight|Donkey Kick|ركلة الحمار|hamstrings
+bodyweight|Fire Hydrant|فاير هيدرانت|-
+bodyweight|Clamshell|كلامشيل|-
+bodyweight|Frog Pump|فروج بامب|hamstrings
+bodyweight|Lateral Band Walk|مشي جانبي|-
+bodyweight|Curtsy Lunge|لانج كيرتسي|quads
+bodyweight|Side-Lying Leg Raise|رفع الرجل جانبياً|-
+bands|Banded Glute Bridge|جسر الأرداف بحبل المقاومة|hamstrings
+bands|Banded Hip Thrust|دفع الورك بحبل المقاومة|hamstrings
+bands|Banded Lateral Walk|مشي جانبي بحبل المقاومة|-
+bands|Banded Glute Kickback|ركلة الأرداف بحبل المقاومة|hamstrings
+bands|Banded Clamshell|كلامشيل بحبل المقاومة|-
+bands|Banded Monster Walk|مشي الوحش بحبل المقاومة|-
+bands|Banded Hip Abduction|إبعاد الفخذ بحبل المقاومة|-
+kettlebell|Kettlebell Sumo Deadlift|رفعة سومو بالكيتل بل|hamstrings
+kettlebell|Kettlebell Hip Thrust|دفع الورك بالكيتل بل|hamstrings
+kettlebell|Kettlebell Sumo Squat|سكوات سومو بالكيتل بل|quads
+## calves
+barbell|Standing Barbell Calf Raise|رفع السمانة بالبار وقوفاً|-
+barbell|Seated Barbell Calf Raise|رفع السمانة بالبار جلوساً|-
+barbell|Barbell Donkey Calf Raise|رفع سمانة الحمار بالبار|-
+dumbbell|Standing Dumbbell Calf Raise|رفع السمانة بالدمبل وقوفاً|-
+dumbbell|Single-Leg Dumbbell Calf Raise|رفع السمانة بالدمبل بساق واحدة|-
+dumbbell|Seated Dumbbell Calf Raise|رفع السمانة بالدمبل جلوساً|-
+machine|Standing Calf Raise Machine|جهاز رفع السمانة وقوفاً|-
+machine|Seated Calf Raise Machine|جهاز رفع السمانة جلوساً|-
+machine|Leg Press Calf Raise|رفع السمانة على جهاز الأرجل|-
+machine|Donkey Calf Raise Machine|جهاز رفع سمانة الحمار|-
+machine|Hack Squat Calf Raise|رفع السمانة على الهاك|-
+smith|Smith Machine Calf Raise|رفع السمانة بسميث|-
+smith|Smith Machine Seated Calf Raise|رفع السمانة جلوساً بسميث|-
+bodyweight|Bodyweight Calf Raise|رفع السمانة بوزن الجسم|-
+bodyweight|Single-Leg Calf Raise|رفع السمانة بساق واحدة|-
+bodyweight|Jump Rope Calf Bounce|قفز الحبل للسمانة|-
+bodyweight|Tibialis Raise|رفع القصبة|-
+bodyweight|Calf Raise on Step|رفع السمانة على الدرج|-
+bodyweight|Donkey Calf Raise|رفع سمانة الحمار|-
+bands|Banded Calf Raise|رفع السمانة بحبل المقاومة|-
+bands|Banded Ankle Dorsiflexion|ثني الكاحل بحبل المقاومة|-
+kettlebell|Kettlebell Calf Raise|رفع السمانة بالكيتل بل|-
+kettlebell|Kettlebell Single-Leg Calf Raise|رفع السمانة بالكيتل بل بساق واحدة|-
+cable|Cable Calf Raise|رفع السمانة بالكيبل|-
+## abs
+barbell|Barbell Rollout|رولاوت بالبار|shoulders
+barbell|Barbell Landmine Twist|لاندماين تويست|shoulders
+barbell|Barbell Suitcase Carry|حمل الحقيبة بالبار|forearms
+dumbbell|Weighted Sit-Up|ستاب أب بوزن|-
+dumbbell|Dumbbell Side Bend|ثني جانبي بالدمبل|-
+dumbbell|Dumbbell Russian Twist|روسيان تويست بالدمبل|-
+dumbbell|Dumbbell Woodchopper|وودتشوبر بالدمبل|shoulders
+dumbbell|Dumbbell Suitcase Carry|حمل الحقيبة بالدمبل|forearms
+dumbbell|Weighted Crunch|كرانش بوزن|-
+dumbbell|Dumbbell Plank Pull-Through|بلانك سحب بالدمبل|back
+machine|Ab Crunch Machine|جهاز كرانش البطن|-
+machine|Rotary Torso Machine|جهاز دوران الجذع|-
+machine|Captain's Chair Leg Raise|رفع الأرجل على كرسي القبطان|-
+machine|Roman Chair Sit-Up|ستاب أب على الكرسي الروماني|-
+machine|Decline Bench Sit-Up|ستاب أب على بنش منحدر|-
+cable|Cable Crunch|كرانش بالكيبل|-
+cable|Cable Woodchop|وودتشوب بالكيبل|shoulders
+cable|Cable Pallof Press|بالوف بريس|shoulders
+cable|Cable Side Bend|ثني جانبي بالكيبل|-
+cable|Cable Reverse Crunch|كرانش عكسي بالكيبل|-
+cable|Cable Pallof Hold|بالوف ثابت|shoulders
+smith|Smith Machine Hanging Leg Raise|رفع أرجل معلق بسميث|-
+smith|Smith Machine Decline Sit-Up|ستاب أب منحدر بسميث|-
+bodyweight|Crunch|كرانش|-
+bodyweight|Sit-Up|ستاب أب|-
+bodyweight|Plank|بلانك|shoulders
+bodyweight|Side Plank|بلانك جانبي|-
+bodyweight|Reverse Crunch|كرانش عكسي|-
+bodyweight|Bicycle Crunch|كرانش الدراجة|-
+bodyweight|Russian Twist|روسيان تويست|-
+bodyweight|Leg Raise|رفع الأرجل|-
+bodyweight|Hanging Leg Raise|رفع الأرجل معلقاً|forearms
+bodyweight|Hanging Knee Raise|رفع الركبتين معلقاً|forearms
+bodyweight|Toes-to-Bar|أصابع القدم إلى البار|back
+bodyweight|V-Up|في أب|-
+bodyweight|Mountain Climber|متسلق الجبال|shoulders
+bodyweight|Dead Bug|ديد باج|-
+bodyweight|Bird Dog|بيرد دوج|back
+bodyweight|Hollow Body Hold|هولو بودي|-
+bodyweight|Flutter Kicks|ركلات الرفرفة|-
+bodyweight|Scissor Kicks|ركلات المقص|-
+bodyweight|Ab Wheel Rollout|عجلة البطن|shoulders
+bodyweight|Plank Up-Down|بلانك صعود ونزول|shoulders,triceps
+bodyweight|Heel Touch|لمس الكعب|-
+bodyweight|L-Sit|إل سيت|triceps
+bodyweight|Dragon Flag|دراغون فلاج|-
+bodyweight|Windshield Wiper|ماسحة الزجاج|-
+bodyweight|Plank Shoulder Tap|بلانك لمس الكتف|shoulders
+bands|Banded Pallof Press|بالوف بريس بحبل المقاومة|shoulders
+bands|Banded Woodchop|وودتشوب بحبل المقاومة|shoulders
+bands|Banded Crunch|كرانش بحبل المقاومة|-
+bands|Banded Dead Bug|ديد باج بحبل المقاومة|-
+kettlebell|Kettlebell Russian Twist|روسيان تويست بالكيتل بل|-
+kettlebell|Kettlebell Turkish Get-Up|التركي غيت أب بالكيتل بل|shoulders,glutes
+kettlebell|Kettlebell Halo (Core)|هيلو للبطن بالكيتل بل|shoulders
+kettlebell|Kettlebell Suitcase Carry|حمل الحقيبة بالكيتل بل|forearms
+other|Stability Ball Crunch|كرانش بكرة الثبات|-
+other|Stability Ball Rollout|رولاوت بكرة الثبات|shoulders
+other|Ab Wheel|عجلة البطن|shoulders
+## traps
+barbell|Barbell Shrug|شراغ بالبار|forearms
+barbell|Behind-the-Back Barbell Shrug|شراغ بالبار خلف الظهر|forearms
+barbell|Power Clean|باور كلين|full_body
+barbell|Barbell High Pull|سحب عالٍ بالبار|shoulders
+barbell|Trap Bar Shrug|شراغ بالتراب بار|forearms
+barbell|Rack Pull Shrug|شراغ رفع من الرف|back
+dumbbell|Dumbbell Shrug|شراغ بالدمبل|forearms
+dumbbell|Incline Dumbbell Shrug|شراغ على بنش مائل|forearms
+dumbbell|Dumbbell Rear Delt Row|تجديف خلفي بالدمبل|shoulders
+dumbbell|Prone Dumbbell Y Raise|رفع واي مستلقياً|shoulders
+dumbbell|Prone Dumbbell T Raise|رفع تي مستلقياً|shoulders
+machine|Machine Shrug|شراغ بالجهاز|forearms
+machine|Smith Machine Shrug|شراغ بسميث|forearms
+cable|Cable Shrug|شراغ بالكيبل|forearms
+cable|Cable Face Pull (Traps)|فيس بول للترابيس|shoulders
+cable|Cable Y Raise (Traps)|رفع واي بالكيبل|shoulders
+smith|Smith Machine Shrug Behind Back|شراغ خلف الظهر بسميث|forearms
+smith|Smith Machine High Pull|سحب عالٍ بسميث|shoulders
+bodyweight|Scapular Push-Up|ضغط لوح الكتف|chest
+bodyweight|Prone Y-T-W Raise|رفع واي تي دبليو|shoulders
+bodyweight|Wall Slide|انزلاق على الحائط|shoulders
+bodyweight|Neck Bridge|جسر الرقبة|-
+bands|Banded Shrug|شراغ بحبل المقاومة|forearms
+bands|Banded Upright Row|سحب عمودي بحبل المقاومة|shoulders
+bands|Banded Scapular Retraction|شد لوح الكتف بحبل المقاومة|back
+kettlebell|Kettlebell Shrug|شراغ بالكيتل بل|forearms
+kettlebell|Kettlebell High Pull|سحب عالٍ بالكيتل بل|shoulders
+kettlebell|Kettlebell Upright Row|سحب عمودي بالكيتل بل|shoulders
+other|Trap Bar Deadlift|رفعة ميتة بالتراب بار|glutes,hamstrings
+other|Farmer's Walk|مشي المزارع|forearms
+other|Neck Harness Extension|تمديد الرقبة بالحزام|-
+## full_body
+barbell|Barbell Clean|كلين بالبار|traps,quads
+barbell|Clean and Jerk|كلين آند جيرك|shoulders,quads
+barbell|Barbell Snatch|سناتش بالبار|shoulders,quads
+barbell|Hang Clean|هانغ كلين|traps
+barbell|Barbell Thruster|ثراستر بالبار|quads,shoulders
+barbell|Clean and Press|كلين آند بريس|shoulders
+barbell|Barbell Complex|كومبلكس بالبار|back,quads
+dumbbell|Dumbbell Thruster|ثراستر بالدمبل|quads,shoulders
+dumbbell|Dumbbell Snatch|سناتش بالدمبل|shoulders
+dumbbell|Dumbbell Clean and Press|كلين آند بريس بالدمبل|shoulders
+dumbbell|Man Maker|مان ميكر|chest,back
+dumbbell|Devil Press|ديفل بريس|shoulders
+dumbbell|Dumbbell Burpee Deadlift|بيربي مع رفعة ميتة بالدمبل|back
+dumbbell|Dumbbell Complex|كومبلكس بالدمبل|back
+machine|Sled Push|دفع الزلاجة|quads,glutes
+machine|Sled Pull|سحب الزلاجة|hamstrings,back
+machine|Prowler Push|دفع بروولر|quads
+cable|Cable Woodchopper Full Body|وودتشوب كامل الجسم|abs
+cable|Cable Lunge to Row|لانج مع تجديف بالكيبل|back
+bodyweight|Burpee|بيربي|chest,quads
+bodyweight|Burpee Pull-Up|بيربي مع عقلة|back
+bodyweight|Bear Crawl Full Body|زحف الدب|abs
+bodyweight|Turkish Get-Up|التركي غيت أب|shoulders
+bodyweight|Inchworm|دودة القياس|abs,shoulders
+bodyweight|Muscle-Up|ماسل أب|back,triceps
+bodyweight|Bar Muscle-Up|ماسل أب على البار|back
+bodyweight|Ring Muscle-Up|ماسل أب على الحلقات|back
+bodyweight|Squat Thrust|سكوات ثراست|chest
+bodyweight|Star Jump|قفزة النجمة|calves
+bodyweight|Spiderman Push-Up|ضغط سبايدرمان|chest
+bands|Banded Squat to Press|سكوات مع ضغط بحبل المقاومة|shoulders
+bands|Banded Burpee|بيربي بحبل المقاومة|chest
+bands|Banded Deadlift to Row|رفعة ميتة مع تجديف بحبل المقاومة|back
+kettlebell|Kettlebell Clean|كلين بالكيتل بل|shoulders
+kettlebell|Kettlebell Snatch|سناتش بالكيتل بل|shoulders
+kettlebell|Kettlebell Clean and Press|كلين آند بريس بالكيتل بل|shoulders
+kettlebell|Kettlebell Thruster|ثراستر بالكيتل بل|shoulders
+kettlebell|Kettlebell Complex|كومبلكس بالكيتل بل|back
+other|Medicine Ball Slam|ضرب الكرة الطبية|abs,shoulders
+other|Medicine Ball Wall Ball|وول بول|quads,shoulders
+other|Battle Rope Waves|حبال المعركة|shoulders
+other|Sandbag Clean|كلين بكيس الرمل|back
+other|Tire Flip|قلب الإطار|back,quads
+other|Atlas Stone Lift|رفع حجر أطلس|back
+other|Sledgehammer Strike|ضرب المطرقة|shoulders
+## cardio
+machine|Treadmill Run|جري على السير|quads
+machine|Treadmill Walk|مشي على السير|calves
+machine|Incline Treadmill Walk|مشي على السير بميل|glutes
+machine|Elliptical Trainer|جهاز الإيليبتكال|quads
+machine|Stationary Bike|دراجة ثابتة|quads
+machine|Spin Bike|دراجة سبينينغ|quads
+machine|Recumbent Bike|دراجة مريحة|quads
+machine|Rowing Machine|جهاز التجديف|back
+machine|Stair Climber|جهاز صعود الدرج|glutes
+machine|StairMaster|ستيرماستر|glutes
+machine|Assault Bike|دراجة أسولت|quads
+machine|SkiErg|سكي إرغ|back
+machine|Arc Trainer|جهاز آرك|glutes
+machine|Cross-Trainer|جهاز كروس تريينر|quads
+machine|VersaClimber|فيرساكلايمر|back
+bodyweight|Running (Outdoor)|جري في الخارج|quads
+bodyweight|Jogging|هرولة|quads
+bodyweight|Sprints|عدو سريع|hamstrings
+bodyweight|Hill Sprints|عدو سريع على المرتفع|glutes
+bodyweight|Jump Rope|نط الحبل|calves
+bodyweight|Jumping Jacks|قفز الجاك|calves
+bodyweight|High Knees|رفع الركبتين عالياً|quads
+bodyweight|Butt Kicks|ركلات الأرداف|hamstrings
+bodyweight|Shadow Boxing|ملاكمة وهمية|shoulders
+bodyweight|Swimming|سباحة|back
+bodyweight|Cycling (Outdoor)|دراجة هوائية في الخارج|quads
+bodyweight|Stair Running|ركض على الدرج|glutes
+bodyweight|Walking (Outdoor)|مشي في الخارج|calves
+bodyweight|Hiking|تسلق المرتفعات|glutes
+bodyweight|Skater Hops|قفز المتزلج|glutes
+bodyweight|Lateral Shuffle|حركة جانبية سريعة|glutes
+bodyweight|Boxing Bag Work|تمرين كيس الملاكمة|shoulders
+bodyweight|Plyo Lunge|لانج بلايومتري|quads
+bodyweight|Tuck Jump|قفزة الانطواء|quads
+bodyweight|Broad Jump|قفزة طويلة|glutes
+bodyweight|Mountain Climber (Cardio)|متسلق الجبال كارديو|abs
+bodyweight|Burpee (Cardio)|بيربي كارديو|chest
+other|Battle Ropes|حبال المعركة|shoulders
+other|Jump Rope (Weighted)|نط الحبل الثقيل|calves
+other|Sled Sprint|عدو بالزلاجة|quads
+other|Heavy Bag Rounds|جولات كيس الملاكمة|shoulders

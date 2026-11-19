@@ -1,0 +1,630 @@
+Chicken breast, skinless (grilled / boiled / roasted)|صدر دجاج بدون جلد (مشوي / مسلوق / محمص)
+Chicken breast, with skin|صدر دجاج مع الجلد
+Chicken thigh, skinless|فخذ دجاج بدون جلد
+Chicken thigh, with skin|فخذ دجاج مع الجلد
+Chicken drumstick, meat only|دبوس دجاج (لحم فقط)
+Chicken drumstick, with skin|دبوس دجاج مع الجلد
+Chicken wing, roasted, meat & skin|جناح دجاج محمص (لحم وجلد)
+Chicken leg quarter|ربع دجاجة (فخذ كامل)
+Chicken liver|كبدة دجاج
+Chicken heart|قلب دجاج
+Chicken gizzard|قوانص دجاج
+Chicken neck, edible meat|رقبة دجاج (اللحم المأكول)
+Chicken back, edible meat & skin|ظهر دجاج (لحم وجلد)
+Chicken skin|جلد دجاج
+Chicken feet|أرجل دجاج
+Chicken breast, fried/breaded|صدر دجاج مقلي / مقرمش
+Whole roasted chicken, meat & skin|دجاجة كاملة محمصة (لحم وجلد)
+Turkey breast, cooked|صدر ديك رومي مطبوخ
+Turkey thigh, cooked|فخذ ديك رومي مطبوخ
+Duck, roasted|بط محمص
+Beef, lean cooked|لحم بقر قليل الدهن مطبوخ
+Beef mince, medium-fat cooked|لحمة مفرومة متوسطة الدسم مطبوخة
+Beef steak, lean|ستيك بقر قليل الدهن
+Beef liver|كبدة بقر
+Beef heart|قلب بقر
+Beef kidney|كلاوي بقر
+Lamb, cooked|لحم غنم مطبوخ
+Lamb chops|ريش غنم
+Lamb liver|كبدة غنم
+Veal, cooked|لحم عجل مطبوخ
+Pork, lean cooked|لحم خنزير قليل الدهن مطبوخ
+Beef sausage|سجق بقر
+Chicken sausage|سجق دجاج
+Sujuk|سجق أرمني (سُجُق)
+Bacon|لحم مقدد (بيكون)
+Beef mortadella|مرتديلا بقر
+Turkey slices|شرائح ديك رومي
+Kafta, grilled|كفتة مشوية
+Chicken tenders, breaded|أصابع دجاج مقرمشة
+Chicken breast deli slices|شرائح صدر دجاج (ديلي)
+Tuna, fresh cooked|تونة طازجة مطبوخة
+Canned tuna in water, drained|تونة معلبة بالماء (مصفاة)
+Canned tuna in oil, drained|تونة معلبة بالزيت (مصفاة)
+Salmon, cooked|سلمون مطبوخ
+Sardines, canned in oil, drained|سردين معلب بالزيت (مصفى)
+Sardines, fresh, grilled (flesh only)|سردين طازج مشوي (اللحم فقط)
+Mackerel, cooked|سمك أسقمري (ماكريل) مطبوخ
+Sea bass, cooked|سمك قاروص مطبوخ
+Sea bream, cooked|سمك دنيس مطبوخ
+Cod, cooked|سمك القد مطبوخ
+Haddock, cooked|سمك الحدوق مطبوخ
+Tilapia, cooked|سمك البلطي مطبوخ
+Anchovies|أنشوجة
+Shrimp / prawns, cooked|جمبري (قريدس) مطبوخ
+Squid, fried|حبار مقلي
+Octopus, cooked|أخطبوط مطبوخ
+Mussels, cooked|بلح البحر مطبوخ
+Clams, cooked|محار مطبوخ
+Crab meat|لحم سلطعون
+Lobster|كركند
+Fish fingers, breaded|أصابع سمك مقرمشة
+Fried fish|سمك مقلي
+Grilled fish|سمك مشوي
+White rice, cooked|رز أبيض مطبوخ
+White rice, dry|رز أبيض نيّء
+Brown rice, cooked|رز أسمر مطبوخ
+Basmati rice, cooked|رز بسمتي مطبوخ
+Bulgur, cooked|برغل مطبوخ
+Bulgur, dry|برغل نيّء
+Freekeh, cooked|فريكة مطبوخة
+Oats, dry|شوفان نيّء
+Pasta / spaghetti, cooked|معكرونة / سباغيتي مطبوخة
+Pasta, dry|معكرونة نيّئة
+Whole-wheat pasta, cooked|معكرونة قمح كامل مطبوخة
+Couscous, cooked|كسكسي مطبوخ
+Quinoa, cooked|كينوا مطبوخة
+Barley, cooked|شعير مطبوخ
+White / toast bread|خبز أبيض / توست
+Lebanese pita bread|خبز عربي لبناني
+Whole-wheat bread|خبز قمح كامل
+French bread|خبز فرنسي (باغيت)
+Burger bun|خبز برغر
+Hot dog bun|خبز هوت دوغ
+Bagel|بيغل
+Croissant, plain|كرواسان سادة
+Puff pastry|عجينة ملفوفة (باف باستري)
+Milk, whole|حليب كامل الدسم
+Milk, semi-skimmed|حليب نصف دسم
+Milk, skimmed|حليب خالي الدسم
+Powdered whole milk|حليب بودرة كامل الدسم
+Powdered skim milk|حليب بودرة خالي الدسم
+Greek yogurt, plain|زبادي يوناني سادة
+Plain yogurt, whole milk|لبن (زبادي) سادة كامل الدسم
+Low-fat yogurt|لبن (زبادي) قليل الدسم
+Labneh|لبنة
+Greek yogurt, 0%|زبادي يوناني ٠٪ دسم
+Kefir|كفير
+Akkawi cheese|جبنة عكاوي
+Halloumi|جبنة حلوم
+Mozzarella (part-skim)|موزاريلا (قليلة الدسم)
+Cheddar|شيدر
+Kashkaval|جبنة قشقوان
+Feta|جبنة فيتا
+Parmesan|بارميزان
+Cream cheese|جبنة كريمية
+Cottage cheese|جبنة قريش (كوتيج)
+Ricotta|ريكوتا
+Cream|قشطة (كريما)
+Ice cream, vanilla|بوظة فانيلا
+Potato|بطاطا
+Boiled potato|بطاطا مسلوقة
+Sweet potato|بطاطا حلوة
+French fries|بطاطا مقلية
+Tomato (incl. cherry)|بندورة (مع الكرزية)
+Cucumber|خيار
+Lettuce|خس
+Romaine lettuce|خس رومين
+Spinach|سبانخ
+Parsley|بقدونس
+Mint|نعنع
+Coriander|كزبرة
+Rocket|جرجير
+Kale|كرنب أجعد (كيل)
+Cabbage|ملفوف (كرنب)
+Red cabbage|ملفوف أحمر
+Cauliflower|قرنبيط
+Broccoli|بروكولي
+Carrots|جزر
+Beetroot|شمندر
+Radish|فجل
+Turnip|لفت
+Eggplant|باذنجان
+Zucchini|كوسا
+Green beans|فاصولياء خضراء
+Peas|بازلاء
+Okra|بامية
+Molokhia leaves|ورق ملوخية
+Artichoke|أرضي شوكي
+Bell pepper|فليفلة
+Chili pepper|فلفل حار
+Onion|بصل
+Spring onion|بصل أخضر
+Garlic|ثوم
+Leek|كراث
+Celery|كرفس
+Mushrooms|فطر (مشروم)
+Pumpkin|يقطين (قرع)
+Corn|ذرة
+Asparagus|هليون
+Fennel|شمرة
+Chicory|هندباء
+Swiss chard|سلق
+Olives, green|زيتون أخضر
+Olives, black|زيتون أسود
+Pickled cucumber|مخلل خيار
+Pickled turnips|مخلل لفت
+Pickled eggplant|مخلل باذنجان
+Apple|تفاح
+Banana|موز
+Orange|برتقال
+Mandarin|يوسف أفندي (مندلينا)
+Lemon|ليمون
+Grapefruit|غريب فروت
+Grapes|عنب
+Strawberries|فريز
+Blueberries|توت أزرق
+Raspberries|توت العليق
+Blackberries|توت أسود
+Watermelon|بطيخ أحمر
+Melon / cantaloupe|شمام
+Mango|مانغا
+Pineapple|أناناس
+Kiwi|كيوي
+Avocado|أفوكادو
+Peach|دراق
+Nectarine|دراق أملس (نكتارين)
+Plum|خوخ (برقوق)
+Apricot|مشمش
+Cherries|كرز
+Figs|تين
+Dates, fresh|تمر طازج
+Dates, dried|تمر مجفف
+Pomegranate|رمان
+Pear|إجاص (كمثرى)
+Persimmon|كاكي
+Loquat|أكي دنيا
+Guava|جوافة
+Papaya|بابايا
+Passion fruit|فاكهة العاطفة (باشن فروت)
+Coconut flesh|جوز الهند (لب)
+Mulberries|توت شامي
+Prickly pear|صبّار (تين شوكي)
+Raisins|زبيب
+Dried apricots|مشمش مجفف (قمر الدين)
+Prunes|برقوق مجفف
+Dried figs|تين مجفف
+Chickpeas, cooked|حمص حب مطبوخ
+Lentils, cooked (brown or red)|عدس مطبوخ (بني أو أحمر)
+Fava beans, cooked|فول مطبوخ
+White beans, cooked|فاصولياء بيضاء مطبوخة
+Kidney beans, cooked|فاصولياء حمراء مطبوخة
+Black beans, cooked|فاصولياء سوداء مطبوخة
+Butter beans, cooked|فاصولياء عريضة (لوبيا زبدة) مطبوخة
+Soybeans, cooked|فول الصويا مطبوخ
+Edamame|إدامامي
+Split peas, cooked|بازلاء مجروشة مطبوخة
+Falafel|فلافل
+Tofu|توفو
+Tempeh|تمبيه
+Seitan|سيتان
+Almonds|لوز
+Walnuts|جوز
+Cashews|كاجو
+Pistachios|فستق حلبي
+Peanuts|فول سوداني
+Hazelnuts|بندق
+Pecans|بيكان
+Brazil nuts|جوز البرازيل
+Macadamia nuts|مكاديميا
+Pine nuts|صنوبر
+Pumpkin seeds|بزر يقطين
+Sunflower seeds|بزر عباد الشمس
+Chia seeds|بذور الشيا
+Flaxseeds|بذور الكتان
+Sesame seeds|سمسم
+Tahini|طحينة
+Peanut butter|زبدة الفول السوداني
+Almond butter|زبدة اللوز
+Hummus|حمص بطحينة
+Fatteh|فتة
+Fattoush|فتوش
+Tabbouleh|تبولة
+Baba ghanouj|بابا غنوج
+Moutabal|متبل
+Foul moudamas|فول مدمس
+Balila|بليلة
+Mujadara|مجدرة
+Mujadara hamra|مجدرة حمرا
+Kibbeh nayyeh|كبة نية
+Kibbeh bil sanieh|كبة بالصينية
+Fried kibbeh|كبة مقلية
+Kibbeh labanieh|كبة لبنية
+Koussa mahshi|كوسا محشي
+Malfouf mahshi|ملفوف محشي
+Warak enab|ورق عنب
+Vegetarian warak enab|ورق عنب نباتي (بالزيت)
+Batata mahshi|بطاطا محشية
+Sheikh el mahshi|شيخ المحشي (باذنجان)
+Chich barak|شيش برك
+Kafta bil sanieh|كفتة بالصينية
+Kafta with potatoes|كفتة مع بطاطا
+Shish tawook|شيش طاووق
+Chicken shawarma|شاورما دجاج
+Meat shawarma|شاورما لحمة
+Grilled kebab|كباب مشوي
+Moghrabieh|مغربية
+Sayadieh|صيادية
+Loubieh bil zeit|لوبياء بالزيت
+Loubieh bil lahme|لوبياء باللحمة
+Bamia|بامية
+Mloukhieh|ملوخية
+Hindbeh bil zeit|هندباء بالزيت
+Spinach stew|يخنة سبانخ
+Potato stew|يخنة بطاطا
+Fasoulia|فاصوليا
+Moussaka, Lebanese style|مسقعة لبنانية
+Riz bi lahme|رز باللحمة
+Riz bi dajaj|رز بالدجاج
+Freekeh with chicken|فريكة بالدجاج
+Bulgur bi banadoura|برغل ببندورة
+Manoushe b zaatar|مناقيش زعتر
+Manoushe b jebne|مناقيش جبنة
+Manoushe b lahme|مناقيش لحمة
+Manoushe b kishk|مناقيش كشك
+Manoushe b keshek and cheese|مناقيش كشك وجبنة
+Manoushe b jebne w zaatar|مناقيش جبنة وزعتر
+Manoushe b sujuk|مناقيش سجق
+Manoushe b kashkaval|مناقيش قشقوان
+Manoushe b halloumi|مناقيش حلوم
+Manoushe b spinach|مناقيش سبانخ
+Manoushe b chocolate|مناقيش شوكولا
+Manoushe b labneh|مناقيش لبنة
+Manoushe plain|مناقيش سادة
+Fatayer spinach|فطاير سبانخ
+Fatayer cheese|فطاير جبنة
+Sfiha|صفيحة
+Lahm bi ajeen (meat pie)|لحم بعجين
+Cheese croissant|كرواسان جبنة
+Zaatar croissant|كرواسان زعتر
+Vegetable rice|رز بالخضار
+Mushroom rice|رز بالفطر
+Lentil soup|شوربة عدس
+Vegetable soup|شوربة خضار
+Tomato soup|شوربة بندورة
+Pumpkin soup|شوربة يقطين
+Potato soup|شوربة بطاطا
+Mushroom soup|شوربة فطر
+Vegetable pasta|معكرونة بالخضار
+Macaroni with tomato sauce|مكرونة بصلصة البندورة
+Pesto pasta|معكرونة بالبيستو
+Eggplant parmesan|باذنجان بارميزان
+Vegetable lasagna|لازانيا خضار
+Margherita pizza|بيتزا مارغريتا
+Mushroom pizza|بيتزا فطر
+Grilled vegetables|خضار مشوية
+Stuffed peppers|فليفلة محشية
+Grilled eggplant|باذنجان مشوي
+Grilled zucchini|كوسا مشوية
+Roasted cauliflower|قرنبيط محمص
+Baked potatoes|بطاطا مشوية بالفرن
+Potato wedges|بطاطا ودجز
+Mashed potatoes|بطاطا مهروسة (بيوريه)
+Potato gratin|بطاطا غراتان
+Chickpea stew|يخنة حمص
+Lentil stew|يخنة عدس
+Vegetable curry|كاري خضار
+Ratatouille|راتاتوي
+Shakshuka|شكشوكة
+Vegetable omelette|عجة بالخضار
+Beef burger|برغر لحمة
+Cheeseburger|تشيز برغر
+Double burger|برغر دبل
+Chicken burger|برغر دجاج
+Crispy chicken burger|برغر دجاج مقرمش
+Zinger burger|برغر زنجر
+Chicken wrap|راب دجاج
+Beef wrap|راب لحمة
+Chicken shawarma sandwich|ساندويش شاورما دجاج
+Beef shawarma sandwich|ساندويش شاورما لحمة
+Chicken nuggets|ناغتس دجاج
+Fried chicken wings|أجنحة دجاج مقلية
+Chicken tenders|أصابع دجاج (تندرز)
+Hot dog|هوت دوغ
+Beef taco|تاكو لحمة
+Burrito|بوريتو
+Quesadilla|كيساديا
+Nachos with cheese|ناتشوز بالجبنة
+Onion rings|حلقات بصل
+Mozzarella sticks|أصابع موزاريلا
+Club sandwich|كلوب ساندويش
+Panini|بانيني
+Grilled cheese sandwich|ساندويش جبنة مشوي
+Loaded fries|بطاطا مقلية محمّلة
+Fried eggs|بيض مقلي
+Boiled eggs|بيض مسلوق
+Scrambled eggs|بيض مخفوق (سكرامبل)
+Omelette|عجة (أومليت)
+Zaatar with oil|زعتر بالزيت
+Olives|زيتون
+Chocolate spread|شوكولا للدهن
+Cornflakes|كورن فليكس
+Granola|غرانولا
+Oatmeal, prepared with water|شوفان مطبوخ بالماء
+Pancakes|بانكيك
+Waffles|وافل
+French toast|فرنش توست
+Muffin|مافن
+Snickers|سنيكرز
+Mars|مارس
+Twix|تويكس
+Bounty|باونتي
+Galaxy Smooth Milk|غالاكسي بالحليب
+Galaxy Caramel|غالاكسي كراميل
+Galaxy Fruit & Nut|غالاكسي فواكه ومكسرات
+Kinder Chocolate|كيندر شوكولا
+Kinder Bueno|كيندر بوينو
+Kinder Bueno White|كيندر بوينو وايت
+Kinder Country|كيندر كانتري
+Kinder Maxi|كيندر ماكسي
+KitKat 4 Finger|كيت كات ٤ أصابع
+KitKat Chunky|كيت كات شانكي
+KitKat Dark|كيت كات دارك
+Crunch|كرنش
+Lion|ليون
+Cadbury Dairy Milk|كادبوري ديري ميلك
+Cadbury Oreo|كادبوري أوريو
+Milka Alpine Milk|ميلكا ألباين ميلك
+Milka Oreo|ميلكا أوريو
+Toblerone Milk|توبلرون بالحليب
+Lindt Excellence Dark|ليندت إكسلنس دارك
+Ritter Sport Milk|ريتر سبورت بالحليب
+Reese's Peanut Butter Cups|ريسز أكواب زبدة الفول السوداني
+M&M's Milk Chocolate|إم آند إمز شوكولا بالحليب
+Maltesers|مالتيزرز
+Hershey's Milk Chocolate|هيرشيز شوكولا بالحليب
+Flutes|فلوتس
+Ferrero Rocher|فيريرو روشيه
+Raffaello|رافاييلو
+Ferrero Rondnoir|فيريرو روندنوار
+Kinder Schoko-Bons|كيندر شوكو بونز
+Kinder Joy|كيندر جوي
+Bueno Mini|بوينو ميني
+Maltesers Teasers|مالتيزرز تيزرز
+M&M's Peanut|إم آند إمز فول سوداني
+Smarties|سمارتيز
+Chocolate-covered raisins|زبيب مغطى بالشوكولا
+Chocolate-coated almonds|لوز مغطى بالشوكولا
+Chocolate-covered peanuts|فول سوداني مغطى بالشوكولا
+Lay's Classic|ليز كلاسيك
+Lay's Salt & Vinegar|ليز ملح وخل
+Lay's Paprika|ليز بابريكا
+Lay's Ketchup|ليز كاتشب
+Lay's Barbecue|ليز باربكيو
+Pringles Original|برينغلز أصلي
+Pringles Sour Cream|برينغلز كريمة حامضة
+Pringles Paprika|برينغلز بابريكا
+Pringles Hot & Spicy|برينغلز حار
+Master Classic|ماستر كلاسيك
+Snips|سنيبس
+Fantasia|فانتازيا
+Kettle chips|شيبس كيتل
+Baked potato chips|شيبس بطاطا مخبوز
+Doritos Nacho Cheese|دوريتوس ناتشو جبنة
+Doritos Cool Ranch|دوريتوس كول رانش
+Doritos Sweet Chili|دوريتوس سويت تشيلي
+Takis Fuego|تاكيس فويغو
+Takis Blue Heat|تاكيس بلو هيت
+Cheetos Crunchy|تشيتوس مقرمش
+Cheetos Puffs|تشيتوس منفوخ
+Bugles|بيوغلز
+Cheese balls|كرات الجبنة
+Corn puffs|منفوخ الذرة
+Tortilla chips|شيبس التورتيلا
+Nacho chips|شيبس ناتشو
+Cheese curls|لفائف الجبنة
+Oreo Original, 3 cookies|أوريو أصلي (٣ بسكويتات)
+Oreo Double Cream, 3 cookies|أوريو دبل كريم (٣ بسكويتات)
+Oreo Golden, 3 cookies|أوريو ذهبي (٣ بسكويتات)
+Chips Ahoy, 3 cookies|تشيبس أهوي (٣ بسكويتات)
+Tuc Original|توك أصلي
+Ritz|ريتز
+Digestive biscuits|بسكويت دايجستف
+Chocolate Digestive|دايجستف بالشوكولا
+Marie biscuits|بسكويت ماري
+Petit Beurre|بتي بور
+Shortbread|شورتبريد
+Pretzels|بريتزل
+Salted crackers|مقرمشات مالحة
+Cheese crackers|مقرمشات بالجبنة
+Breadsticks|أصابع الخبز
+Loacker Classic|لواكر كلاسيك
+Loacker Chocolate|لواكر شوكولا
+Caprice|كابريس
+Hanuta|هانوتا
+Biscolata|بيسكولاتا
+Vanilla wafers|ويفر فانيلا
+Chocolate wafers|ويفر شوكولا
+Hazelnut wafers|ويفر بندق
+7Days Croissant chocolate|سفن دايز كرواسان شوكولا
+7Days Croissant vanilla|سفن دايز كرواسان فانيلا
+7Days Croissant strawberry|سفن دايز كرواسان فراولة
+Barni chocolate|بارني شوكولا
+Barni milk|بارني حليب
+Kinder Delice|كيندر ديلايس
+Packaged Swiss roll|سويس رول معبأ
+Chocolate muffin|مافن شوكولا
+Plain muffin|مافن سادة
+Brownie|براوني
+Packaged donut|دونات معبأ
+Cream-filled cake|كيك محشو بالكريمة
+Pain au chocolat|بان أو شوكولا
+Haribo Goldbears|هاريبو غولدبيرز
+Haribo Happy Cola|هاريبو هابي كولا
+Chupa Chups lollipop|مصاصة تشوبا تشبس
+Mentos|منتوس
+Skittles|سكيتلز
+Marshmallows|مارشميلو
+Jelly candies|حلوى الجيلي
+Toffee|توفي
+Caramel candy|حلوى الكراميل
+Chewing gum, sugared|علكة بالسكر
+Hard candy|حلوى صلبة
+Plain air-popped popcorn|فشار سادة
+Butter popcorn|فشار بالزبدة
+Caramel popcorn|فشار بالكراميل
+Microwave popcorn|فشار الميكروويف
+Roasted peanuts|فول سوداني محمص
+Roasted cashews|كاجو محمص
+Roasted almonds|لوز محمص
+Pistachios, roasted (snack pack)|فستق حلبي محمص (كيس سناك)
+Mixed nuts|مكسرات مشكلة
+Roasted chickpeas|حمص محمص (قضامة)
+Rice cakes, 2 cakes|كعك الرز (قطعتان)
+Granola bar|لوح غرانولا
+Cereal bar|لوح حبوب
+Protein bar|لوح بروتين
+Fruit bar|لوح فواكه
+Date bar|لوح تمر
+Dried mango|مانغا مجففة
+Beef jerky|لحم بقر مجفف (جيركي)
+Seaweed snack|سناك الأعشاب البحرية
+Rice crackers|مقرمشات الرز
+Fresh orange juice|عصير برتقال طازج
+Apple juice|عصير تفاح
+Mango juice|عصير مانغا
+Pineapple juice|عصير أناناس
+Grape juice|عصير عنب
+Pomegranate juice|عصير رمان
+Lemonade, sweetened|ليموناضة محلاة
+Carrot juice|عصير جزر
+Watermelon juice|عصير بطيخ
+Strawberry juice|عصير فريز
+Mixed fruit juice|عصير فواكه مشكلة
+Guava juice|عصير جوافة
+Peach juice|عصير دراق
+Apricot juice|عصير مشمش
+Cocktail juice|عصير كوكتيل
+Banana smoothie|سموذي موز
+Mango smoothie|سموذي مانغا
+Cappy Orange|كابي برتقال
+Rani Orange|راني برتقال
+Rani Float|راني فلوت
+Capri-Sun|كابري صن
+Tropicana Orange|تروبيكانا برتقال
+Minute Maid Orange|مينيت ميد برتقال
+Fruit nectar|نكتار فواكه
+Juice drink|مشروب عصير
+Coca-Cola|كوكا كولا
+Pepsi|بيبسي
+Coca-Cola Zero|كوكا كولا زيرو
+Pepsi Max|بيبسي ماكس
+Sprite|سبرايت
+7UP|سفن أب
+Fanta Orange|فانتا برتقال
+Mirinda|ميرندا
+Schweppes Tonic|شويبس تونيك
+Schweppes Bitter Lemon|شويبس ليمون مر
+Mountain Dew|ماونتن ديو
+Dr Pepper|دكتور بيبر
+Ginger ale|جنجر آيل
+Red Bull Original|ريد بول أصلي
+Red Bull Sugarfree|ريد بول بدون سكر
+Monster Original|مونستر أصلي
+Monster Ultra|مونستر ألترا
+Burn Energy|برن إنرجي
+Powerade|باوراد
+Gatorade|غاتوريد
+Isotonic sports drink|مشروب رياضي إيزوتوني
+Jallab|جلاب
+Tamarind juice|عصير تمر هندي
+Licorice drink|عرق السوس
+Ayran|عيران
+Rose water drink|مشروب ماء الورد
+Fresh lemonade|ليموناضة طازجة
+Karkade|كركديه
+Qamar al-Din|قمر الدين
+Black coffee|قهوة سوداء
+Espresso|إسبريسو
+Turkish coffee, unsweetened|قهوة تركية سادة
+Arabic coffee, unsweetened|قهوة عربية سادة
+Tea, unsweetened|شاي بدون سكر
+Green tea|شاي أخضر
+Cappuccino|كابتشينو
+Latte|لاتيه
+Hot chocolate|شوكولا ساخنة
+Chocolate milk|حليب بالشوكولا
+Milkshake, vanilla|ميلك شيك فانيلا
+Milkshake, chocolate|ميلك شيك شوكولا
+Milkshake, strawberry|ميلك شيك فراولة
+Protein shake, water-based|مخفوق بروتين (بالماء)
+Baklava|بقلاوة
+Knefeh|كنافة
+Maamoul dates|معمول بالتمر
+Maamoul pistachio|معمول بالفستق
+Meghli|مغلي (منقوع الرز والقرفة)
+Halawet el jibn|حلاوة الجبن
+Osmalieh|عثملية
+Atayef|قطايف
+Znoud el sit|زنود الست
+Mafroukeh|مفروكة
+Warbat|وربات
+Namoura|نمّورة
+Sfouf|سفوف
+Ghazal el banat|غزل البنات (حلاوة)
+Rice pudding|رز بحليب
+Muhallabieh|مهلبية
+Ice cream|بوظة (آيس كريم)
+Gelato|جيلاتو
+Chocolate cake|كيك شوكولا
+Cheesecake|تشيز كيك
+Brownies|براونيز
+Cookies|كوكيز
+Donuts|دونات
+Cinnamon rolls|لفائف القرفة (سينابون)
+Tiramisu|تيراميسو
+Crepes|كريب
+Chocolate mousse|موس شوكولا
+Custard|كاسترد
+Fruit salad|سلطة فواكه
+Cotton candy|غزل البنات (سكر)
+Mayonnaise|مايونيز
+Ketchup|كاتشب
+Mustard|خردل
+BBQ sauce|صلصة باربكيو
+Ranch|رانش
+Garlic sauce (toum)|ثومية (توم)
+Tahini sauce|صلصة طحينة
+Hot sauce|صلصة حارة
+Sriracha|سريراتشا
+Soy sauce|صلصة الصويا
+Sweet chili sauce|صلصة تشيلي حلوة
+Pesto|بيستو
+Tomato sauce|صلصة بندورة
+Alfredo sauce|صلصة ألفريدو
+Pomegranate molasses|دبس رمان
+Vinegar|خل
+Honey|عسل
+Date syrup|دبس تمر
+Grape molasses|دبس عنب
+Jam|مربى
+Olive oil|زيت زيتون
+Sunflower oil|زيت دوار الشمس
+Vegetable oil|زيت نباتي
+Coconut oil|زيت جوز الهند
+Butter|زبدة
+Ghee|سمنة
+Margarine|مارغرين
+White flour|طحين أبيض
+Whole wheat flour|طحين قمح كامل
+Almond flour|طحين اللوز
+Cornstarch|نشا الذرة
+White sugar|سكر أبيض
+Brown sugar|سكر بني
+Powdered sugar|سكر ناعم (بودرة)
+Cocoa powder, unsweetened|كاكاو غير محلى
+Chocolate powder, sweetened|بودرة شوكولا محلاة
+Baking powder|بيكنغ باودر
+Dry yeast|خميرة جافة
+Breadcrumbs|بقسماط (فتات الخبز)
+Vanilla sugar|سكر الفانيلا
