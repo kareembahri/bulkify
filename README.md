@@ -12,6 +12,20 @@ Installable as a phone app (PWA), dark-first, built with Next.js, Supabase and N
   unlimited snacks and custom meals, a manual entry box, daily note. Every macro bar goes from red to green as you reach your target.
 - **Home:** today's exercises and today's calories/protein against your targets (tap either to see the list), plus the dates you
   started Bulkify and the gym.
+- **Targets as a range:** each daily target (calories, protein, carbs, fat) is the middle of a range. The minimum (90 %) and
+  maximum (110 %) are written in small numbers under it. Bars end at the maximum; past it only the number changes, and on a
+  cut or maintain the colour turns red (on a bulk it stays green).
+- **Cardio** (Workout page, under the workout), in three groups: *Outside* (running, with distance, time and pace),
+  *Treadmill* (treadmill, incline walk) and *Bike & rope* (stationary bike, jump rope), each with easy / moderate / hard.
+  Calories burned use your own resting burn (sex, age, height, weight × MET). The Food page shows the calories burned that
+  day, and Home shows your outdoor running km today and this week. Cardio exercises, kettlebell and bands are no longer
+  offered in the exercise picker (old logs keep their names).
+- **Friends** (from the header): everyone gets a 6-digit ID (the owner, kareem.m.bahri@gmail.com, is always `000000`).
+  Add a friend by ID or share your invite link (`/invite/123456`): opening it takes the person to Friends (after signing in
+  or signing up) and sends you a request automatically. Once accepted, you both see each other's food % for today, latest workout (exercises, sets, reps),
+  top 3 PRs, and a 7-day leaderboard (20 points per training day, 10 per day with calories and protein in range, 1 per set).
+- **Delete account** (Settings, under Sign out): needs the password, or an emailed link if the password is forgotten.
+  It deletes all Bulkify data; the login itself stays because other apps share the Supabase project.
 - **Calendar** (from the header): year → month → day, with green / red months and days.
 - **Progress:** training this week vs. last week, nutrition vs. needed for 1 day to 1 year or a custom range, and your top 5 lifts.
 - Made by **Kareem Bahri**: [instagram.com/kareem_bahri](https://www.instagram.com/kareem_bahri/)
@@ -57,15 +71,21 @@ In Supabase, open **SQL Editor → New query**. For each file below **in this or
 | 2 | `supabase/migrations/002_bulkify_functions.sql` | Trigger that blocks a 6th set, profile bootstrap, daily nutrition totals, atomic set saving |
 | 3 | `supabase/migrations/003_bulkify_rls.sql` | Row Level Security on every `bulkify_` table, and table access for signed-in users |
 | 4 | `supabase/migrations/004_bulkify_v2.sql` | Body & goal fields, the weight log, meal types (one breakfast / lunch / dinner a day), the 9-exercise limit |
-| 5 | `supabase/migrations/010_seed_exercises.sql` | The 592-exercise library (English + Arabic) |
-| 6 | `supabase/migrations/011_seed_foods.sql` | The 630 foods from the CSV, with Arabic names |
+| 5 | `supabase/migrations/005_bulkify_v3.sql` | Cardio log, 6-digit friend IDs, friend requests, the leaderboard, and account deletion |
+| 6 | `supabase/migrations/010_seed_exercises.sql` | The 592-exercise library (English + Arabic) |
+| 7 | `supabase/migrations/011_seed_foods.sql` | The 630 foods from the CSV, with Arabic names |
 
-**Updating from an earlier Bulkify?** Run `003_bulkify_rls.sql` and `004_bulkify_v2.sql` again. Your data stays.
+**Updating from an earlier Bulkify?** Run `003_bulkify_rls.sql`, `004_bulkify_v2.sql` and `005_bulkify_v3.sql`. Your data stays,
+and every existing user gets their 6-digit ID.
+
+**Delete-account emails** use Supabase's **Magic Link** email template (Authentication → Emails). The built-in email sender only
+allows a few emails per hour; for real users, set up your own SMTP under Authentication → SMTP Settings. Make sure
+`https://<your-site>/**` is in Authentication → URL Configuration → Redirect URLs, so the link can open `/delete-account`.
 
 "Success. No rows returned" is normal. Running a file again is harmless.
 
 The two seed files are generated from `tools/exercises.txt`, `tools/food_ar.txt` and `supabase/seed/Lebanon_Food_Database_cleaned.csv`.
-If you edit those lists, run `python3 tools/gen_seeds.py`, then re-run files 5 and 6.
+If you edit those lists, run `python3 tools/gen_seeds.py`, then re-run files 6 and 7.
 
 ### Optional: a demo account with 2 months of data
 

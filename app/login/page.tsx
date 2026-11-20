@@ -1,6 +1,6 @@
 'use client';
 import { AnimatePresence, motion } from 'framer-motion';
-import { KeyRound, Mail, User } from 'lucide-react';
+import { KeyRound, Mail, User, UserPlus } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -12,6 +12,7 @@ import { Credit } from '@/components/ui/Footer';
 import { Panel } from '@/components/ui/Panel';
 import { Segmented } from '@/components/ui/Segmented';
 import { useAuth } from '@/lib/auth';
+import { peekPendingInvite } from '@/lib/invite';
 import { sb } from '@/lib/supabase';
 
 type Mode = 'in' | 'up' | 'forgot';
@@ -29,7 +30,10 @@ export default function LoginPage() {
   const [err, setErr] = useState<string | null>(null);
   const [info, setInfo] = useState<string | null>(null);
 
-  useEffect(() => { if (status === 'ready') router.replace('/'); }, [status, router]);
+  const [invite, setInvite] = useState<string | null>(null);
+  useEffect(() => setInvite(peekPendingInvite()), []);
+  // After signing in, an invite link sends you straight to Friends.
+  useEffect(() => { if (status === 'ready') router.replace(peekPendingInvite() ? '/friends' : '/'); }, [status, router]);
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -79,6 +83,12 @@ export default function LoginPage() {
           </Panel>
         ) : (
           <Panel edge className="p-5 sm:p-6">
+            {invite && (
+              <p className="mb-4 flex items-center gap-2 rounded-2xl bg-accent/10 px-3 py-2.5 text-sm ring-1 ring-accent/30">
+                <UserPlus className="size-4 shrink-0 text-accent" />
+                <span>{t('friends.inviteLogin', { code: invite })}</span>
+              </p>
+            )}
             {mode !== 'forgot' && (
               <Segmented className="mb-5 w-full" value={mode} onChange={(m) => { setMode(m); setErr(null); }}
                 options={[{ value: 'in', label: t('auth.signIn') }, { value: 'up', label: t('auth.signUp') }]} />

@@ -3,15 +3,16 @@ import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { useFmt } from '@/lib/format';
 import type { Totals } from '@/lib/nutrition';
-import { ratioOf, RED_AT, score, scoreColor, type Mode } from '@/lib/targets';
+import { GREEN_FROM, GREEN_TO, rangeOf, ratioOf, score, scoreColor, type Mode } from '@/lib/targets';
 import type { Profile } from '@/lib/types';
 
 type Key = 'kcal' | 'protein' | 'carbs' | 'fat';
 
 /**
- * Calories and macros eaten vs. the daily targets from Settings. Each bar starts
- * red at 0 and turns green near 100 %; on a cut or maintain it turns red again
- * when you go too far over (bulk stays green).
+ * Calories and macros eaten vs. the daily targets from Settings. The target is
+ * the middle of a range (minimum 90 %, maximum 110 %). The bar runs from 0 to the
+ * maximum: it starts red, is green inside the range, and past the maximum stays
+ * full with only the number and (on a cut or maintain) the colour changing.
  */
 export function MacroBars({ totals, profile, compact }: { totals: Totals; profile: Profile; compact?: boolean }) {
   const t = useTranslations();
@@ -31,10 +32,14 @@ export function MacroBars({ totals, profile, compact }: { totals: Totals; profil
         const ratio = ratioOf(r.value, r.goal);
         const s = score(ratio, mode);
         const color = scoreColor(s);
-        // the bar shows up to 135 % so "too much" is visible; the tick marks 100 %
-        const scaleMax = Math.max(RED_AT, ratio);
+        // The bar ends at the maximum (110 % of the target). Going over only changes
+        // the number and, on a cut or maintain, the colour. The tick marks the target.
+        const scaleMax = GREEN_TO;
         const w = Math.min(ratio / scaleMax, 1) * 100;
         const tickAt = (1 / scaleMax) * 100;
+        const zoneFrom = (GREEN_FROM / scaleMax) * 100;
+        const zoneTo = 100;
+        const range = rangeOf(r.goal);
         const state = s >= 1 ? 'ok' : ratio > 1 ? 'over' : 'under';
         return (
           <div key={r.key}>
@@ -55,8 +60,15 @@ export function MacroBars({ totals, profile, compact }: { totals: Totals; profil
                 initial={{ width: 0 }} animate={{ width: `${w}%` }} transition={{ type: 'spring', stiffness: 70, damping: 18, delay: i * 0.06 }}>
                 <span className="absolute inset-0 -translate-x-full animate-shimmer bg-gradient-to-r from-transparent via-white/25 to-transparent" />
               </motion.div>
+              {r.goal ? <div className="absolute inset-y-0 bg-good/20" style={{ insetInlineStart: `${zoneFrom}%`, width: `${zoneTo - zoneFrom}%` }} aria-hidden /> : null}
               <div className="absolute inset-y-0 w-0.5 bg-ink/60" style={{ insetInlineStart: `${tickAt}%` }} aria-hidden />
             </div>
+            {range && (
+              <p className="num mt-1 flex justify-between text-[11px] text-muted">
+                <span>{t('targets.min')} {f.n0(range.min)}{r.unit}</span>
+                <span>{t('targets.max')} {f.n0(range.max)}{r.unit}</span>
+              </p>
+            )}
           </div>
         );
       })}

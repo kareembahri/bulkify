@@ -1,6 +1,6 @@
 'use client';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Plus, Target, UtensilsCrossed } from 'lucide-react';
+import { Flame, Plus, Target, UtensilsCrossed } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
@@ -16,8 +16,9 @@ import { Panel, SectionTitle } from '@/components/ui/Panel';
 import { EmptyState, ErrorState, PageSkeleton } from '@/components/ui/States';
 import { useToast } from '@/components/ui/Toast';
 import { useProfile } from '@/lib/auth';
-import { addItems, copyMeal, createMeal, deleteItem, deleteMeal, loadMeals, loadNote, renameMeal, saveNote, updateItem, type NewItem } from '@/lib/data';
+import { addItems, copyMeal, createMeal, deleteItem, deleteMeal, loadCardio, loadMeals, loadNote, renameMeal, saveNote, updateItem, type NewItem } from '@/lib/data';
 import { addDays, isValidISO, today } from '@/lib/dates';
+import { useFmt } from '@/lib/format';
 import { totals } from '@/lib/nutrition';
 import { invalidate, setData, useQuery } from '@/lib/query';
 import { LIMITS, MAIN_MEALS, type Meal, type MealItem, type MealKind } from '@/lib/types';
@@ -36,6 +37,9 @@ function FoodScreen() {
   const date = isValidISO(params.get('date')) ? params.get('date')! : today();
   const key = `meals:${date}`;
   const meals = useQuery(key, () => loadMeals(date));
+  const cardio = useQuery(`cardio:${date}`, () => loadCardio(date));
+  const burned = (cardio.data ?? []).reduce((s, e) => s + e.kcal, 0);
+  const f = useFmt();
   const yesterday = useQuery(`meals:${addDays(date, -1)}`, () => loadMeals(addDays(date, -1)));
 
   const [mealSheet, setMealSheet] = useState(false);
@@ -105,7 +109,14 @@ function FoodScreen() {
                 </Link>
               }>{t('food.needed')}</SectionTitle>
               <MacroBars totals={day} profile={profile} />
-              <p className="mt-4 text-xs text-muted">{t(`food.rule.${profile.goal === 'bulk' ? 'bulk' : 'cut'}`)}</p>
+              {burned > 0 && (
+                <Link href={`/workout?date=${date}`} className="press mt-4 flex items-center gap-2 rounded-2xl bg-[#ff7a45]/10 px-3 py-2 text-sm ring-1 ring-[#ff7a45]/25">
+                  <Flame className="size-4 shrink-0 text-[#ff7a45]" />
+                  <span className="flex-1">{t('cardio.burnedToday')}</span>
+                  <span className="num font-semibold text-[#ff7a45]">{f.n0(burned)} {t('common.kcal')}</span>
+                </Link>
+              )}
+              <p className="mt-4 text-xs text-muted">{t('food.rule.all')}</p>
             </Panel>
             <DayNote date={date} userId={userId} />
           </div>

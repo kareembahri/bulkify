@@ -22,6 +22,10 @@ export function Sheet({ open, onClose, title, children, footer, tall }: Props) {
   const titleId = useId();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
+  // Keep the latest onClose in a ref. Parents pass a new function on every render,
+  // and the focus effect must not re-run (and move focus) while the user is typing.
+  const closeRef = useRef(onClose);
+  closeRef.current = onClose;
 
   useEffect(() => {
     if (!open) return;
@@ -29,7 +33,7 @@ export function Sheet({ open, onClose, title, children, footer, tall }: Props) {
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
+      if (e.key === 'Escape') closeRef.current();
       if (e.key === 'Tab' && ref.current) {
         const f = ref.current.querySelectorAll<HTMLElement>('button:not([disabled]),input,textarea,select,a[href],[tabindex]:not([tabindex="-1"])');
         if (!f.length) return;
@@ -46,7 +50,7 @@ export function Sheet({ open, onClose, title, children, footer, tall }: Props) {
       clearTimeout(t);
       prevFocus?.focus?.({ preventScroll: true });
     };
-  }, [open, onClose]);
+  }, [open]);
 
   if (!mounted) return null;
   return createPortal(

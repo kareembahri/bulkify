@@ -3,6 +3,7 @@ import { CalendarDays, ChevronRight, Download, Dumbbell, FileJson, LogOut, Moon,
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
+import { DeleteAccount } from '@/components/features/DeleteAccount';
 import { Button } from '@/components/ui/Button';
 import { TextField } from '@/components/ui/Field';
 import { Credit } from '@/components/ui/Footer';
@@ -18,6 +19,7 @@ import { toISO, today } from '@/lib/dates';
 import { exportJSON, exportMealsCSV, exportWorkoutsCSV } from '@/lib/export';
 import { useFmt } from '@/lib/format';
 import { useQuery } from '@/lib/query';
+import { rangeOf } from '@/lib/targets';
 
 export default function SettingsPage() {
   const t = useTranslations();
@@ -70,10 +72,10 @@ export default function SettingsPage() {
               <Fact label={t('calc.age')} value={profile.age ? String(profile.age) : '—'} />
             </div>
             <div className="grid grid-cols-2 gap-2 rounded-2xl bg-[rgb(var(--line)/0.04)] p-3 sm:grid-cols-4">
-              <Target4 label={t('macros.kcal')} value={`${f.n0(profile.kcal_goal)} ${t('common.kcal')}`} />
-              <Target4 label={t('macros.protein')} value={`${f.n0(profile.protein_goal)}${g}`} />
-              <Target4 label={t('macros.carbs')} value={profile.carbs_goal != null ? `${f.n0(profile.carbs_goal)}${g}` : '—'} />
-              <Target4 label={t('macros.fat')} value={profile.fat_goal != null ? `${f.n0(profile.fat_goal)}${g}` : '—'} />
+              <Target4 label={t('macros.kcal')} value={profile.kcal_goal} unit={` ${t('common.kcal')}`} />
+              <Target4 label={t('macros.protein')} value={profile.protein_goal} unit={g} />
+              <Target4 label={t('macros.carbs')} value={profile.carbs_goal} unit={g} />
+              <Target4 label={t('macros.fat')} value={profile.fat_goal} unit={g} />
             </div>
             <Link href="/settings/goals" className="press flex items-center justify-between gap-3 rounded-2xl bg-accent px-4 py-3.5 font-semibold text-on-accent shadow-glow">
               <span>{t('settings.editBody')}</span><ChevronRight className="size-5 rtl:rotate-180" />
@@ -152,7 +154,7 @@ export default function SettingsPage() {
               <Mark className="size-12" />
               <div>
                 <p dir="ltr" className="font-display text-xl font-semibold tracking-tight">Bulk<span className="text-accent">ify</span></p>
-                <p className="num text-xs text-muted">{t('settings.version', { v: '2.0.0' })}</p>
+                <p className="num text-xs text-muted">{t('settings.version', { v: '2.3.0' })}</p>
               </div>
             </div>
             <div>
@@ -161,6 +163,7 @@ export default function SettingsPage() {
             </div>
             <p className="flex gap-2 rounded-2xl bg-[rgb(var(--line)/0.04)] p-3 text-xs text-muted"><Timer className="size-4 shrink-0" />{t('settings.keepAlive')}</p>
             <Button variant="danger" className="w-full" onClick={signOut}><LogOut className="size-4" />{t('auth.signOut')}</Button>
+            <DeleteAccount />
           </Panel>
         </Reveal>
       </div>
@@ -176,11 +179,15 @@ function Fact({ label, value, accent }: { label: string; value: string; accent?:
     </div>
   );
 }
-function Target4({ label, value }: { label: string; value: string }) {
+function Target4({ label, value, unit }: { label: string; value: number | null; unit: string }) {
+  const t = useTranslations();
+  const f = useFmt();
+  const range = rangeOf(value);
   return (
     <div className="px-1">
       <p className="text-xs text-muted">{label}</p>
-      <p className="num font-semibold">{value}</p>
+      <p className="num font-semibold">{value != null ? `${f.n0(value)}${unit}` : '—'}</p>
+      {range && <p className="num text-[11px] leading-tight text-muted">{f.n0(range.min)}–{f.n0(range.max)}{unit}</p>}
     </div>
   );
 }

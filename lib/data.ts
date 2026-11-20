@@ -1,6 +1,6 @@
 'use client';
 import { must, sb } from './supabase';
-import type { DayNutrition, Exercise, Food, Meal, MealItem, MealKind, ProgramDay, SetRow, WeighIn, Workout } from './types';
+import type { CardioEntry, DayNutrition, Exercise, Food, Meal, MealItem, MealKind, ProgramDay, SetRow, WeighIn, Workout } from './types';
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 async function fetchAll<T>(build: (from: number, to: number) => PromiseLike<{ data: unknown; error: { message: string } | null }>) {
@@ -39,6 +39,19 @@ export async function saveMyFood(userId: string, f: { name: string; amount: numb
   }).select('id').single());
 }
 export async function deleteMyFood(id: string) { must(await sb().from('bulkify_foods').delete().eq('id', id)); }
+
+// ─── cardio ─────────────────────────────────────────────────────────────────
+const CARDIO_COLS = 'id,date,kind,intensity,minutes,distance_km,kcal';
+const cardioRow = (r: CardioEntry): CardioEntry => ({ ...r, minutes: num(r.minutes), kcal: num(r.kcal), distance_km: r.distance_km == null ? null : num(r.distance_km) });
+export async function loadCardio(from: string, to: string = from): Promise<CardioEntry[]> {
+  const rows = must(await sb().from('bulkify_cardio').select(CARDIO_COLS).gte('date', from).lte('date', to)
+    .order('date').order('created_at')) as CardioEntry[];
+  return rows.map(cardioRow);
+}
+export async function addCardio(e: Omit<CardioEntry, 'id'>) {
+  return cardioRow(must(await sb().from('bulkify_cardio').insert(e).select(CARDIO_COLS).single()) as CardioEntry);
+}
+export async function deleteCardio(id: string) { must(await sb().from('bulkify_cardio').delete().eq('id', id)); }
 
 // ─── weekly program ─────────────────────────────────────────────────────────
 export async function loadProgram(): Promise<ProgramDay[]> {
@@ -204,7 +217,7 @@ export async function saveNote(userId: string, date: string, note: string) {
 
 // ─── export (free plan has no automatic backups) ───────────────────────────
 export async function exportEverything() {
-  const [profile, program, workouts, meals, notes, foods, exercises, weights] = await Promise.all([
+  const [profile, program, workouts, meals, notes, foods, exercises, weights, cardio] = await Promise.all([
     sb().from('bulkify_profiles').select('*').maybeSingle().then(must),
     loadProgram(),
     loadWorkoutsRange(null, '9999-12-31'),
@@ -213,6 +226,7 @@ export async function exportEverything() {
     fetchAll<any>((a, b) => sb().from('bulkify_foods').select('*').not('owner_id', 'is', null).range(a, b)),
     fetchAll<any>((a, b) => sb().from('bulkify_exercises').select('*').not('owner_id', 'is', null).range(a, b)),
     loadWeights(),
+    loadCardio('0001-01-01', '9999-12-31'),
   ]);
-  return { app: 'Bulkify', exported_at: new Date().toISOString(), profile, program, workouts, meals, notes, weights, my_foods: foods, custom_exercises: exercises };
+  return { app: 'Bulkify', exported_at: new Date().toISOString(), profile, program, workouts, meals, notes, weights, cardio, my_foods: foods, custom_exercises: exercises };
 }

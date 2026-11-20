@@ -1,6 +1,6 @@
 'use client';
 import { motion, useScroll, useSpring } from 'framer-motion';
-import { CalendarDays, Dumbbell, House, Languages, Settings, TrendingUp, UtensilsCrossed } from 'lucide-react';
+import { CalendarDays, Dumbbell, House, Languages, Settings, TrendingUp, Users, UtensilsCrossed } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -48,6 +48,7 @@ export function Header() {
         <Link href="/" aria-label="Bulkify" className="press shrink-0"><Wordmark /></Link>
         <div className="flex items-center gap-1.5 sm:gap-2">
           <HeaderIcon href="/calendar" label={t('nav.calendar')} active={path.startsWith('/calendar')}><CalendarDays className="size-[18px]" /></HeaderIcon>
+          <HeaderIcon href="/friends" label={t('nav.friends')} active={path.startsWith('/friends')}><Users className="size-[18px]" /></HeaderIcon>
           <LanguageSwitch />
           <HeaderIcon href="/settings" label={t('nav.settings')} active={path.startsWith('/settings')}><Settings className="size-[18px]" /></HeaderIcon>
         </div>

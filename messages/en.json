@@ -30,7 +30,8 @@
     "calendar": "Calendar",
     "progress": "Progress",
     "settings": "Settings",
-    "language": "العربية"
+    "language": "العربية",
+    "friends": "Friends"
   },
   "auth": {
     "tagline": "Train. Eat. Progress.",
@@ -77,7 +78,10 @@
     "usingSince": "On Bulkify since",
     "gymSince": "In the gym since",
     "daysAgo": "{n, plural, =0 {today} one {# day} other {# days}}",
-    "setGymStart": "Add the date"
+    "setGymStart": "Add the date",
+    "running": "Running outside",
+    "runsWeek": "{n, plural, =0 {This week} one {This week · # run} other {This week · # runs}}",
+    "noRuns": "Log a run in the Cardio box on the Workout page."
   },
   "workout": {
     "title": "Workout",
@@ -219,8 +223,7 @@
     "oncePerDay": "Once a day",
     "unlimited": "As many as you like",
     "rule": {
-      "bulk": "Bulking: each bar starts red and turns green as you reach 90% of the target. Going over is fine.",
-      "cut": "Each bar starts red and turns green between 90% and 110% of the target, then red again as you go further over."
+      "all": "Your target is the middle of the range. Each bar fills up to the maximum (110%) and is green from the minimum (90%). Past the maximum the bar stays full and only the number changes. On a cut or maintain it turns red as you go further over."
     },
     "state": {
       "ok": "on target",
@@ -450,5 +453,148 @@
     "openFor": "How to do {name}",
     "tips": "Trainer tips",
     "note": "Start light and focus on form. Stop if you feel sharp pain."
+  },
+  "targets": {
+    "min": "Min",
+    "max": "Max",
+    "rangeHint": "Each target is the middle of your range. Anything between the minimum (90%) and the maximum (110%) counts as on target."
+  },
+  "deleteAccount": {
+    "button": "Delete account",
+    "title": "Delete your account",
+    "warning": "This permanently deletes your Bulkify profile and everything in it: workouts, meals, weigh-ins, notes, custom exercises and foods, and your friends. It can't be undone.",
+    "password": "Enter your password to confirm",
+    "enterPassword": "Enter your password.",
+    "confirm": "Delete my account forever",
+    "forgot": "Forgot your password? Email me a link to delete my account",
+    "linkSent": "We sent a link to {email}. Open it within 15 minutes to delete your account. Check your spam folder too.",
+    "tooMany": "Too many emails were sent. Wait a while and try again.",
+    "wrong": "Wrong password.",
+    "locked": "Too many wrong tries. Wait 15 minutes, or use the email link.",
+    "noPassword": "This account has no password. Use the email link below.",
+    "expired": "This link is too old. Request a new one from Settings, then open it within 15 minutes.",
+    "linkMissing": "Open this page from the link in your email.",
+    "done": "Your Bulkify account and data were deleted.",
+    "keep": "Keep my account"
+  },
+  "friends": {
+    "title": "Friends",
+    "yourId": "Your ID",
+    "yourIdHint": "Give this number to your friends so they can add you.",
+    "copy": "Copy your ID",
+    "copied": "ID copied",
+    "addLabel": "Friend's 6-digit ID",
+    "add": "Add",
+    "need6": "Enter all 6 digits.",
+    "privacy": "Once a friend accepts, you both see each other's food % for today, latest workout, top 3 lifts and weekly score.",
+    "requests": "Requests",
+    "noRequests": "No requests right now.",
+    "wantsToAdd": "Wants to be your friend",
+    "waiting": "Waiting for them to accept",
+    "accept": "Accept",
+    "decline": "Decline",
+    "cancelRequest": "Cancel",
+    "leaderboard": "Leaderboard",
+    "last7": "Last 7 days",
+    "empty": "No friends yet",
+    "emptyHint": "Add a friend with their 6-digit ID to start competing.",
+    "scoreHint": "Score for the last 7 days: {trainingDay} points per training day, {foodDay} per day with calories and protein in range, {set} per set.",
+    "friend": "Friend",
+    "you": "you",
+    "trainingDays": "{n, plural, one {# training day} other {# training days}}",
+    "foodDays": "{n, plural, one {# day on target} other {# days on target}}",
+    "sets": "{n, plural, one {# set} other {# sets}}",
+    "points": "points",
+    "todayFood": "Today's food (% of target)",
+    "training": "Latest training day",
+    "workout": "Workout",
+    "noWorkout": "No workout logged yet.",
+    "exercises": "Exercises",
+    "setsLabel": "Sets",
+    "reps": "Reps",
+    "setsReps": "{sets} sets · {reps} reps",
+    "topPrs": "Top 3 PRs",
+    "noPrs": "No lifts logged yet.",
+    "weekScore": "Score this week",
+    "remove": "Remove friend",
+    "removeTitle": "Remove this friend?",
+    "removeBody": "You'll stop seeing each other's stats. You can add them again with their ID.",
+    "removed": "Friend removed",
+    "result": {
+      "sent": "Request sent. They need to accept it.",
+      "accepted": "You're now friends!",
+      "pending": "You already sent a request to this ID.",
+      "already": "You're already friends.",
+      "self": "That's your own ID.",
+      "notFound": "No one has this ID.",
+      "limit": "You've reached the limit of requests or friends."
+    },
+    "inviteTitle": "Invite link",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Invite link copied",
+    "inviteHint": "Whoever opens it is taken to Friends and a request is sent to you automatically.",
+    "inviteText": "Add me on Bulkify! My ID is {code}.",
+    "inviteLogin": "Sign in or create an account to add friend #{code}."
+  },
+  "cardio": {
+    "title": "Cardio",
+    "empty": "No cardio logged for this day.",
+    "add": "Add cardio",
+    "save": "Save cardio",
+    "remove": "Remove cardio",
+    "full": "Max {n} cardio entries a day",
+    "what": "What did you do?",
+    "time": "Time",
+    "min": "min",
+    "distance": "Distance",
+    "km": "km",
+    "howHard": "How hard?",
+    "burned": "Calories burned",
+    "basedOn": "Worked out from your sex, age, height and weight.",
+    "needBody": "Fill in your body details in Settings to see calories.",
+    "pace": "Pace {pace} per km",
+    "saved": "Saved · {kcal} kcal burned",
+    "burnedToday": "Burned from cardio",
+    "minutes": "{n} min",
+    "err": {
+      "minutes": "Enter a time from 1 to {max} minutes.",
+      "km": "Enter a distance up to {max} km.",
+      "speed": "That pace isn't possible. Check the distance and time."
+    },
+    "intensity": {
+      "easy": "Easy",
+      "moderate": "Moderate",
+      "hard": "Hard"
+    },
+    "kind": {
+      "run_outside": "Running outside",
+      "treadmill": "Treadmill",
+      "bike": "Stationary bike",
+      "elliptical": "Elliptical",
+      "rower": "Rowing machine",
+      "stairs": "Stair climber",
+      "air_bike": "Air bike",
+      "ski_erg": "Ski erg",
+      "jump_rope": "Jump rope",
+      "swim": "Swimming",
+      "walk_outside": "Walking outside",
+      "cycle_outside": "Cycling outside",
+      "hiit": "HIIT / circuit",
+      "boxing": "Boxing",
+      "incline_walk": "Incline walk"
+    },
+    "hint": {
+      "run_outside": "Distance and time",
+      "treadmill": "Walk, jog or run",
+      "incline_walk": "Walking uphill on the treadmill",
+      "bike": "Stationary bike",
+      "jump_rope": "Skipping"
+    },
+    "group": {
+      "outdoor": "Outside",
+      "treadmill": "Treadmill",
+      "machines": "Bike & rope"
+    }
   }
 }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { dayOnTarget, monthSummary, onTarget, rangeSummary, score } from '../lib/targets';
+import { dayOnTarget, monthSummary, onTarget, rangeOf, rangeSummary, score } from '../lib/targets';
 
 describe('score', () => {
   it('starts red at 0 and is green from 90 %', () => {
@@ -8,9 +8,13 @@ describe('score', () => {
     expect(score(0.9, 'maintain')).toBe(1);
     expect(score(1, 'cut')).toBe(1);
   });
-  it('bulk stays green above the target', () => {
+  it('the target is the middle: green from 90 % to 110 %, and bulk stays green above the maximum', () => {
+    expect(score(1.1, 'bulk')).toBe(1);
     expect(score(1.5, 'bulk')).toBe(1);
     expect(onTarget(2, 'bulk')).toBe(true);
+    expect(rangeOf(2000)).toEqual({ min: 1800, max: 2200 });
+    expect(rangeOf(155)).toEqual({ min: 140, max: 171 });
+    expect(rangeOf(0)).toBeNull();
   });
   it('cut and maintain turn red again when going over', () => {
     expect(score(1.1, 'cut')).toBe(1);
@@ -30,6 +34,7 @@ describe('days and months', () => {
     expect(dayOnTarget(day('2026-11-01', 2000, 100), T, 'cut')).toBe(false);
     expect(dayOnTarget(day('2026-11-01', 2600, 150), T, 'cut')).toBe(false);
     expect(dayOnTarget(day('2026-11-01', 2600, 150), T, 'bulk')).toBe(true);
+    expect(dayOnTarget(day('2026-11-01', 1700, 150), T, 'bulk')).toBe(false);
   });
 
   it('a month is good when at least half the counted days are on target', () => {

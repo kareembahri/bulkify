@@ -1,9 +1,11 @@
 // Colour rules for "how close am I to my target?". Pure functions, unit-tested
 // in tests/targets.test.ts.
 //
-//   bulk:          red at 0 → green from 90 % of the target, stays green above it.
-//   cut, maintain: red at 0 → green between 90 % and 110 %, then back to red,
-//                  fully red again at 135 % (going too far over is not good either).
+// The target is the middle of a range: the minimum is 90 % of it and the
+// maximum 110 %. A value is red at 0 and green between the minimum and the
+// maximum. Past the maximum:
+//   cut, maintain: back to red, fully red again at 135 % (too much is not good)
+//   bulk:          stays green (eating more than planned is fine when bulking)
 import { addDays, daysBetween } from './dates';
 
 export type Mode = 'bulk' | 'cut' | 'maintain';
@@ -12,11 +14,17 @@ export const GREEN_FROM = 0.9;
 export const GREEN_TO = 1.1;
 export const RED_AT = 1.35;
 
-/** 0 = fully red … 1 = fully green. */
-export function score(ratio: number, mode: Mode): number {
+/** Minimum and maximum around a daily target (the target is the middle). */
+export function rangeOf(target: number | null | undefined): { min: number; max: number } | null {
+  if (!target || target <= 0) return null;
+  return { min: Math.round(target * GREEN_FROM), max: Math.round(target * GREEN_TO) };
+}
+
+/** 0 = fully red … 1 = fully green. Without a mode, going over is treated like a cut. */
+export function score(ratio: number, mode?: Mode): number {
   if (!Number.isFinite(ratio) || ratio <= 0) return 0;
   if (ratio < GREEN_FROM) return ratio / GREEN_FROM;
-  if (mode === 'bulk' || ratio <= GREEN_TO) return 1;
+  if (ratio <= GREEN_TO || mode === 'bulk') return 1;
   if (ratio >= RED_AT) return 0;
   return 1 - (ratio - GREEN_TO) / (RED_AT - GREEN_TO);
 }

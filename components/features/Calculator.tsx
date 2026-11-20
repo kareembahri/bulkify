@@ -19,6 +19,7 @@ import { today } from '@/lib/dates';
 import { useFmt } from '@/lib/format';
 import { tick } from '@/lib/haptics';
 import { invalidate } from '@/lib/query';
+import { rangeOf } from '@/lib/targets';
 import { useThemeColors } from '@/lib/theme';
 import type { Profile } from '@/lib/types';
 
@@ -243,6 +244,7 @@ export function Results({ result, goal }: { result: CalcResult | null; goal: Goa
           <p className="label !text-accent">{t('calc.target')}</p>
           <RollingNumber value={result.calories} format={f.n0} className="block font-display text-2xl font-semibold text-accent" />
           <p className="text-[11px] text-muted">{t('common.kcal')} / {t('calc.day')}</p>
+          <p className="num mt-0.5 text-[10px] leading-tight text-muted">{f.n0(rangeOf(result.calories)!.min)}–{f.n0(rangeOf(result.calories)!.max)}</p>
         </div>
       </div>
 
@@ -268,7 +270,10 @@ export function Results({ result, goal }: { result: CalcResult | null; goal: Goa
               className="flex items-center gap-3 rounded-2xl bg-[rgb(var(--line)/0.04)] px-3 py-2.5">
               <span className="size-3 shrink-0 rounded-full" style={{ background: m.color }} aria-hidden />
               <span className="flex-1 text-sm font-medium">{t(`macros.${m.key}`)}</span>
-              <span className="num text-lg font-semibold"><RollingNumber value={m.g} format={f.n0} />{f.ar ? ' غ' : ' g'}</span>
+              <span className="text-end">
+                <span className="num block text-lg font-semibold leading-tight"><RollingNumber value={m.g} format={f.n0} />{f.ar ? ' غ' : ' g'}</span>
+                {rangeOf(m.g) && <span className="num block text-[10px] leading-tight text-muted">{f.n0(rangeOf(m.g)!.min)}–{f.n0(rangeOf(m.g)!.max)}</span>}
+              </span>
               <span className="num w-12 text-end text-xs text-muted">{f.n1(m.pct)}%</span>
             </motion.li>
           ))}
@@ -280,6 +285,8 @@ export function Results({ result, goal }: { result: CalcResult | null; goal: Goa
           {result.warnings.map((w) => <WarningRow key={w} w={w} result={result} />)}
         </ul>
       )}
+
+      <p className="text-xs text-muted">{t('targets.rangeHint')}</p>
 
       <p className="flex gap-2 rounded-2xl bg-cyan/10 p-3 text-sm text-ink/90"><Info className="mt-0.5 size-4 shrink-0 text-cyan" />{t(`calc.tip.${goal}`)}</p>
       <p className="text-xs leading-relaxed text-muted">{t('calc.disclaimer')}</p>

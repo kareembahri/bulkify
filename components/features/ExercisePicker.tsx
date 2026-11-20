@@ -14,7 +14,7 @@ import { useExercises } from '@/lib/catalog';
 import { addCustomExercise } from '@/lib/data';
 import { invalidate, setData } from '@/lib/query';
 import { search } from '@/lib/search';
-import { EQUIPMENT, MUSCLES, type Equipment, type Exercise, type Muscle } from '@/lib/types';
+import { isPickable, PICK_EQUIPMENT, PICK_MUSCLES, type Equipment, type Exercise, type Muscle } from '@/lib/types';
 
 type Props = {
   open: boolean;
@@ -45,7 +45,7 @@ export function ExercisePicker({ open, onClose, onPick, single, exclude = [], on
     const ex1 = new Set(exclude);
     const onlySet = only ? new Set(only) : null;
     return search(ex.index, q, 2000).filter((e: Exercise) =>
-      !ex1.has(e.id) && (!onlySet || onlySet.has(e.id)) && (!muscle || e.primary_muscle === muscle) && (!equip || e.equipment === equip));
+      !ex1.has(e.id) && (onlySet ? onlySet.has(e.id) : isPickable(e)) && (!muscle || e.primary_muscle === muscle) && (!equip || e.equipment === equip));
   }, [ex.index, q, muscle, equip, exclude, only]);
 
   useEffect(() => {
@@ -81,11 +81,11 @@ export function ExercisePicker({ open, onClose, onPick, single, exclude = [], on
             </div>
             <div className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5">
               <button className="chip" aria-pressed={!muscle} onClick={() => setMuscle(null)}>{t('picker.allMuscles')}</button>
-              {MUSCLES.map((m) => <button key={m} className="chip" aria-pressed={muscle === m} onClick={() => setMuscle(muscle === m ? null : m)}>{t(`muscle.${m}`)}</button>)}
+              {PICK_MUSCLES.map((m) => <button key={m} className="chip" aria-pressed={muscle === m} onClick={() => setMuscle(muscle === m ? null : m)}>{t(`muscle.${m}`)}</button>)}
             </div>
             <div className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5">
               <button className="chip h-8 text-xs" aria-pressed={!equip} onClick={() => setEquip(null)}>{t('picker.allEquipment')}</button>
-              {EQUIPMENT.map((m) => <button key={m} className="chip h-8 text-xs" aria-pressed={equip === m} onClick={() => setEquip(equip === m ? null : m)}>{t(`equipment.${m}`)}</button>)}
+              {PICK_EQUIPMENT.map((m) => <button key={m} className="chip h-8 text-xs" aria-pressed={equip === m} onClick={() => setEquip(equip === m ? null : m)}>{t(`equipment.${m}`)}</button>)}
             </div>
           </div>
 
@@ -165,11 +165,11 @@ function CustomExerciseForm({ initialName, onCreated, onCancel }: { initialName:
       <TextField label={<>{t('picker.nameAr')} <span className="text-muted">({t('common.optional')})</span></>} value={nameAr} onChange={setNameAr} max={80} dir="rtl" lang="ar" />
       <div>
         <p className="mb-2 text-sm font-medium">{t('picker.muscle')}</p>
-        <div className="flex flex-wrap gap-2">{MUSCLES.map((m) => <button key={m} className="chip" aria-pressed={muscle === m} onClick={() => setMuscle(m)}>{t(`muscle.${m}`)}</button>)}</div>
+        <div className="flex flex-wrap gap-2">{PICK_MUSCLES.map((m) => <button key={m} className="chip" aria-pressed={muscle === m} onClick={() => setMuscle(m)}>{t(`muscle.${m}`)}</button>)}</div>
       </div>
       <div>
         <p className="mb-2 text-sm font-medium">{t('picker.equipment')}</p>
-        <div className="flex flex-wrap gap-2">{EQUIPMENT.map((m) => <button key={m} className="chip" aria-pressed={equip === m} onClick={() => setEquip(m)}>{t(`equipment.${m}`)}</button>)}</div>
+        <div className="flex flex-wrap gap-2">{PICK_EQUIPMENT.map((m) => <button key={m} className="chip" aria-pressed={equip === m} onClick={() => setEquip(m)}>{t(`equipment.${m}`)}</button>)}</div>
       </div>
       <div className="grid grid-cols-2 gap-3 pb-2">
         <Button onClick={onCancel}>{t('common.cancel')}</Button>

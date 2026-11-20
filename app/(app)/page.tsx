@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { BedDouble, CalendarHeart, ChevronRight, Dumbbell, Rocket, UtensilsCrossed } from 'lucide-react';
+import { BedDouble, CalendarHeart, ChevronRight, Dumbbell, Rocket, Route, UtensilsCrossed } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -13,12 +13,13 @@ import { Skeleton } from '@/components/ui/States';
 import { useItemTitle } from '@/components/features/MealParts';
 import { useProfile } from '@/lib/auth';
 import { useExercises } from '@/lib/catalog';
-import { loadMeals, loadProgram, loadWorkout } from '@/lib/data';
-import { daysBetween, toISO, today, weekdayIndex } from '@/lib/dates';
+import { loadCardio, loadMeals, loadProgram, loadWorkout } from '@/lib/data';
+import { daysBetween, startOfWeek, toISO, today, weekdayIndex } from '@/lib/dates';
 import { useFmt } from '@/lib/format';
 import { totals } from '@/lib/nutrition';
 import { useQuery } from '@/lib/query';
-import { ratioOf, score, scoreColor, type Mode } from '@/lib/targets';
+import type { CardioEntry } from '@/lib/types';
+import { rangeOf, ratioOf, score, scoreColor, type Mode } from '@/lib/targets';
 import { ExerciseGuideButton } from '@/components/features/ExerciseGuide';
 
 const item = { hidden: { opacity: 0, y: 22, scale: 0.98 }, show: { opacity: 1, y: 0, scale: 1 } };
@@ -32,6 +33,8 @@ export default function HomePage() {
   const title = useItemTitle();
   const d = today();
   const w = useQuery(`workout:${d}`, () => loadWorkout(d));
+  const week0 = startOfWeek(d);
+  const runs = useQuery(`runs:${week0}:${d}`, async () => (await loadCardio(week0, d)).filter((c) => c.kind === 'run_outside'));
   const meals = useQuery(`meals:${d}`, () => loadMeals(d));
   const program = useQuery('program', loadProgram);
   const [sheet, setSheet] = useState<'ex' | 'meals' | null>(null);
@@ -98,17 +101,28 @@ export default function HomePage() {
                 <ChevronRight className="size-4 text-muted rtl:rotate-180" />
               </div>
               <div className="mt-2 flex items-center justify-around gap-2">
-                <Ring label={t('home.calories')} value={tot.kcal} goal={profile.kcal_goal} color={kcalColor} format={f.n0} size={148} stroke={12}
-                  sub={<span className="num">/ {f.n0(profile.kcal_goal)}</span>} />
-                <Ring label={t('home.protein')} value={tot.protein_g} goal={profile.protein_goal} color={protColor} format={f.n0} size={148} stroke={12}
-                  sub={<span className="num">/ {f.g(profile.protein_goal)}</span>} />
+                <div className="flex flex-col items-center">
+                  <Ring label={t('home.calories')} value={tot.kcal} goal={profile.kcal_goal} color={kcalColor} format={f.n0} size={148} stroke={12}
+                    sub={<span className="num">/ {f.n0(profile.kcal_goal)}</span>} />
+                  <RangeLine range={rangeOf(profile.kcal_goal)} fmt={f.n0} />
+                </div>
+                <div className="flex flex-col items-center">
+                  <Ring label={t('home.protein')} value={tot.protein_g} goal={profile.protein_goal} color={protColor} format={f.n0} size={148} stroke={12}
+                    sub={<span className="num">/ {f.g(profile.protein_goal)}</span>} />
+                  <RangeLine range={rangeOf(profile.protein_goal)} fmt={f.g} />
+                </div>
               </div>
             </TapPanel>
           )}
         </motion.div>
       </div>
 
-      {/* 3 · since when */}
+      {/* 3 · running outside: km today and this week */}
+      <motion.div variants={item}>
+        <RunsCard runs={runs.data} loading={runs.loading} today={d} />
+      </motion.div>
+
+      {/* 4 · since when */}
       <motion.div variants={item}>
         <Panel className="grid grid-cols-2 divide-x divide-[rgb(var(--line)/0.08)] p-0 rtl:divide-x-reverse">
           <div className="flex items-center gap-3 p-4">
@@ -180,5 +194,51 @@ export default function HomePage() {
         </div>
       </Sheet>
     </motion.div>
+  );
+}
+
+/** Small "min – max" caption under a target (the target is the middle of the range). */
+function RangeLine({ range, fmt }: { range: { min: number; max: number } | null; fmt: (n: number) => string }) {
+  const t = useTranslations();
+  if (!range) return null;
+  return (
+    <p className="num mt-1 text-center text-[11px] leading-tight text-muted">
+      {t('targets.min')} {fmt(range.min)} · {t('targets.max')} {fmt(range.max)}
+    </p>
+  );
+}
+
+/** Running outside: kilometres today and this week (Monday → today). */
+function RunsCard({ runs, loading, today: d }: { runs: CardioEntry[] | undefined; loading: boolean; today: string }) {
+  const t = useTranslations();
+  const f = useFmt();
+  const router = useRouter();
+  if (loading) return <Skeleton className="h-24 rounded-3xl" />;
+  const list = runs ?? [];
+  const todayKm = list.filter((r) => r.date === d).reduce((s, r) => s + (r.distance_km ?? 0), 0);
+  const weekKm = list.reduce((s, r) => s + (r.distance_km ?? 0), 0);
+  return (
+    <TapPanel className="relative" onClick={() => router.push('/workout')} aria-label={t('home.running')}>
+      <div className="flex items-center justify-between">
+        <p className="label">{t('home.running')}</p>
+        <ChevronRight className="size-4 text-muted rtl:rotate-180" />
+      </div>
+      <div className="mt-2 grid grid-cols-2 gap-3">
+        <div>
+          <p className="font-display text-4xl font-semibold leading-none text-accent">
+            <RollingNumber value={Math.round(todayKm * 10) / 10} format={f.n1} /> <span className="text-base text-muted">{t('cardio.km')}</span>
+          </p>
+          <p className="mt-1 text-xs text-muted">{t('common.today')}</p>
+        </div>
+        <div>
+          <p className="font-display text-4xl font-semibold leading-none">
+            <RollingNumber value={Math.round(weekKm * 10) / 10} format={f.n1} /> <span className="text-base text-muted">{t('cardio.km')}</span>
+          </p>
+          <p className="mt-1 text-xs text-muted">{t('home.runsWeek', { n: list.length })}</p>
+        </div>
+      </div>
+      {list.length === 0 && <p className="mt-2 text-xs text-muted">{t('home.noRuns')}</p>}
+      <Route className="pointer-events-none absolute -bottom-3 end-3 size-20 -rotate-12 text-accent/[0.07]" aria-hidden />
+    </TapPanel>
   );
 }

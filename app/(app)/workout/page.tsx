@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { CardioCard } from '@/components/features/CardioCard';
 import { ExerciseLogCard } from '@/components/features/ExerciseLogCard';
 import { ExercisePicker } from '@/components/features/ExercisePicker';
 import { Button } from '@/components/ui/Button';
@@ -236,6 +237,9 @@ function WorkoutScreen() {
           </div>
         </>
       )}
+
+      {/* cardio sits under the workout box */}
+      <CardioCard date={date} />
 
       <ExercisePicker open={picker} onClose={() => setPicker(false)} onPick={addExercises} max={room}
         exclude={workout?.exercises.map((e) => e.exercise_id)} />
