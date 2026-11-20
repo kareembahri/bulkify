@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ArrowDown, ArrowUp, CircleAlert, LoaderCircle, Minus, Plus, StickyNote, Trash2, Trophy, X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { ExerciseGuideButton } from '@/components/features/ExerciseGuide';
 import { TextArea } from '@/components/ui/Field';
 import { Panel } from '@/components/ui/Panel';
 import { useToast } from '@/components/ui/Toast';
@@ -10,7 +11,7 @@ import { saveSets, updateWorkoutExercise } from '@/lib/data';
 import { useFmt } from '@/lib/format';
 import { bestSet, compareSets } from '@/lib/gym';
 import { tick } from '@/lib/haptics';
-import { LIMITS, type SetRow, type WorkoutExercise } from '@/lib/types';
+import { LIMITS, type Exercise, type SetRow, type WorkoutExercise } from '@/lib/types';
 
 type Draft = { id: number; reps: string; kg: string };
 type Status = 'idle' | 'saving' | 'saved' | 'error';
@@ -24,6 +25,7 @@ const validKg = (s: string) => s.trim() !== '' && Number.isFinite(+s) && +s >= 0
 type Props = {
   wex: WorkoutExercise;
   name: string;
+  exercise?: Exercise;
   history: { date: string; sets: SetRow[] }[] | undefined;
   first: boolean;
   last: boolean;
@@ -33,7 +35,7 @@ type Props = {
 };
 
 /** One exercise in a workout: up to 5 sets (reps × kg), each removable, a note, and the exercise's PR. */
-export function ExerciseLogCard({ wex, name, history, first, last, onMove, onRemove, onSaved }: Props) {
+export function ExerciseLogCard({ wex, name, exercise, history, first, last, onMove, onRemove, onSaved }: Props) {
   const t = useTranslations();
   const f = useFmt();
   const toast = useToast();
@@ -110,7 +112,10 @@ export function ExerciseLogCard({ wex, name, history, first, last, onMove, onRem
     <Panel className={`overflow-hidden ${isNewPR ? 'animate-prglow !border-accent/60' : ''}`}>
       <div className="flex items-start gap-3">
         <div className="min-w-0 flex-1">
-          <h3 className="truncate font-display text-[17px] font-semibold">{name}</h3>
+          <div className="flex min-w-0 items-center gap-1">
+            <h3 className="truncate font-display text-[17px] font-semibold">{name}</h3>
+            <ExerciseGuideButton exercise={exercise} name={name} className="size-8" />
+          </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             {pr && pr.weight_kg > 0 ? (
               <motion.span key={`${pr.weight_kg}x${pr.reps}`} initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}

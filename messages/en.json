@@ -444,5 +444,11 @@
     "save": "Save weight",
     "updated": "Weight saved. New target: {kcal} kcal",
     "why": "The app opens once your weight is saved."
+  },
+  "guide": {
+    "title": "How to do it",
+    "openFor": "How to do {name}",
+    "tips": "Trainer tips",
+    "note": "Start light and focus on form. Stop if you feel sharp pain."
   }
 }

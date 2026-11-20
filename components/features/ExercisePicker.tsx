@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/Button';
 import { TextField } from '@/components/ui/Field';
 import { Sheet } from '@/components/ui/Sheet';
 import { Skeleton } from '@/components/ui/States';
+import { ExerciseGuideButton } from '@/components/features/ExerciseGuide';
 import { useToast } from '@/components/ui/Toast';
 import { useProfile } from '@/lib/auth';
 import { useExercises } from '@/lib/catalog';
@@ -97,9 +98,9 @@ export function ExercisePicker({ open, onClose, onPick, single, exclude = [], on
                 {results.slice(0, limit).map((e) => {
                   const on = sel.includes(e.id);
                   return (
-                    <li key={e.id}>
+                    <li key={e.id} className="flex items-center gap-1.5">
                       <motion.button whileTap={{ scale: 0.98 }} onClick={() => toggle(e.id)}
-                        className={`flex w-full items-center gap-3 rounded-2xl border px-3.5 py-3 text-start transition-colors ${on ? 'border-accent/60 bg-accent/10' : 'border-transparent hover:bg-[rgb(var(--line)/0.05)]'}`}>
+                        className={`flex min-w-0 flex-1 items-center gap-3 rounded-2xl border px-3.5 py-3 text-start transition-colors ${on ? 'border-accent/60 bg-accent/10' : 'border-transparent hover:bg-[rgb(var(--line)/0.05)]'}`}>
                         <span className="min-w-0 flex-1">
                           <span className="block truncate font-medium">{ex.name(e)}</span>
                           <span className="block truncate text-xs text-muted">
@@ -113,6 +114,7 @@ export function ExercisePicker({ open, onClose, onPick, single, exclude = [], on
                           </span>
                         )}
                       </motion.button>
+                      <ExerciseGuideButton exercise={e} name={ex.name(e)} />
                     </li>
                   );
                 })}

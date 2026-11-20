@@ -166,6 +166,12 @@ Once your friends have joined, you can stop new sign-ups under **Authentication 
 
 ---
 
+## Exercise guides
+
+Every exercise has a small **!** button (in the exercise picker, the workout card, the weekly program, Home and the calendar day view). Pressing it opens a box in the middle of the screen with numbered, step-by-step instructions and trainer tips, in English or Arabic depending on the app language. Close it with the X at the top right, the Esc key or by tapping outside.
+
+The text lives in `lib/guides/`: each exercise is matched to a movement in `match.ts`, and the steps adapt to the equipment and variation (bench angle, one arm, cable height and so on). Exercises people add themselves are matched by name, then by muscle. `npm test` checks that all 592 built-in exercises have clean steps in both languages.
+
 ## Project map
 
 ```

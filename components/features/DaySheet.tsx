@@ -14,6 +14,7 @@ import { totals } from '@/lib/nutrition';
 import { useQuery } from '@/lib/query';
 import { MacroBars } from './MacroBars';
 import { useItemTitle } from './MealParts';
+import { ExerciseGuideButton } from '@/components/features/ExerciseGuide';
 
 /** A calendar day: macros vs targets, the exercises trained (with sets) and every note of that day. */
 export function DaySheet({ date, onClose }: { date: string | null; onClose: () => void }) {
@@ -68,12 +69,13 @@ export function DaySheet({ date, onClose }: { date: string | null; onClose: () =
                 <p className="mb-2 font-display text-lg font-semibold">{w.data.day_name || t('home.untitled')}</p>
                 <ul className="space-y-2">
                   {w.data.exercises.map((e, i) => (
-                    <li key={e.id} className="flex gap-2.5 text-sm">
+                    <li key={e.id} className="flex items-start gap-2.5 text-sm">
                       <span className="num grid size-6 shrink-0 place-items-center rounded-lg bg-accent/15 text-xs font-semibold text-accent">{i + 1}</span>
                       <span className="min-w-0">
                         <span className="block font-medium">{ex.name(ex.byId.get(e.exercise_id))}</span>
                         <span className="num block text-xs text-muted" dir="ltr">{e.sets.map((s) => `${+s.weight_kg}kg × ${s.reps}`).join('  ·  ') || '—'}</span>
                       </span>
+                      <ExerciseGuideButton exercise={ex.byId.get(e.exercise_id)} name={ex.name(ex.byId.get(e.exercise_id))} className="ms-auto size-8" />
                     </li>
                   ))}
                 </ul>

@@ -19,6 +19,7 @@ import { useFmt } from '@/lib/format';
 import { totals } from '@/lib/nutrition';
 import { useQuery } from '@/lib/query';
 import { ratioOf, score, scoreColor, type Mode } from '@/lib/targets';
+import { ExerciseGuideButton } from '@/components/features/ExerciseGuide';
 
 const item = { hidden: { opacity: 0, y: 22, scale: 0.98 }, show: { opacity: 1, y: 0, scale: 1 } };
 
@@ -143,7 +144,8 @@ export default function HomePage() {
             <motion.li key={e.id} initial={{ opacity: 0, x: 14 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: i * 0.04 }}
               className="flex items-center gap-3 rounded-2xl bg-[rgb(var(--line)/0.04)] px-3 py-3">
               <span className="num grid size-8 shrink-0 place-items-center rounded-xl bg-accent/15 text-sm font-semibold text-accent">{i + 1}</span>
-              <span className="font-medium">{ex.name(ex.byId.get(e.exercise_id))}</span>
+              <span className="min-w-0 flex-1 font-medium">{ex.name(ex.byId.get(e.exercise_id))}</span>
+              <ExerciseGuideButton exercise={ex.byId.get(e.exercise_id)} name={ex.name(ex.byId.get(e.exercise_id))} />
             </motion.li>
           ))}
         </ol>

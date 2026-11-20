@@ -16,6 +16,7 @@ import { useFmt } from '@/lib/format';
 import { invalidate, setData, useQuery } from '@/lib/query';
 import { clampChars } from '@/lib/text';
 import { LIMITS, type ProgramDay } from '@/lib/types';
+import { ExerciseGuideButton } from '@/components/features/ExerciseGuide';
 
 export default function ProgramPage() {
   const t = useTranslations();
@@ -116,6 +117,7 @@ function DayCard({ day, isToday, onAdd, onIds }: { day: ProgramDay; isToday: boo
                 <motion.li layout key={id} className="flex items-center gap-2 rounded-xl px-2 py-1.5 hover:bg-[rgb(var(--line)/0.04)]">
                   <span className="num w-5 text-xs text-muted">{i + 1}</span>
                   <span className="min-w-0 flex-1 truncate text-sm">{ex.name(ex.byId.get(id))}</span>
+                  <ExerciseGuideButton exercise={ex.byId.get(id)} name={ex.name(ex.byId.get(id))} className="size-8" />
                   <button aria-label={t('workout.moveUp')} disabled={i === 0} onClick={() => move(i, -1)} className="grid size-8 place-items-center rounded-lg text-muted disabled:opacity-25"><ArrowUp className="size-3.5" /></button>
                   <button aria-label={t('workout.moveDown')} disabled={i === day.exercise_ids.length - 1} onClick={() => move(i, 1)} className="grid size-8 place-items-center rounded-lg text-muted disabled:opacity-25"><ArrowDown className="size-3.5" /></button>
                   <button aria-label={t('common.delete')} onClick={() => onIds(day.exercise_ids.filter((x) => x !== id))} className="grid size-8 place-items-center rounded-lg text-bad/80 hover:bg-bad/10"><X className="size-4" /></button>

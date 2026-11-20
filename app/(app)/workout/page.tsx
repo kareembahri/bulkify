@@ -213,6 +213,7 @@ function WorkoutScreen() {
                   <ExerciseLogCard
                     wex={we}
                     name={ex.name(ex.byId.get(we.exercise_id))}
+                    exercise={ex.byId.get(we.exercise_id)}
                     history={history.data?.get(we.exercise_id) ?? (history.data ? [] : undefined)}
                     first={i === 0}
                     last={i === workout.exercises.length - 1}
