@@ -1,7 +1,8 @@
 -- ═══════════════════════════════════════════════════════════════════════════
 -- Bulkify · 005 · cardio log, friends (6-digit IDs, leaderboard) and account deletion
 -- Run after 001–004. Safe to run more than once. Only touches bulkify_ objects.
--- The owner account (kareem.m.bahri@gmail.com) always gets the ID 000000.
+-- The owner account always gets the ID 000000. Its email is NOT in this file: it is
+-- read from bulkify_settings, which you fill in once in the SQL editor (see README).
 -- ═══════════════════════════════════════════════════════════════════════════
 
 -- ── Cardio log (calories are worked out in the app from the user's body) ──
@@ -52,8 +53,18 @@ alter table public.bulkify_profiles drop constraint if exists bulkify_profiles_f
 alter table public.bulkify_profiles add  constraint bulkify_profiles_friend_code_check check (friend_code ~ '^[0-9]{6}$');
 create unique index if not exists bulkify_profiles_friend_code_uq on public.bulkify_profiles (friend_code);
 
+-- Private settings (no API access). Holds the owner email so it stays out of the code.
+create table if not exists public.bulkify_settings (
+  key   text primary key,
+  value text not null
+);
+alter table public.bulkify_settings enable row level security;
+revoke all on public.bulkify_settings from anon, authenticated;
+
 create or replace function public.bulkify_owner_email()
-returns text language sql immutable as $$ select 'kareem.m.bahri@gmail.com'::text $$;
+returns text language sql stable security definer set search_path = public as $$
+  select lower(value) from public.bulkify_settings where key = 'owner_email'
+$$;
 
 -- Random free ID from 100000 to 999999 (000000 is reserved for the owner).
 create or replace function public.bulkify_new_friend_code()
@@ -373,6 +384,7 @@ end $$;
 
 -- ── Permissions ────────────────────────────────────────────────────────────
 revoke all on function public.bulkify_new_friend_code()              from public, anon, authenticated;
+revoke all on function public.bulkify_owner_email()                  from public, anon, authenticated;
 revoke all on function public.bulkify_are_friends(uuid, uuid)        from public, anon, authenticated;
 revoke all on function public.bulkify_week_stats(uuid, date)         from public, anon, authenticated;
 revoke all on function public.bulkify_purge_user(uuid)               from public, anon, authenticated;

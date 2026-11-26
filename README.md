@@ -20,7 +20,7 @@ Installable as a phone app (PWA), dark-first, built with Next.js, Supabase and N
   Calories burned use your own resting burn (sex, age, height, weight × MET). The Food page shows the calories burned that
   day, and Home shows your outdoor running km today and this week. Cardio exercises, kettlebell and bands are no longer
   offered in the exercise picker (old logs keep their names).
-- **Friends** (from the header): everyone gets a 6-digit ID (the owner, kareem.m.bahri@gmail.com, is always `000000`).
+- **Friends** (from the header): everyone gets a 6-digit ID (the owner account is always `000000`).
   Add a friend by ID or share your invite link (`/invite/123456`): opening it takes the person to Friends (after signing in
   or signing up) and sends you a request automatically. Once accepted, you both see each other's food % for today, latest workout (exercises, sets, reps),
   top 3 PRs, and a 7-day leaderboard (20 points per training day, 10 per day with calories and protein in range, 1 per set).
@@ -74,6 +74,17 @@ In Supabase, open **SQL Editor → New query**. For each file below **in this or
 | 5 | `supabase/migrations/005_bulkify_v3.sql` | Cardio log, 6-digit friend IDs, friend requests, the leaderboard, and account deletion |
 | 6 | `supabase/migrations/010_seed_exercises.sql` | The 592-exercise library (English + Arabic) |
 | 7 | `supabase/migrations/011_seed_foods.sql` | The 630 foods from the CSV, with Arabic names |
+
+**Owner account (ID 000000):** before running `005_bulkify_v3.sql` on a new project, open the SQL editor and run this once
+with your own email (it is stored in your database, not in the code):
+
+```sql
+create table if not exists public.bulkify_settings (key text primary key, value text not null);
+insert into public.bulkify_settings (key, value) values ('owner_email', 'you@example.com')
+  on conflict (key) do update set value = excluded.value;
+```
+
+If you already ran `005` on an existing project, your account already has `000000`; nothing more to do.
 
 **Updating from an earlier Bulkify?** Run `003_bulkify_rls.sql`, `004_bulkify_v2.sql` and `005_bulkify_v3.sql`. Your data stays,
 and every existing user gets their 6-digit ID.
